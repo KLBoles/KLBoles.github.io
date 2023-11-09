@@ -13,7 +13,7 @@ format:
       boardmarker-width: 5
       buttons: false
     preview-links: auto
-    footer: <https://klboles.github.io/job-talk-1.html>
+    footer: <https://klboles.github.io/job-talk-1>
 execute: 
   echo: false
 ---
