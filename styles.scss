@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@400;600&family=Rubik:wght@300;600&display=swap');
 
 //Fonts
-$font-family-sans-seif: "Rubik", FreeSerif, serif !default;
+$font-family-sans-serif: "Rubik", FreeSerif, serif !default;
 
 //Headings
 $presentation-heading-font: "Big Shoulders Text", serif !default;
@@ -29,6 +29,18 @@ $body-color: $charcoal;
 
 /*-- scss:rules --*/
 
-/*.reveal section h1 {
+// custom slide title
+.custom-title { 
+  font-family: $font-family-sans-serif;
   color: $rural-pink;
-}*/
+  font-size: 1.7em;
+  text-align: center !important;
+  //position: absolute; 
+}
+
+// cover slide footer text
+.title-footer { 
+  text-align: center !important;
+  color: $white;
+  font-size: 0.5em !important;
+}

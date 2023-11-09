@@ -20,6 +20,10 @@ execute:
   echo: false
 ---
 
+##  {#title-slide data-menu-title="Title Slide" background="#00012E"}
+
+<!-- background="images/title_background.png" -->
+
 ## Quarto
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
