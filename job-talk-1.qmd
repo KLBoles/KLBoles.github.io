@@ -2,7 +2,16 @@
 title: "The Spatiality of Learning Opportunity"
 author: Kelly L. Boles
 date: today
-format: revealJS
+search: false
+format: 
+  revealjs:
+    slide-number: true
+    cap-location: bottom
+    tbl-cap-location: bottom
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    footer: <https://KLBoles.github.io/job-talk-1>
 ---
 
 ## Quarto
