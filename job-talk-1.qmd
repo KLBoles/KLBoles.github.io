@@ -6,6 +6,8 @@ search: false
 format: 
   revealjs:
     theme: [simple, styles.scss]
+    mainfont: Rubik
+    number-sections: true
     slide-number: true
     cap-location: bottom
     tbl-cap-location: bottom
