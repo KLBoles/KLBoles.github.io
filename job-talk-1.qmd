@@ -5,7 +5,9 @@ date: today
 search: false
 format: 
   revealjs:
-    theme: moon
+    theme:
+      - simple
+      - styles.scss
     slide-number: true
     cap-location: bottom
     tbl-cap-location: bottom
