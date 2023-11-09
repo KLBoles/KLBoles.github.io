@@ -35,14 +35,8 @@ $body-color: $charcoal;
   color: $rural-pink;
   font-size: 1.7em;
   text-align: center !important;
-  //position: absolute; 
-}
-
-h1.title {
-  background-image: url(images/title_background.png);
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: auto;
+  //position: absolute;
+  left: 20px;
 }
 
 // cover slide footer text
