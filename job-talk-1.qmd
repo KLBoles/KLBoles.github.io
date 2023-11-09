@@ -16,14 +16,6 @@ format:
       buttons: false
     preview-links: auto
     footer: <https://klboles.github.io/job-talk-1>
-include-in-header: 
-  text: |
-    \newfontfamily\sectionfont[Color=C61A72]{Big Shoulders Text}
-    \newfontfamily\subsectionfont[Color=131521]{Rubik}
-    \newfontfamily\subsubsectionfont[Color=262626]{Rubik}
-    \addtokomafont{section}{\sectionfont}
-    \addtokomafont{subsection}{\subsectionfont}
-    \addtokomfont{subsubsection}{\subsubsectionfont}
 execute: 
   echo: false
 ---
