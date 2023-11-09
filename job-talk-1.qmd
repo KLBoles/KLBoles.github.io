@@ -1,6 +1,7 @@
 ---
 title: "The Geospatiality of STEM Learning Opportunities"
 author: Kelly L. Boles
+date: today
 search: false
 format: 
   revealjs:
