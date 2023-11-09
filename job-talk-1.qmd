@@ -26,6 +26,10 @@ execute:
 
 \[The Geospatiality of STEM Learning Opportunities\]{.custom-title}
 
+::: title-footer
+Slides available on [GitHub {{\<fa brands github title="GitHub Octocat logo"}}](https://KLBoles.github.io/job-talk-1)
+:::
+
 ## Quarto
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
