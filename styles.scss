@@ -38,6 +38,13 @@ $body-color: $charcoal;
   //position: absolute; 
 }
 
+h1.title {
+  background-image: url(images/title_background.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: auto;
+}
+
 // cover slide footer text
 .title-footer { 
   text-align: center !important;
