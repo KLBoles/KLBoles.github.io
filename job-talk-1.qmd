@@ -20,9 +20,11 @@ execute:
   echo: false
 ---
 
-##  {#title-slide data-menu-title="Title Slide" background="#00012E"}
+## {#title-slide data-menu-title="Title Slide" background="#00012E"}
 
 <!-- background="images/title_background.png" -->
+
+\[The Geospatiality of STEM Learning Opportunities\]{.custom-title}
 
 ## Quarto
 
