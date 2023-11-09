@@ -16,3 +16,9 @@ $white: #ffffff;
 // Base document colors
 $link-color: $gray-blue;
 $body-color: $charcoal;
+
+/*-- scss:rules --*/
+
+.reveal section h1 {
+  color: $navy;
+}
