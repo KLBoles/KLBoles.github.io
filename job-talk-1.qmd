@@ -5,16 +5,17 @@ date: today
 search: false
 format: 
   revealjs:
-    theme:
-      - simple
-      - styles.scss
+    theme: [simple, styles.scss]
     slide-number: true
     cap-location: bottom
     tbl-cap-location: bottom
     chalkboard: 
+      boardmarker-width: 5
       buttons: false
     preview-links: auto
     footer: <https://klboles.github.io/job-talk-1.html>
+execute: 
+  echo: false
 ---
 
 ## Quarto
