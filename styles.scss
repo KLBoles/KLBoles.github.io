@@ -25,25 +25,12 @@ $light-gray: #d2d2d2;
 $white: #ffffff;
 
 // Base document colors
-$link-color: $gray-blue;
-$body-color: $charcoal;
+$link-color: #444965;
+$link-color-hover: $rural-pink;
+$body-color: #262626;
 
 /*-- scss:rules --*/
 
-// custom slide title
-.custom-title { 
-  font-family: $presentation-heading-font;
-  color: $rural-pink;
-  font-size: 2.3em;
-  text-align: center !important;
-  //position: absolute;
-  left: 20px;
-}
-
-// cover slide footer text
-.title-footer { 
-  text-align: center !important;
-  color: $white;
-  link-color: $light-gray;
-  font-size: 0.5em !important;
-}
+.quarto-title-author {
+    color: #ffffff;
+  }

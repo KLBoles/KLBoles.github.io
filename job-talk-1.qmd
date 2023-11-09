@@ -1,33 +1,24 @@
 ---
 title: "The Geospatiality of STEM Learning Opportunities"
 author: Kelly L. Boles
-date: today
 search: false
 format: 
   revealjs:
     theme: [simple, styles.scss]
+    center-title-slide: false
     mainfont: Rubik
-    number-sections: false
     slide-number: true
     cap-location: bottom
     tbl-cap-location: bottom
     chalkboard: 
       boardmarker-width: 5
-      buttons: false
     preview-links: auto
     footer: <https://klboles.github.io/job-talk-1>
 execute: 
   echo: false
+title-slide-attributes: 
+  data-background-image: "images/title_background.png"
 ---
-
-## {#title-slide data-menu-title="Title Slide" background="#00012E"}
-<!-- background="images/title_background.png" -->
-
-[The Geospatiality of STEM Learning Opportunities]{.custom-title}
-
-::: {.title-footer}
-Code & Slides available on [GitHub {{< fa brands github >}}](https://KLBoles.github.io/job-talk-1)
-:::
 
 ## Quarto
 
