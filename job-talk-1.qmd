@@ -21,7 +21,13 @@ title-slide-attributes:
   data-background-image: "images/title_background.png"
 ---
 
-## Quarto
+## Agenda
+
+::: {.incremental}
+1. Constructs & Frameworks
+:::
+
+## Positionality {.unnumbered .unlisted}
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
