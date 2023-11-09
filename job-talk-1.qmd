@@ -27,7 +27,7 @@ execute:
 \[The Geospatiality of STEM Learning Opportunities\]{.custom-title}
 
 ::: title-footer
-Slides available on [GitHub {{\<fa brands github title="GitHub Octocat logo"}}](https://KLBoles.github.io/job-talk-1)
+Slides available on [GitHub {{< fa brands github >}}](https://KLBoles.github.io/job-talk-1)
 :::
 
 ## Quarto
