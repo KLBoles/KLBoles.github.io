@@ -21,6 +21,7 @@ $city-yellow: #D8A419;
 $navy-blue: #131521;
 $gray-blue: #444965;
 $charcoal: #262626;
+$light-gray: #d2d2d2;
 $white: #ffffff;
 
 // Base document colors
@@ -43,5 +44,6 @@ $body-color: $charcoal;
 .title-footer { 
   text-align: center !important;
   color: $white;
+  link-color: $light-gray;
   font-size: 0.5em !important;
 }
