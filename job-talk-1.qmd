@@ -1,5 +1,5 @@
 ---
-title: "The Spatiality of Learning Opportunities"
+title: "The Spatiality of STEM Learning Opportunities"
 author: Kelly L. Boles
 date: today
 search: false
