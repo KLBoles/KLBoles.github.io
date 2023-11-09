@@ -21,12 +21,11 @@ execute:
 ---
 
 ## {#title-slide data-menu-title="Title Slide" background="#00012E"}
-
 <!-- background="images/title_background.png" -->
 
-\[The Geospatiality of STEM Learning Opportunities\]{.custom-title}
+[The Geospatiality of STEM Learning Opportunities]{.custom-title}
 
-::: title-footer
+::: {title-footer}
 Code & Slides available on [GitHub {{< fa brands github >}}](https://KLBoles.github.io/job-talk-1)
 :::
 

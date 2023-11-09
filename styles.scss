@@ -32,7 +32,7 @@ $body-color: $charcoal;
 
 // custom slide title
 .custom-title { 
-  font-family: $font-family-sans-serif;
+  font-family: $presentation-heading-font;
   color: $rural-pink;
   font-size: 1.7em;
   text-align: center !important;
@@ -45,5 +45,5 @@ $body-color: $charcoal;
   text-align: center !important;
   color: $white;
   link-color: $light-gray;
-  font-size: 0.5em !important;
+  font-size: 0.2em !important;
 }
