@@ -7,7 +7,7 @@ format:
   revealjs:
     theme: [simple, styles.scss]
     mainfont: Rubik
-    number-sections: true
+    number-sections: false
     slide-number: true
     cap-location: bottom
     tbl-cap-location: bottom
@@ -25,7 +25,7 @@ execute:
 
 [The Geospatiality of STEM Learning Opportunities]{.custom-title}
 
-::: {title-footer}
+::: {.title-footer}
 Code & Slides available on [GitHub {{< fa brands github >}}](https://KLBoles.github.io/job-talk-1)
 :::
 
