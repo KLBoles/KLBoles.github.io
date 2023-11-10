@@ -10,7 +10,8 @@
   <meta name="generator" content="quarto-1.2.269">
 
   <meta name="author" content="Kelly L. Boles">
-  <title>The Geospatiality of STEM Learning Opportunities</title>
+  <meta name="dcterms.date" content="2023-11-10">
+  <title>The Spatiality of STEM Learning Opportunities</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -325,8 +326,8 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="images/title_background.png" class="quarto-title-block">
-  <h1 class="title">The Geospatiality of STEM Learning Opportunities</h1>
+<section id="title-slide" data-background-image="images/title_background.png" data-footer="" class="quarto-title-block">
+  <h1 class="title">The Spatiality of STEM Learning Opportunities</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -336,7 +337,7 @@ Kelly L. Boles
 </div>
 </div>
 
-  <p class="date">11/9/23</p>
+  <p class="date">11/10/23</p>
 </section>
 <section id="agenda" class="slide level2">
 <h2>Agenda</h2>
@@ -348,12 +349,50 @@ Kelly L. Boles
 </section>
 <section id="positionality" class="slide level2 unnumbered unlisted">
 <h2>Positionality</h2>
-<p>Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<div class="fragment quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: center;">
+<ul>
+<li>White, cis, female, FGLI</li>
+<li>Originally from East TN</li>
+<li>Taught secondary math, AP® Statistics, and computer science in Eastern KY for 6 years</li>
+<li>Facilitator of professional learning for 5+ years</li>
+</ul>
+</div>
+<div class="cell quarto-layout-cell" data-fig.format="retina" style="flex-basis: 40.0%;justify-content: center;">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="job-talk-1_files/figure-revealjs/unnamed-chunk-1-1.png" width="960"></p>
+<p></p><figcaption>East TN with Greene County highlighted.</figcaption><p></p>
+</figure>
 </div>
 </div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="job-talk-1_files/figure-revealjs/unnamed-chunk-1-2.png" width="960"></p>
+<p></p><figcaption>Eastern KY with Floyd County highlighted.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="why-space" class="slide level2">
+<h2>Why Space?</h2>
+<ul>
+<li>We explore dimensions of:
+<ul>
+<li>Class, Gender, Race/Ethnicity, Dis/Ability, Age, Sexual Orientation, Parental Education…</li>
+</ul></li>
+<li>Why not (yet) space?
+<ul>
+<li>Data availability</li>
+<li>Spatial analysis techniques</li>
+</ul></li>
+</ul>
 <div class="footer footer-default">
 <p><a href="https://klboles.github.io/job-talk-1" class="uri">https://klboles.github.io/job-talk-1</a></p>
 </div>
@@ -569,6 +608,30 @@ Kelly L. Boles
           RevealSearch,
           RevealZoom
         ]
+      });
+    </script>
+    <script type="text/javascript" charset="utf-8">
+      function add_custom_footer() {
+        let title_slide = document.querySelector("section#title-slide");
+        let title_slide_footer = title_slide.getAttribute('data-footer');
+        let footer = document.querySelector('div.footer p');
+        let global_footer_text = footer.innerHTML;
+        
+        if (title_slide.classList.contains('present')) {
+          footer.innerHTML = title_slide_footer;
+        }
+        
+        Reveal.on( 'slidechanged' , event => {
+            if (event.currentSlide.matches('#title-slide')) {
+              footer.innerHTML = title_slide_footer;
+            } else {
+              footer.innerHTML = global_footer_text;
+            }
+          });
+      };
+      
+      window.addEventListener("load", (event) => {
+        add_custom_footer();
       });
     </script>
     

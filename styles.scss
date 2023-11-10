@@ -44,3 +44,28 @@ $body-color: #262626;
     font-size: 0.5em;
   }
 }
+
+//progress bar
+.reveal .progress {
+  background: $gray-blue;
+  color: $town-green;
+  height: 1%;
+}
+
+//section tracker
+.sectiontracker {
+  font-size: 1em;
+  text-align: center;
+  color: $navy-blue;
+  font-family: $presentation-heading-font;
+  background-color: $body-bg;
+  margin: 1px;
+  padding: 2px 2px 2px 2px;
+  width: 120px;
+  border-left: 10px solid;
+}
+
+//making captions smaller
+.reveal .slide figure>figcaption, .reveal .slide img.stretch+p.caption, .reveal .slide img.r-stretch+p.caption {
+  font-size: 0.5em !important;
+}
