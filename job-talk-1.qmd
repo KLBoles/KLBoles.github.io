@@ -24,13 +24,13 @@ include-after-body: add-custom-footer.html
 ---
 
 ## Agenda
-
+<hr>
 ::: {.incremental}
 1. Constructs & Frameworks
 :::
 
 ## Positionality {.unnumbered .unlisted}
-
+<hr>
 ::: {layout="[3,2]" .fragment}
 
 * White, cis, female, FGLI
@@ -40,8 +40,8 @@ include-after-body: add-custom-footer.html
 
 ```{r, warning=FALSE, message=FALSE}
 #| fig-cap:
-#|  - "East TN with Greene County highlighted."
-#|  - "Eastern KY with Floyd County highlighted." 
+#|  - "Greene County, TN"
+#|  - "Floyd County, KY" 
 #| fig-height: 4
 #| fig-format: retina
 library(tidyverse)
@@ -58,10 +58,12 @@ us_counties18_easttn <- subset(us_counties18sf_tn,COUNTYFP %in% c("091","163","0
                                                           "145","105","123","009"))
 us_counties18_greeneco <- subset(us_counties18sf_tn,COUNTYFP %in% c("059"))
 us_states18sf <- subset(us_states18sf, STATEFP %in% c("47"))
+us_states18sf <- subset(us_states18sf, STATEFP %in% c("47"))
 
 greene_co_tn <- ggplot() +
   geom_sf(data=us_counties18_easttn, fill="#ffffff", color="#262626", lwd=.5, show.legend=NA)+
   geom_sf(data=us_counties18_greeneco, fill="#7B8400", color="#262626", lwd=.5, show.legend=NA)+
+  geom_sf(data=us_states18sf, fill=NA, color="#262626", lwd=1, show.legend = NA)+
   theme(text = element_text(family="Roboto Condensed"),
         axis.text.x = element_blank(),
         axis.text.y = element_blank(),
@@ -83,10 +85,12 @@ us_counties18_easternky <- subset(us_counties18sf_ky,COUNTYFP %in% c("195","119"
 "005","231","147","235","013","095","193","131","051","189","109","203","199",
 "125","121"))
 us_counties18_floydco <- subset(us_counties18sf_ky,COUNTYFP %in% c("071"))
+us_states18sf <- subset(us_states18sf, STATEFP %in% c("21"))
 
 floyd_co_ky <- ggplot() +
   geom_sf(data=us_counties18_easternky, fill="#ffffff", color="#262626", lwd=.5, show.legend=NA)+
   geom_sf(data=us_counties18_floydco, fill="#0D8C98", color="#262626", lwd=.5, show.legend=NA)+
+  geom_sf(data=us_states18sf, fill=NA, color="#262626", lwd=1, show.legend = NA)+
   theme(text = element_text(family="Roboto Condensed"),
         legend.key.size = unit(1.5,"line"),
         axis.text.x = element_blank(),
@@ -110,13 +114,36 @@ floyd_co_ky
 :::
 
 ## Why Space?
+<hr>
 ::: {.incremental}
 
 * We explore dimensions of:
-  + Class, Gender, Race/Ethnicity, Dis/Ability, Age, Sexual Orientation, Parental Education...
+  + Class, gender, race/ethnicity, dis/ability, age, sexual orientation, parental education, language, etc...
   
-* Why not (yet) space?
+* Why space? Why now?
   + Data availability
   + Spatial analysis techniques
   
 :::
+
+::::::{layout="[1,1,1,1,1,1]" .fragment .timeline}
+
+![](images/sf_package.png){fig-alt="HexSticker for the sf package" height=150px}<br>
+2017
+
+![](images/an_introduction_to_r_for_spatial_data_analysis_and_mapping.jpg){fig-alt="Book cover of *An Introduction to R for Spatial Data Analysis and Mapping*" height=150px}<br>
+2019
+
+![](images/spatio-temporal_statistics_with_r.jpeg){fig-alt="Book cover of *Spatio-Temporal Statistics with R*" height=150px}<br>
+2019
+
+![](images/geocomputation_with_r.jpg){fig-alt="Book cover of *Geocomputation with R*" height=150px}<br>
+2020
+
+![](images/analyzing_us_census_data.jpg){fig-alt="Book cover of *Analyzing US Census Data*" height=150px}<br>
+2023
+
+![](images/spatial_data_science_with_applications_in_r.jpg){fig-alt="Book cover of *Spatial Data Science with Applications in R*" height=150px}<br>
+2023
+
+::::::

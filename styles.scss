@@ -65,7 +65,25 @@ $body-color: #262626;
   border-left: 10px solid;
 }
 
+// horizontal line (default navy)
+hr { 
+  border: 4px solid #010130;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+
 //making captions smaller
 .reveal .slide figure>figcaption, .reveal .slide img.stretch+p.caption, .reveal .slide img.r-stretch+p.caption {
   font-size: 0.4em !important;
 }
+
+//package and book timeline lables
+.timeline {
+  text-align: center;
+  font-size: 0.4em !important;
+}
+
+//change body font size
+:root {
+  --r-main-font-size: 36px;
+    }
