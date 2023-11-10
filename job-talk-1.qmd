@@ -110,10 +110,11 @@ floyd_co_ky
 :::
 
 ## Why Space?
+::: {.incremental}
 * We explore dimensions of:
   + Class, Gender, Race/Ethnicity, Dis/Ability, Age, Sexual Orientation, Parental Education...
   
 * Why not (yet) space?
   + Data availability
   + Spatial analysis techniques
-
+:::
