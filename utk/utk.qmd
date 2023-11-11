@@ -14,7 +14,7 @@ format:
     chalkboard: 
       boardmarker-width: 5
     preview-links: auto
-    footer: <https://klboles.github.io/job-talk-1>
+    footer: <https://klboles.github.io/utk>
 execute: 
   echo: false
 title-slide-attributes: 
@@ -24,19 +24,22 @@ include-after-body: add-custom-footer.html
 ---
 
 ## Agenda
+
 <hr>
-::: {.incremental}
-1. Constructs & Frameworks
+
+::: incremental
+1.  Constructs & Frameworks
 :::
 
 ## Positionality {.unnumbered .unlisted}
-<hr>
-::: {layout="[3,2]" .fragment}
 
-* White, cis, female, FGLI
-* Originally from East TN
-* Taught secondary math, AP® Statistics, and computer science in Eastern KY for 6 years
-* Facilitator of professional learning for 5+ years
+<hr>
+
+::: {.fragment layout="[3,2]"}
+-   White, cis, female, FGLI
+-   Originally from East TN
+-   Taught secondary math, AP® Statistics, and computer science in Eastern KY for 6 years
+-   Facilitator of professional learning for 5+ years
 
 ```{r, warning=FALSE, message=FALSE}
 #| fig-cap:
@@ -110,40 +113,30 @@ floyd_co_ky <- ggplot() +
 
 floyd_co_ky
 ```
-
 :::
 
 ## Why Space?
-<hr>
-::: {.incremental}
 
-* We explore dimensions of:
-  + Class, gender, race/ethnicity, dis/ability, age, sexual orientation, parental education, language, etc...
-  
-* Why space? Why now?
-  + Data availability
-  + Spatial analysis techniques
-  
+<hr>
+
+::: incremental
+-   We explore dimensions of:
+    -   Class, gender, race/ethnicity, dis/ability, age, sexual orientation, parental education, language, etc...
+-   Why space? Why now?
+    -   Data availability
+    -   Spatial analysis techniques
 :::
 
-::::::{layout="[1,1,1,1,1,1]" .fragment .timeline}
+::: {.fragment .timeline layout="[1,1,1,1,1,1]"}
+![](images/sf_package.png){fig-alt="HexSticker for the sf package" height="150px"}<br> 2017
 
-![](images/sf_package.png){fig-alt="HexSticker for the sf package" height=150px}<br>
-2017
+![](images/an_introduction_to_r_for_spatial_data_analysis_and_mapping.jpg){fig-alt="Book cover of *An Introduction to R for Spatial Data Analysis and Mapping*" height="150px"}<br> 2019
 
-![](images/an_introduction_to_r_for_spatial_data_analysis_and_mapping.jpg){fig-alt="Book cover of *An Introduction to R for Spatial Data Analysis and Mapping*" height=150px}<br>
-2019
+![](images/spatio-temporal_statistics_with_r.jpeg){fig-alt="Book cover of *Spatio-Temporal Statistics with R*" height="150px"}<br> 2019
 
-![](images/spatio-temporal_statistics_with_r.jpeg){fig-alt="Book cover of *Spatio-Temporal Statistics with R*" height=150px}<br>
-2019
+![](images/geocomputation_with_r.jpg){fig-alt="Book cover of *Geocomputation with R*" height="150px"}<br> 2020
 
-![](images/geocomputation_with_r.jpg){fig-alt="Book cover of *Geocomputation with R*" height=150px}<br>
-2020
+![](images/analyzing_us_census_data.jpg){fig-alt="Book cover of *Analyzing US Census Data*" height="150px"}<br> 2023
 
-![](images/analyzing_us_census_data.jpg){fig-alt="Book cover of *Analyzing US Census Data*" height=150px}<br>
-2023
-
-![](images/spatial_data_science_with_applications_in_r.jpg){fig-alt="Book cover of *Spatial Data Science with Applications in R*" height=150px}<br>
-2023
-
-::::::
+![](images/spatial_data_science_with_applications_in_r.jpg){fig-alt="Book cover of *Spatial Data Science with Applications in R*" height="150px"}<br> 2023
+:::
