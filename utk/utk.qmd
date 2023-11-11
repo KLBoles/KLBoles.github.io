@@ -14,7 +14,7 @@ format:
     chalkboard: 
       boardmarker-width: 5
     preview-links: auto
-    footer: <https://klboles.github.io/utk>
+    footer: <https://klboles.github.io/utk/utk>
 execute: 
   echo: false
 title-slide-attributes: 
