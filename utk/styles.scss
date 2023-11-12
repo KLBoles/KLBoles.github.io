@@ -92,7 +92,7 @@ hr {
 .sectionhead {
   font-size: 1em;
   text-align: center;
-  color: #010130;
+  color: #5E0399;
   font-family: $presentation-heading-font;
   background-color: #ffffff;
   margin: 1px;
@@ -114,7 +114,7 @@ hr {
   display: inline-block;
   vertical-align: middle;
   font-family: $presentation-heading-font;
-  color: $rurald-pink;
+  color: $city-yellow;
   font-size: 2.3em;
   left: 20px;
   line-height: normal;
@@ -123,4 +123,24 @@ hr {
 //green text
 .green {
   color: $town-green;
+}
+
+//purple text
+.purple {
+  color: #5E0399;
+}
+
+//smaller font
+.smaller-font {
+  font-size: 0.85em;
+}
+
+//quote size 
+.reveal blockquote p:first-child, .reveal blockquote p:last-child{
+  font-size: 0.93em;
+}
+
+//center text
+.center {
+  text-align: center;
 }

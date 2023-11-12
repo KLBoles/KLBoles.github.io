@@ -56,18 +56,18 @@ include-after-body: add-custom-footer.html
 library(tidyverse)
 library(ussf)
 library(sf)
-us_counties18sf <- boundaries(geography="county")
-us_states18sf <- boundaries(geography="state")
-us_counties18sf_tn <- subset(us_counties18sf,STATEFP %in% c("47"))
+us_counties18sf_tn <- subset(boundaries(geography="county"),STATEFP %in% c("47"))
 us_counties18_easttn <- subset(us_counties18sf_tn,COUNTYFP %in% c("091","163","019","171",
                                                           "179","073","067",
                                                           "013","057","063","029",
                                                           "089","025","173","093",
                                                           "155","151","001","129",
                                                           "145","105","123","009"))
+
+
 us_counties18_greeneco <- subset(us_counties18sf_tn,COUNTYFP %in% c("059"))
-us_states18sf <- subset(us_states18sf, STATEFP %in% c("47"))
-us_states18sf <- subset(us_states18sf, STATEFP %in% c("47"))
+us_states18sf <- subset(boundaries(geography="state"), STATEFP %in% c("47"))
+
 
 greene_co_tn <- ggplot() +
   geom_sf(data=us_counties18_easttn, fill="#ffffff", color="#262626", lwd=.5, show.legend=NA)+
@@ -84,9 +84,7 @@ greene_co_tn <- ggplot() +
 
 greene_co_tn
 
-us_counties18sf <- boundaries(geography="county")
-us_states18sf <- boundaries(geography="state")
-us_counties18sf_ky <- subset(us_counties18sf,STATEFP %in% c("21"))
+us_counties18sf_ky <- subset(boundaries(geography="county"),STATEFP %in% c("21"))
 us_counties18_easternky <- subset(us_counties18sf_ky,COUNTYFP %in% c("195","119","133","153","115","159","127","175","205","063","043","019",
 "089","135","161","201","023","191","081","077","015","117","037","069",
 "011","165","237","025","129","197","065","173","181","017","097","049","151",
@@ -94,7 +92,7 @@ us_counties18_easternky <- subset(us_counties18sf_ky,COUNTYFP %in% c("195","119"
 "005","231","147","235","013","095","193","131","051","189","109","203","199",
 "125","121"))
 us_counties18_floydco <- subset(us_counties18sf_ky,COUNTYFP %in% c("071"))
-us_states18sf <- subset(us_states18sf, STATEFP %in% c("21"))
+us_states18sf <- subset(boundaries(geography="state"), STATEFP %in% c("21"))
 
 floyd_co_ky <- ggplot() +
   geom_sf(data=us_counties18_easternky, fill="#ffffff", color="#262626", lwd=.5, show.legend=NA)+
@@ -165,7 +163,7 @@ floyd_co_ky
 
 <hr>
 
-[**Critical spatial theory**]{.green}[^1] calls for the interrogation of:
+<br>[**Critical spatial theory**]{.green}[^1] calls for the interrogation of:
 
 > "the intersections of space, power, and knowledge in order to expose geographies that perpetuate or disrupt inequities in both processes and outcomes" (p. 4). [^2]
 
@@ -206,3 +204,69 @@ floyd_co_ky
 
 ![](images/browningflower.png){fig-alt="Browning flower is example of declining health of keystone species/ecosystem" width="266px" height="350px"}<br> Keystone
 ::::
+
+## **Frameworks:** Ecosystem Health
+
+<hr>
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+Like the butterfly and the flora...
+
+> "When youth are thriving, interested, and learning in a classroom, neighborhood, or informal learning program, we know the system is healthy. When they are struggling, we know the system is not healthy. Seeing learners as indicators could allow educational researchers to focus on youth as critical barometers of ecosystem health, while shifting energy away from creating interventions that target youth outcomes." (p. 276). [^3]
+
+[^3]: Hecht, M. & Crowley, K. (2020). Unpacking the learning ecosystems framework: Lessons from the adaptive management of biological ecosystems. Journal of the Learning Sciences, 29(2), 264-284. https://doi.org/10.1080/10508406.2019.1693381
+
+## **Frameworks:** Ecosystem Health
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+<hr>
+
+::: {.r-stack .center}
+
+![](images/child-at-center-of-ecosystem.png){fig-alt="Picture of child who is centered in the STEM Learning Ecosystem Model" height="200px" .fragment}<br> [[**Indicator**]{.purple}<br>Student STEM Learning]{.fragment}
+
+![](images/STEM-Learning-Ecosystem.png){fig-alt="Picture of the STEM Learning Ecosystem Model" height="383px" top="5px" .fragment}<br> [STEM Learning Ecosystem Model[^4]]{.fragment}
+
+:::
+
+[^4]: Used with permission of The National Academies Press, from Identifying and Supporting Productive STEM Programs in Out-of-School Settings, National Research Council, 2015; permission conveyed through Copyright Clearance Center, Inc.
+
+## **Frameworks:** Ecosystem Health
+
+<hr>
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+::::{layout="[4,-1,5]"}
+:::{.center}
+
+![](images/teacher-brain-learning.png){fig-alt="Picture of a teacher with a brain superimposed showing lots of thinking and ideas" height="360px" .fragment}<br> [[**Keystone**]{.purple}<br>Teacher STEM Learning]{.fragment}
+:::
+
+<br>[“Creating a profession of teaching in which teachers have the opportunity for continual learning is the likeliest way to inspire greater achievement for children...”<br><br>[(Darling-Hammond, 2008, p. 99)]{.smaller-font} [^5]]{.fragment}
+
+[^5]: Darling-Hammond, L. (2008). Teacher learning that supports student learning. In B. Z. Presseisen (Ed.), Teaching for intelligence (pp. 91 - 100). Corwin.
+
+::::
+
+---
+
+##  {#study-1 data-menu-title="Study One" background="#010130"}
+
+<div class="page-center">
+<div class="custom-subtitle">**THREE STUDIES:<br>**</div></div>
+---
