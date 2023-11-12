@@ -180,6 +180,8 @@ floyd_co_ky
 
 <hr>
 
+<br>
+
 :::: {layout="[-3,2,3,-3]"}
 
 ![](images/butterfly.png){fig-alt="Colorful butterfly is example of indicator species" height="150px" .fragment}<br> [Indicator]{.fragment}
@@ -197,6 +199,8 @@ floyd_co_ky
 :::
 
 <hr>
+
+<br>
 
 :::: {layout="[-3,2,3,-3]"}
 
