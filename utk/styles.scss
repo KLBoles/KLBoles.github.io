@@ -1,7 +1,7 @@
 /*-- scss:defaults --*/
 
 // Import fonts
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@400;600&family=Rubik:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@400;700&family=Rubik:wght@300;600&display=swap');
 
 //Fonts
 $font-family-sans-serif: "Rubik", FreeSerif, serif !default;
@@ -77,6 +77,11 @@ hr {
   font-size: 0.4em !important;
 }
 
+//making footnotes smaller
+.reveal .slide aside, .reveal .slide div.aside{
+  font-size: 0.5em !important;
+}
+
 //package and book timeline lables
 .timeline {
   text-align: center;
@@ -120,6 +125,17 @@ hr {
   line-height: normal;
 }
 
+// cover slide subtitle (large)
+.custom-subtitle-two { 
+  display: inline-block;
+  vertical-align: middle;
+  font-family: $presentation-heading-font;
+  color: $rurald-pink;
+  font-size: 2.3em;
+  left: 20px;
+  line-height: normal;
+}
+
 //green text
 .green {
   color: $town-green;
@@ -132,7 +148,7 @@ hr {
 
 //smaller font
 .smaller-font {
-  font-size: 0.85em;
+  font-size: 0.85em !important;
 }
 
 //quote size 
@@ -143,4 +159,25 @@ hr {
 //center text
 .center {
   text-align: center;
+}
+
+//subtitle on section page
+.section-subtitle {
+  font-size: 0.5em;
+  color:#FFFFFF;
+  font-family:$font-family-sans-serif;
+}
+
+//second subtitle on section page
+.section-subtitle-two {
+  font-size: 0.5em;
+  color:$city-yellow;
+  font-family:$presentation-heading-font;
+}
+
+//third subtitle on section page
+.section-subtitle-three {
+  font-size: 0.5em;
+  color:$town-green;
+  font-family:$presentation-heading-font;
 }

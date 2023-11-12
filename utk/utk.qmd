@@ -157,7 +157,7 @@ floyd_co_ky
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-1 [2 3 4 5 6]{style="opacity:0.25"}
+1 [2 3 4 6]{style="opacity:0.25"}
 :::
 :::
 
@@ -174,7 +174,7 @@ floyd_co_ky
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-1 [2 3 4 5 6]{style="opacity:0.25"}
+1 [2 3 4 6]{style="opacity:0.25"}
 :::
 :::
 
@@ -194,7 +194,7 @@ floyd_co_ky
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-1 [2 3 4 5 6]{style="opacity:0.25"}
+1 [2 3 4 6]{style="opacity:0.25"}
 :::
 :::
 
@@ -215,13 +215,13 @@ floyd_co_ky
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-1 [2 3 4 5 6]{style="opacity:0.25"}
+1 [2 3 4 6]{style="opacity:0.25"}
 :::
 :::
 
-Like the butterfly and the flora...
+Like the butterfly and flora...
 
-> ["When youth are thriving, interested, and learning in a classroom, neighborhood, or informal learning program, we know the system is healthy. When they are struggling, we know the system is not healthy. Seeing learners as indicators could allow educational researchers to focus on youth as critical barometers of ecosystem health, while shifting energy away from creating interventions that target youth outcomes."<br><br>(Hecht & Crowley, 2020, p. 276)]{.smaller-font} [^3]
+> "When youth are thriving, interested, and learning in a classroom, neighborhood, or informal learning program, we know the system is healthy. When they are struggling, we know the system is not healthy. Seeing learners as indicators could allow educational researchers to focus on youth as critical barometers of ecosystem health, while shifting energy away from creating interventions that target youth outcomes."<br><br>(Hecht & Crowley, 2020, p. 276) [^3]
 
 [^3]: Hecht, M. & Crowley, K. (2020). Unpacking the learning ecosystems framework: Lessons from the adaptive management of biological ecosystems. Journal of the Learning Sciences, 29(2), 264-284. https://doi.org/10.1080/10508406.2019.1693381
 
@@ -229,7 +229,7 @@ Like the butterfly and the flora...
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-1 [2 3 4 5 6]{style="opacity:0.25"}
+1 [2 3 4 6]{style="opacity:0.25"}
 :::
 :::
 
@@ -251,14 +251,14 @@ Like the butterfly and the flora...
 
 ::: {.absolute top="0" left="100%"}
 ::: {.sectionhead}
-1 [2 3 4 5 6]{style="opacity:0.25"}
+1 [2 3 4 5]{style="opacity:0.25"}
 :::
 :::
 
 ::::{layout="[4,-1,5]"}
 :::{.center}
 
-![](images/teacher-brain-learning.png){fig-alt="Picture of a teacher with a brain superimposed showing lots of thinking and ideas" height="360px" .fragment}<br> [[**Keystone**]{.purple}<br>Teacher STEM Learning]{.fragment}
+![](images/teacher-brain-learning.png){fig-alt="Picture of a teacher with a brain superimposed showing lots of thinking and ideas" height="360px" .fragment}<br> [[**Keystone**]{.purple}<br>STEM Teacher Learning]{.fragment}
 :::
 
 <br>[“Creating a profession of teaching in which teachers have the opportunity for continual learning is the likeliest way to inspire greater achievement for children...”<br><br>[(Darling-Hammond, 2008, p. 99)]{.smaller-font} [^5]]{.fragment}
@@ -267,10 +267,116 @@ Like the butterfly and the flora...
 
 ::::
 
+## **Frameworks:** Opportunities to Learn
+
+<hr>
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+1 [2 3 4 5]{style="opacity:0.25"}
+:::
+:::
+
+::: incremental
+
+* What are the necessary conditions for learning?
+  + [**Opportunities to Learn (OTL):**]{.green} "Affordances for changing participation and practice"  [(Greeno & Gresalfi, 2008, p. 172)]{.smaller-font}[^6]
+  + Three conditions[^7]:
+    - Availability
+    - Accessibility
+    - [Learner dispositions]{style="opacity:0.35"}
+
+:::
+  
+[^6]: Greeno, J. G. & Gresalfi, M. S. (2008). Opportunities to learn in practice and identity. In P. A. Moss, D. C. Pullin, J. P. Gee, E. H. Haertel, & L. J. Young (Eds.), Assessment, equity, and opportunity to learn (pp. 170-199). Cambridge University Press. https://doi.org/10.1017/CBO9780511802157.009
+[^7]: Norman, D. A. (1988). The psychology of everyday things. Basic Books.
 ---
+
+##  {#study-intros data-menu-title="Three Studies" background="#010130"}
+
+<div class="page-center">
+<div class="custom-subtitle">**THREE STUDIES**</div></div>
 
 ##  {#study-1 data-menu-title="Study One" background="#010130"}
 
 <div class="page-center">
-<div class="custom-subtitle">**THREE STUDIES:<br>**</div></div>
+<div class="custom-subtitle-two">**STUDY ONE**
+<br>[Geographic *Availability* of Secondary Advanced STEM]{.section-subtitle}
+<br>[[Student Learning = Indicator Study]]{.section-subtitle-two}</div></div>
 ---
+
+## **Study 1:** Context
+
+<hr>
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
+:::
+:::
+
+---
+
+##  {#study-2 data-menu-title="Study Two" background="#010130"}
+
+<div class="page-center">
+<div class="custom-subtitle-two">**STUDY TWO**
+<br>[Geographic *Accessibility* of Advanced STEM Success]{.section-subtitle}
+<br>[[Student Learning = Indicator Study]]{.section-subtitle-two}</div></div>
+---
+
+## **Study 2:** Context
+
+<hr>
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
+:::
+:::
+
+---
+
+##  {#study-3 data-menu-title="Study Three" background="#010130"}
+
+<div class="page-center">
+<div class="custom-subtitle-two">**STUDY THREE**
+<br>[Community Variation in STEM Teacher Learning]{.section-subtitle}
+<br>[[Teacher Learning = Keystone Study]]{.section-subtitle-three}</div></div>
+---
+
+## **Study 3:** Context
+
+<hr>
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"}
+:::
+:::
+
+---
+
+##  {#future-work data-menu-title="Future Work" background="#010130"}
+
+<div class="page-center">
+<div class="custom-subtitle-two">**FUTURE WORK**</div></div>
+---
+
+## **Future Work**
+
+<hr>
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2 3 4]{style="opacity:0.25"} 5
+:::
+:::
+
+---
+
+##  {#thank-you data-menu-title="Thank You" background="#010130"}
+
+<div class="page-center">
+<div class="custom-subtitle">**THANK YOU**
+<br><br>[Questions?]{.section-subtitle}</div></div>
