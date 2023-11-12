@@ -28,7 +28,13 @@ include-after-body: add-custom-footer.html
 <hr>
 
 ::: incremental
-1.  Constructs & Frameworks
+1.  Research Overview & Frameworks
+2.  Focal Research---*U.S. Landscape of Advanced Secondary STEM*
+    i) Student Availability
+    ii) Student Success
+    iii) Teacher Learning Resources
+3. Future Work
+4. Questions
 :::
 
 ## Positionality {.unnumbered .unlisted}
@@ -140,3 +146,63 @@ floyd_co_ky
 
 ![](images/spatial_data_science_with_applications_in_r.jpg){fig-alt="Book cover of *Spatial Data Science with Applications in R*" height="150px"}<br> 2023
 :::
+
+---
+
+##  {#introduction data-menu-title="Research Mission" background="#010130"}
+
+<div class="page-center">
+<div class="custom-subtitle">**identify, examine, and address spatial inequities in learning opportunities**</div></div>
+---
+
+## **Frameworks:** Spatial Theory
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+<hr>
+
+[**Critical spatial theory**]{.green}[^1] calls for the interrogation of:
+
+> "the intersections of space, power, and knowledge in order to expose geographies that perpetuate or disrupt inequities in both processes and outcomes" (p. 4). [^2]
+
+[^1]: Soja, E. W. (2010). Seeking spatial justice. Minneapolis, MN: University of Minnesota Press.
+[^2]:Annamma, S. A., Morrison, D., & Jackson, D. D. (2017). Searching for educational equity through critical spatial analysis. In D. Morrison, S. A. Annamma, & D. D. Jackson (Eds.), Critical race spatial analysis: Mapping to understand and address educational inequity (pp. 3-7). Stylus.
+
+## **Frameworks:** Ecosystem Health
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+<hr>
+
+:::: {layout="[-3,2,3,-3]"}
+
+![](images/butterfly.png){fig-alt="Colorful butterfly is example of indicator species" height="150px" .fragment}<br> [Indicator]{.fragment}
+
+
+![](images/flower.png){fig-alt="Colorful flower is example of keystone species" width="266px" height="350px" .fragment}<br> [Keystone]{.fragment}
+::::
+
+## **Frameworks:** Ecosystem Health
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+1 [2 3 4 5 6]{style="opacity:0.25"}
+:::
+:::
+
+<hr>
+
+:::: {layout="[-3,2,3,-3]"}
+
+[](images/butterfly.png){height="150px"}
+
+![](images/browningflower.png){fig-alt="Browning flower is example of declining health of keystone species/ecosystem" width="266px" height="350px"}<br> Keystone
+::::

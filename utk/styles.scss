@@ -87,3 +87,40 @@ hr {
 :root {
   --r-main-font-size: 36px;
     }
+    
+//section tracker
+.sectionhead {
+  font-size: 1em;
+  text-align: center;
+  color: #010130;
+  font-family: $presentation-heading-font;
+  background-color: #ffffff;
+  margin: 1px;
+  padding: 2px 2px 2px 2px;
+  width: 120px;
+  border-left: 10px solid;
+}
+    
+// center text vertically and horizontally
+// see: https://stackoverflow.com/questions/8865458/how-do-i-vertically-center-text-with-css
+.page-center {
+  height: 700px;
+  line-height: 700px;
+  text-align: center;
+}
+
+// cover slide subtitle (large)
+.custom-subtitle { 
+  display: inline-block;
+  vertical-align: middle;
+  font-family: $presentation-heading-font;
+  color: $rurald-pink;
+  font-size: 2.3em;
+  left: 20px;
+  line-height: normal;
+}
+
+//green text
+.green {
+  color: $town-green;
+}
