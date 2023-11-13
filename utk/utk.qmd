@@ -379,7 +379,7 @@ Like the butterfly and flora...
 ::: incremental
 
 * Gender
-  + Women are underrepresented in Computer Science A, Physics, & Calculus Exams
+  + Women are underrepresented in Computer Science A, Physics, & Calculus exams
   + Men outperform women across all AP® STEM exams
 * Geographic Locale
   +
