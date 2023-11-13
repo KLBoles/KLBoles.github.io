@@ -165,7 +165,7 @@ floyd_co_ky
 
 <br>[**Critical spatial theory**]{.green}[^1] calls for the interrogation of:
 
-> "the intersections of space, power, and knowledge in order to expose geographies that perpetuate or disrupt inequities in both processes and outcomes" (p. 4). [^2]
+> "the intersections of space, power, and knowledge in order to expose geographies that perpetuate or disrupt inequities in both processes and outcomes" <br><br>(Annamma et al., 2010, p. 4) [^2]
 
 [^1]: Soja, E. W. (2010). Seeking spatial justice. Minneapolis, MN: University of Minnesota Press.
 [^2]:Annamma, S. A., Morrison, D., & Jackson, D. D. (2017). Searching for educational equity through critical spatial analysis. In D. Morrison, S. A. Annamma, & D. D. Jackson (Eds.), Critical race spatial analysis: Mapping to understand and address educational inequity (pp. 3-7). Stylus.
@@ -333,6 +333,58 @@ Like the butterfly and flora...
 ::: {.sectionhead}
 [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
+:::
+
+<br>
+
+::: incremental
+
+* Only AP® conducts an end-of-course examination<br> (not PLTW®)
+* Success (passing the exam; 3+) demonstrates access to the course content
+* Equity concerns as related to AP® examination success
+
+:::
+
+## **Study 2:** AP® Exams & Equity
+
+<hr>
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
+:::
+:::
+
+::: incremental
+
+* Race/Ethnicity
+  + All groups seeing improved enrollment in AP® [^]
+  + Multi-year sustained decrease in pass rates among Black, Latinx, and Native American students
+* Socioeconomic Status (SES)
+  + Low-SES exam-taking has improved; still underrepresented
+  + Pass rate is 17% lower than more affluent peers
+
+:::
+
+## **Study 2:** AP® Exams & Equity
+
+<hr>
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
+:::
+:::
+
+::: incremental
+
+* Gender
+  + Women are underrepresented in Computer Science A, Physics, & Calculus Exams
+  + Men outperform women across all AP® STEM exams
+* Geographic Locale
+  +
+  +
+
 :::
 
 ---
