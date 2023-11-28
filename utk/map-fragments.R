@@ -48,3 +48,4 @@ floyd_co_ky <- ggplot() +
         legend.title = element_text(colour="#131521", size=10),
         panel.grid.major = element_blank(),
         panel.background = element_blank())
+

@@ -114,6 +114,23 @@ hr {
   text-align: center;
 }
 
+// more compact line height
+.smaller-line-height {
+  line-height: 0.85em;
+}
+
+// research question
+.research-question { 
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 2.0em;
+  left: 20px;
+  line-height: normal;
+  height: 200px;
+  text-align: center;
+  color: $town-green;
+}
+
 // cover slide subtitle (large)
 .custom-subtitle { 
   display: inline-block;
@@ -146,9 +163,29 @@ hr {
   color: #5E0399;
 }
 
+//ruralpink text
+.ruralpink {
+  color: $rural-pink;
+}
+
+//yellow text
+.yellow {
+  color: $city-yellow;
+}
+
 //smaller font
 .smaller-font {
   font-size: 0.85em !important;
+}
+
+//even smaller font
+.even-smaller-font {
+  font-size: 0.65em !important;
+}
+
+//much smaller font
+.much-smaller-font {
+  font-size: 0.5em !important;
 }
 
 //quote size 
@@ -159,6 +196,11 @@ hr {
 //center text
 .center {
   text-align: center;
+}
+
+//left-align text
+.left {
+  text-align: left;
 }
 
 //subtitle on section page
@@ -181,3 +223,8 @@ hr {
   color:$town-green;
   font-family:$presentation-heading-font;
 }
+
+//partially fade out text-align: 
+.semi-transparent {
+  opacity: 0.5;
+};
