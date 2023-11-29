@@ -14,7 +14,7 @@ format:
     chalkboard: 
       boardmarker-width: 5
     preview-links: auto
-    footer: <https://klboles.github.io/utk/utk>
+    #footer: <https://klboles.github.io/utk/utk>
 execute: 
   echo: false
 title-slide-attributes: 
@@ -501,6 +501,37 @@ public schools?***]{.research-question}
 :::
 :::
 
+## **Study 1:** Results [Aspatial]
+
+<hr>
+
+::: {layout="[5,5]"}
+
+![](images/MarginalEffectsAllSTEMCourses.png){fig-alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP STEM Course" .fragment}
+
+::::: {.fragment .even-smaller-font}
+
+* [**Core-adjacent AP® Coursework**]{.fragment}
+  + [[**Rural**]{.ruralpink} and [**town**]{.green} schools have higher odds of offering *AP® Calculus AB* than [**suburban**]{.blue} and [**city**]{.yellow} schools]{.fragment}
+  + [[**Rural**]{.ruralpink} and [**town**]{.green} schools have higher odds of offering *AP® Chemistry*  and *AP® Biology* than [**city**]{.yellow} schools]{.fragment}
+
+* [**Newer/Less traditional AP® Coursework**]{.fragment}
+  + [In the 9 other AP® STEM courses, the odds of offering a given course are lowest for [**rural**]{.ruralpink} and [**town**]{.green} schools]{.fragment}
+    - [Physics (all)]{.fragment}
+    - [Computer Science (both)]{.fragment}
+    - [Calculus BC & Statistics]{.fragment}
+    - [Environmental Science]{.fragment}
+:::::
+
+:::
+
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
+:::
+:::
+
 
 ## **Study 1:** Exploratory Analysis [Spatial]
 
@@ -562,8 +593,7 @@ public schools?***]{.research-question}
 
 :::{.center}
 
-[**AP® Calculus AB**]{.green .fragment}<br>[$$I = .220 , p < .001$$]{.fragment .smaller-line-height} 
-[* kNN weights]{.fragment .much-smaller-font .smaller-line-height}
+[**AP® Calculus AB**]{.green .fragment}<br>[$$I = .220 , p < .001$$]{.fragment .smaller-line-height}
 
 
 :::
@@ -571,7 +601,6 @@ public schools?***]{.research-question}
 :::{.center}
 
 [**AP® Computer Science A**]{.green .fragment}<br>[$$I = .262 , p < .001$$]{.fragment .smaller-line-height} 
-[* kNN weights]{.fragment .much-smaller-font .smaller-line-height}
 
 :::
 
@@ -719,7 +748,8 @@ public schools?***]{.research-question}
 <br>[[Student Learning = Indicator Study]]{.section-subtitle-two}</div></div>
 ---
 
-## **Study 2:** Context
+
+## **Study 2:** Literature
 
 <hr>
 
@@ -728,56 +758,48 @@ public schools?***]{.research-question}
 [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
+
+::: incremental
+
+* Multi-year sustained decrease in pass rates among Black, Latinx, and Native American students [^11]
+* Low Socioeconomic Status (SES) students have a pass rate 17% lower than more affluent peers [^12]
+* Men outperform women across all AP® STEM exams [^13]
+* Rural students in 2015 had the lowest AP® STEM pass rate of all locales [^14]
+
+:::
+
+[^11]: Judson, E., & Hobson, A. (2015). Growth and achievement trends of advanced placement (AP) exams in American high schools. *American Secondary Education, 43*(2), 59-76.
+[^12]: Finn, C. E., Jr., & Scanlan, A. E. (2020). The roles of Advanced Placement in bridging excellence gaps. Fordham Institute.
+[^13]: The College Board. (2014). *National report.*
+[^14]: Mann, S., Sponsler, B., Welch, M., & Wyatt, J. (2017). *Advanced Placement across and success: How do rural schools stack up?* Education Commission of the States & CollegeBoard.
+
+## **Study 2:** Research Question
+
+<hr>
 
 <br>
+<br>
+[***How is student success in advanced STEM is related to community demographics and geography?***]{.research-question}
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
+:::
+:::
+
+## **Study 2:** Data
+
+<hr>
+
+::: {.absolute top="0" left="100%"}
+::: {.sectionhead}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
+:::
+:::
 
 ::: incremental
 
-* Only AP® conducts an end-of-course examination<br> (not PLTW®)
 * Success (passing the exam; 3+) demonstrates access to the course content
-* Equity concerns as related to AP® examination success
-
-:::
-
-## **Study 2:** AP® Exams & Equity
-
-<hr>
-
-::: {.absolute top="0" left="100%"}
-::: {.sectionhead}
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
-
-::: incremental
-
-* Race/Ethnicity
-  + All groups seeing improved enrollment in AP® [^]
-  + Multi-year sustained decrease in pass rates among Black, Latinx, and Native American students
-* Socioeconomic Status (SES)
-  + Low-SES exam-taking has improved; still underrepresented
-  + Pass rate is 17% lower than more affluent peers
-
-:::
-
-## **Study 2:** AP® Exams & Equity
-
-<hr>
-
-::: {.absolute top="0" left="100%"}
-::: {.sectionhead}
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
-
-::: incremental
-
-* Gender
-  + Women are underrepresented in Computer Science A, Physics, & Calculus exams
-  + Men outperform women across all AP® STEM exams
-* Geographic Locale
-  +
-  +
 
 :::
 
