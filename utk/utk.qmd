@@ -477,18 +477,18 @@ public schools?***]{.research-question}
 ::::: {.fragment .even-smaller-font}
 
 * [Relative to suburban schools, the odds of offering **AP® Calculus AB**:]{.fragment .smaller-line-height}
-  + [decreases by 16% in [**city**]{.yellow} schools]{.fragment .smaller-line-height}
-  + [*increases* by 29% in [**town**]{.green} schools]{.fragment .smaller-line-height}
-  + [*increases* by 18% in [**rural**]{.ruralpink} schools]{.fragment .smaller-line-height}
+  + [16% lower in [**city**]{.yellow} schools]{.fragment .smaller-line-height}
+  + [29% *higher* in [**town**]{.green} schools]{.fragment .smaller-line-height}
+  + [18% *higher* in [**rural**]{.ruralpink} schools]{.fragment .smaller-line-height}
 
 :::::
 
 ::::: {.fragment .even-smaller-font}
 
 * [Relative to suburban schools, the odds of offering **AP® Computer Science A**:]{.fragment .smaller-line-height}
- + [decreases by 5% in [**city**]{.yellow} schools]{.fragment .smaller-line-height}
- + [decreases by 29% in [**town**]{.green} schools]{.fragment .smaller-line-height}
- + [decreases by 36% in [**rural**]{.ruralpink} schools]{.fragment .smaller-line-height}
+ + [5%  lower in [**city**]{.yellow} schools]{.fragment .smaller-line-height}
+ + [29%  lower in [**town**]{.green} schools]{.fragment .smaller-line-height}
+ + [36% lower in [**rural**]{.ruralpink} schools]{.fragment .smaller-line-height}
 
 :::::
 
