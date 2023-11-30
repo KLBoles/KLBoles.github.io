@@ -468,7 +468,7 @@ public schools?***]{.research-question}
 
 :::::{.center}
 
-![](images/MarginalEffectsCalcABCompSciA.png){fig-alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP CalcAB or AP Computer Science A" height="300px" .fragment}
+![](images/OddsRatiosCalcABCompSciA.png){fig-alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP CalcAB or AP Computer Science A" height="300px" .fragment}
 
 :::::
 
@@ -507,7 +507,7 @@ public schools?***]{.research-question}
 
 ::: {layout="[5,5]"}
 
-![](images/MarginalEffectsAllSTEMCourses.png){fig-alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP STEM Course" .fragment}
+![](images/OddsRatiosAllSTEMCourses.png){fig-alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP STEM Course" .fragment}
 
 ::::: {.fragment .even-smaller-font}
 
