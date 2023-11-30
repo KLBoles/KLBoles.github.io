@@ -764,7 +764,7 @@ public schools?***]{.research-question}
 * Multi-year sustained decrease in pass rates among Black, Latinx, and Native American students [^11]
 * Low socioeconomic status (SES) students have a pass rate 17% lower than more affluent peers [^12]
 * Men outperform women across all AP® STEM exams [^13]
-* Rural students in 2015 had the lowest AP® STEM pass rate of all locales [^14]
+* In 2015 rural students had the lowest AP® STEM pass rate of all locales [^14]
 
 :::
 
@@ -799,9 +799,15 @@ public schools?***]{.research-question}
 
 ::: incremental
 
-* Success (passing the exam; 3+) demonstrates access to the course content
+* Population of all AP® exam results for U.S. public high school students from AY 2015-2019
+  + *N* = 16,993,460
+  + Success (passing the exam; 3+) demonstrates access to the course content
+* Stanford Education Data Archive (SEDA) [^15]
+  + Composite SES measure by school district
 
 :::
+
+[^15]: reardon., s.f., Ho, A. D., Shear, B. R., Fahle, E. M., Kalogrides, D., Jang, H., & Chavez, B. (2021). Stanford Education Data Archive (Version 4.1). 
 
 ---
 
