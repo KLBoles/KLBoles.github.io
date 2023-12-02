@@ -510,12 +510,12 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 * [There are rural/non-rural disparities in AP® STEM Success]{.fragment}
   + [Widen in high math-demand, highly technical subjects]{.fragment}
-    - [AP® Chemistry]{.fragment .smaller-font}
-    - [AP® Calculus AB]{.fragment .smaller-font}
-    - [AP® Computer Science A]{.fragment .smaller-font}
-    - [AP® Physics C]{.fragment .smaller-font}
+    - [AP® Chemistry, AP® Calculus AB, AP® Computer Science A, AP® Physics C]{.fragment .smaller-font}
+    - [Preprint Available [^16]]{.fragment .smaller-font}
     
 ::::
+
+[^16]: [Boles, K. L., & Domingue, B. W. (2023). Spatial inequities in Advanced Placement® STEM success: Investigating rural disparities in examination results. EdArXiv.]{.fragment .white}
 
 :::
 :::
