@@ -153,6 +153,17 @@ hr {
   line-height: normal;
 }
 
+// takeaway slide subtitle (large)
+.custom-subtitle-three { 
+  display: inline-block;
+  vertical-align: middle;
+  font-family: $presentation-heading-font;
+  color: $city-yellow;
+  font-size: 2.3em;
+  left: 20px;
+  line-height: normal;
+}
+
 //green text
 .green {
   color: $town-green;
