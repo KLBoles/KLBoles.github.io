@@ -627,7 +627,7 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 :::
 :::
 
-## *AP® Access:* Exploratory Analysis
+## *AP® Access:* Exploratory Analysis [Aspatial]
 
 <hr>
 
