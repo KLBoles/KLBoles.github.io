@@ -802,8 +802,8 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 :::{.fragment .much-smaller-font .smaller-line-height}
 
-* [[**Red**]{.red-gwr} =[*locale*] schools have lower odds than suburban of offering course]{.fragment}
-* [[**Blue**]{.blue-gwr} = [*locale*] schools have higher odds than suburban of offering course]{.fragment}
+* [[**Red**]{.red-gwr} =[*locale*] schools have lower odds than suburban schools of offering course]{.fragment}
+* [[**Blue**]{.blue-gwr} = [*locale*] schools have higher odds than suburban schools of offering course]{.fragment}
 
 :::
 
@@ -890,8 +890,8 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 :::{.fragment .much-smaller-font .smaller-line-height}
 
-* [[**Red**]{.red-gwr} =[*locale*] schools have lower odds than suburban of offering course]{.fragment}
-* [[**Blue**]{.blue-gwr} = [*locale*] schools have higher odds than suburban of offering course]{.fragment}
+* [[**Red**]{.red-gwr} =[*locale*] schools have lower odds than suburban schools of offering course]{.fragment}
+* [[**Blue**]{.blue-gwr} = [*locale*] schools have higher odds than suburban schools of offering course]{.fragment}
 
 :::
 
