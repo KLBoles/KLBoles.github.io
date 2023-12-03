@@ -435,7 +435,7 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 
 :::{incremental}
 
-[$$\hspace{-2.25cm}Y_{ij} = \beta_0 + \beta_1City_{i} + \beta_2Town_{i} + \beta_3RuralFringe_{i} +  \beta_4RuralDistant_{i} + \beta_5RuralRemote_{i} + \\ \beta_6RaceEth_{i} + \beta_7Female_{i} + \beta_8SESDecile_{i} + \alpha_j + \varepsilon_{ij}$$]{.smaller-font}
+[$$\hspace{-2cm}Y_{ij} = \beta_0 + \beta_1City_{i} + \beta_2Town_{i} + \beta_3RuralFringe_{i} +  \beta_4RuralDistant_{i} + \beta_5RuralRemote_{i} + \\ \beta_6RaceEth_{i} + \beta_7Female_{i} + \beta_8SESDecile_{i} + \alpha_j + \varepsilon_{ij}$$]{.smaller-font}
 
 -   [$Y_{ij}$= Predicted AP® exam score for the *i* th student in the *j* th state-exam-year fixed effect]{.much-smaller-font}
 -   [$City_{i},Town_{i},RuralFringe_{i},RuralDistant_{i},RuralRemote_{i}$= NCES Locale indicator variables for school location]{.much-smaller-font}
@@ -550,7 +550,7 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
 
@@ -562,7 +562,7 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
 
@@ -581,7 +581,7 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
 
@@ -595,7 +595,7 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
 
@@ -609,7 +609,7 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
 
@@ -623,29 +623,29 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
 
-## *AP® Access:* Exploratory Analysis [Aspatial]
+<!-- ## *AP® Access:* Exploratory Analysis [Aspatial] -->
 
-<hr>
+<!-- <hr> -->
 
-::: {.center .smaller-font}
-|                           | City      | Suburb    | Town      | Rural     |
-|---------------------------|-----------|-----------|-----------|-----------|
-| **Total Schools**         | **5,110** | **5,186** | **2,876** | **7,967** |
-| *Count:* Calculus AB      | 2,782     | 3,773     | 1,518     | 3,021     |
-| *Proportion:* Calculus AB | 54.44%    | 72.75%    | 52.78%    | 37.92%    |
-| *Count:* CompSci A        | 1,067     | 1,850     | 270       | 652       |
-| *Proportion:* CompSci A   | 20.88%    | 35.67%    | 9.39%     | 8.18%     |
-:::
+<!-- ::: {.center .smaller-font} -->
+<!-- |                           | City      | Suburb    | Town      | Rural     | -->
+<!-- |---------------------------|-----------|-----------|-----------|-----------| -->
+<!-- | **Total Schools**         | **5,110** | **5,186** | **2,876** | **7,967** | -->
+<!-- | *Count:* Calculus AB      | 2,782     | 3,773     | 1,518     | 3,021     | -->
+<!-- | *Proportion:* Calculus AB | 54.44%    | 72.75%    | 52.78%    | 37.92%    | -->
+<!-- | *Count:* CompSci A        | 1,067     | 1,850     | 270       | 652       | -->
+<!-- | *Proportion:* CompSci A   | 20.88%    | 35.67%    | 9.39%     | 8.18%     | -->
+<!-- ::: -->
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## *AP® Access:* Analytic Strategy \[Aspatial\]
 
@@ -663,7 +663,7 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
 
@@ -678,22 +678,22 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 ::: {layout="[5,5]"}
 ::: {.fragment .even-smaller-font}
 -   [Relative to suburban schools, the odds of offering **AP® Calculus AB**:]{.fragment .smaller-line-height}
-    -   [16% lower in ]{.fragment .smaller-line-height}[**city**]{.yellow} schools
-    -   [29% *higher* in ]{.fragment .smaller-line-height}[**town**]{.green} schools
-    -   [18% *higher* in ]{.fragment .smaller-line-height}[**rural**]{.ruralpink} schools
+    -   [16% lower in [**city**]{.yellow} schools]{.fragment .smaller-line-height}
+    -   [29% *higher* in [**town**]{.green} schools]{.fragment .smaller-line-height}
+    -   [18% *higher* in [**rural**]{.ruralpink} schools]{.fragment .smaller-line-height}
 :::
 
 ::: {.fragment .even-smaller-font}
 -   [Relative to suburban schools, the odds of offering **AP® Computer Science A**:]{.fragment .smaller-line-height}
--   [5% lower in ]{.fragment .smaller-line-height}[**city**]{.yellow} schools
--   [29% lower in ]{.fragment .smaller-line-height}[**town**]{.green} schools
--   [36% lower in ]{.fragment .smaller-line-height}[**rural**]{.ruralpink} schools
+-   [5% lower in [**city**]{.yellow} schools]{.fragment .smaller-line-height}
+-   [29% lower in [**town**]{.green} schools]{.fragment .smaller-line-height}
+-   [36% lower in [**rural**]{.ruralpink} schools]{.fragment .smaller-line-height}
 :::
 :::
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
 
@@ -706,10 +706,10 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ::: {.fragment .even-smaller-font}
 -   [**Core-adjacent AP® Coursework**]{.fragment}
-    -   [**Rural**]{.ruralpink} and [**town**]{.green} schools have higher odds of offering *AP® Calculus AB* than [**suburban**]{.blue} and [**city**]{.yellow} schools
-    -   [**Rural**]{.ruralpink} and [**town**]{.green} schools have higher odds of offering *AP® Chemistry* and *AP® Biology* than [**city**]{.yellow} schools
+    -   [[**Rural**]{.ruralpink} and [**town**]{.green} schools have higher odds of offering *AP® Calculus AB* than [**suburban**]{.blue} and [**city**]{.yellow} schools]{.fragment}
+    -   [[**Rural**]{.ruralpink} and [**town**]{.green} schools have higher odds of offering *AP® Chemistry* and *AP® Biology* than [**city**]{.yellow} schools]{.fragment}
 -   [**Newer/Less traditional AP® Coursework**]{.fragment}
-    -   [In the 9 other AP® STEM courses, the odds of offering a given course are lowest for ]{.fragment}[**rural**]{.ruralpink} and [**town**]{.green} schools
+    -   [In the 9 other AP® STEM courses, the odds of offering a given course are lowest for [**rural**]{.ruralpink} and [**town**]{.green} schools]{.fragment}
         -   [Physics (all)]{.fragment}
         -   [Computer Science (both)]{.fragment}
         -   [Calculus BC & Statistics]{.fragment}
@@ -719,12 +719,12 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
 
 
-## **Current Work —** *Part I:* Exploratory Analysis \[Spatial\]
+## *AP® Access:* Exploratory Analysis \[Spatial\]
 
 <hr>
 
@@ -740,11 +740,11 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
 
-## **Current Work —** *Part I:* Exploratory Analysis \[Spatial\]
+## *AP® Access:* Exploratory Analysis \[Spatial\]
 
 <hr>
 
@@ -760,11 +760,11 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
 
-## **Current Work —** *Part I:* Exploratory Analysis \[Spatial\]
+## *AP® Access:* Exploratory Analysis \[Spatial\]
 
 <hr>
 
@@ -786,20 +786,156 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
 
+## *AP® Access:* GWR — \[Spatial\]
 
-------------------------------------------------------------------------
+<hr>
 
-##  {#study-2 data-menu-title="Study Two" background="#010130"}
+:::{.center}
 
-::: page-center
-::: custom-subtitle-two
-**STUDY TWO** <br>[Geographic *Accessibility* of Advanced STEM Success]{.section-subtitle} <br>[\[Student Learning = Indicator Study\]]{.section-subtitle-two}
+[**Locale Coefficients — Odds Ratios**]{.fragment .purple}
+
+:::
+
+:::{.fragment .much-smaller-font .smaller-line-height}
+
+* [[**Red**]{.red-gwr} =[*locale*] schools have lower odds than suburban of offering course]{.fragment}
+* [[**Blue**]{.blue-gwr} = [*locale*] schools have higher odds than suburban of offering course]{.fragment}
+
+:::
+
+::: {layout="[5,5]"}
+
+:::::{.center}
+
+[**AP® Calculus AB**]{.fragment .smaller-font}
+
+::::{.r-stack}
+![](images/GWR_CityCoef_APCalcAB_Map.png){.fragment fig-alt="Local Coefficients on City from GWR"}
+
+![](images/GWR_TownCoef_APCalcAB_Map.png){.fragment fig-alt="Local Coefficients on Town from GWR"}
+
+![](images/GWR_RuralCoef_APCalcAB_Map.png){.fragment fig-alt="Local Coefficients on Rural from GWR"}
+
+:::::
+
+::::
+
+:::::{.center}
+
+[**AP® Computer Science A**]{.fragment .smaller-font}
+
+::::{.r-stack}
+![](images/GWR_CityCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on City from GWR"}
+
+![](images/GWR_TownCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on Town from GWR"}
+
+![](images/GWR_RuralCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on Rural from GWR"}
+
+:::::
+
+::::
+
+:::
+
+
+::: {.absolute top="0" left="100%"}
+::: sectionhead
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
+
+## *AP® Access:* Results \[Aspatial\]
+
+<hr>
+
+::: center
+![](images/OddsRatiosCalcABCompSciA.png){fig-alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP CalcAB or AP Computer Science A" height="300px"}
+:::
+
+::: {layout="[5,5]"}
+::: {.even-smaller-font}
+-   [Relative to suburban schools, the odds of offering **AP® Calculus AB**:]{ .smaller-line-height}
+    -   [16% lower in [**city**]{.yellow} schools]{.smaller-line-height}
+    -   [29% *higher* in [**town**]{.green} schools]{.smaller-line-height}
+    -   [18% *higher* in [**rural**]{.ruralpink} schools]{.smaller-line-height}
+:::
+
+::: {.even-smaller-font}
+-   [Relative to suburban schools, the odds of offering **AP® Computer Science A**:]{ .smaller-line-height}
+-   [5% lower in [**city**]{.yellow} schools]{.smaller-line-height}
+-   [29% lower in [**town**]{.green} schools]{.smaller-line-height}
+-   [36% lower in [**rural**]{.ruralpink} schools]{.smaller-line-height}
+:::
+:::
+
+::: {.absolute top="0" left="100%"}
+::: sectionhead
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
+:::
+:::
+
+## *AP® Access:* GWR — \[Spatial\]
+
+<hr>
+
+:::{.center}
+
+[**Locale Coefficients — Odds Ratios**]{.fragment .purple}
+
+:::
+
+:::{.fragment .much-smaller-font .smaller-line-height}
+
+* [[**Red**]{.red-gwr} =[*locale*] schools have lower odds than suburban of offering course]{.fragment}
+* [[**Blue**]{.blue-gwr} = [*locale*] schools have higher odds than suburban of offering course]{.fragment}
+
+:::
+
+::: {layout="[5,5]"}
+
+:::::{.center}
+
+[**AP® Calculus AB**]{.fragment .smaller-font}
+
+::::{.r-stack}
+![](images/GWR_CityCoef_APCalcAB_TNMap.png){.fragment fig-alt="Local TN Coefficients on City from GWR"}
+
+![](images/GWR_TownCoef_APCalcAB_TNMap.png){.fragment fig-alt="Local TN Coefficients on Town from GWR"}
+
+![](images/GWR_RuralCoef_APCalcAB_TNMap.png){.fragment fig-alt="Local TN Coefficients on Rural from GWR"}
+
+:::::
+
+::::
+
+:::::{.center}
+
+[**AP® Computer Science A**]{.fragment .smaller-font}
+
+::::{.r-stack}
+![](images/GWR_CityCoef_APCompSciA_TNMap.png){.fragment fig-alt="Local TN Coefficients on City from GWR"}
+
+![](images/GWR_TownCoef_APCompSciA_TNMap.png){.fragment fig-alt="Local TN Coefficients on Town from GWR"}
+
+![](images/GWR_RuralCoef_APCompSciA_TNMap.png){.fragment fig-alt="Local TN Coefficients on Rural from GWR"}
+
+:::::
+
+::::
+
+:::
+
+
+::: {.absolute top="0" left="100%"}
+::: sectionhead
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
+:::
+:::
+
 
 
 ------------------------------------------------------------------------
@@ -808,7 +944,7 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ::: page-center
 ::: custom-subtitle-two
-**STUDY THREE** <br>[Community Variation in STEM Teacher Learning]{.section-subtitle} <br>[\[Teacher Learning = Keystone Study\]]{.section-subtitle-three}
+**CURRENT WORK:** *PART II* <br>[Local STEM Teacher Learning Ecologies]{.section-subtitle} <br>[\[Teacher Learning = Keystone Study\]]{.section-subtitle-three}
 :::
 :::
 
@@ -825,6 +961,26 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 :::
 
 ------------------------------------------------------------------------
+
+##  {#current-work-takeaway data-menu-title="AP® Success: Takeaway" background="#010130"}
+
+::: page-center
+::: custom-subtitle-three
+**CURRENT WORK: TAKEAWAY** <br>
+
+::::{.fragment .section-subtitle}
+
+* [There are rural/non-rural disparities in AP® STEM Success]{.fragment}
+  + [Widen in high math-demand, highly technical subjects]{.fragment}
+    - [AP® Chemistry, AP® Calculus AB, AP® Computer Science A, AP® Physics C]{.fragment .smaller-font}
+    - [Preprint Available [^16]]{.fragment .smaller-font}
+    
+::::
+
+[^16]: [Boles, K. L., & Domingue, B. W. (2023). Spatial inequities in Advanced Placement® STEM success: Investigating rural disparities in examination results. EdArXiv.]{.fragment .white}
+
+:::
+:::
 
 ##  {#future-work data-menu-title="Future Work" background="#010130"}
 
