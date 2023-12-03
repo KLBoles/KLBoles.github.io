@@ -790,7 +790,7 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 :::
 :::
 
-## *AP® Access:* GWR — \[Spatial\]
+## *AP® Access:* GWR — Results \[Spatial\]
 
 <hr>
 
@@ -878,7 +878,7 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 :::
 :::
 
-## *AP® Access:* GWR — \[Spatial\]
+## *AP® Access:* GWR — Results \[Spatial\]
 
 <hr>
 
