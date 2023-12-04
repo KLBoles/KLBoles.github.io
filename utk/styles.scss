@@ -131,6 +131,19 @@ hr {
   color: $town-green;
 }
 
+// research question (smaller)
+.research-question-smaller { 
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.5em;
+  left: 20px;
+  line-height: normal;
+  height: 200px;
+  text-align: center;
+  color: $town-green;
+  margin-top: -35px;
+}
+
 // cover slide subtitle (large)
 .custom-subtitle { 
   display: inline-block;

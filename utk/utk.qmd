@@ -978,6 +978,54 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 :::
 :::
 
+## ***Teacher Learning:*** Research Questions
+
+<hr>
+
+<br> <br> [***What expertise resources characterize advanced STEM teachers’ professional content-based learning ecologies? <br><br>How and to what extent do their ecologies vary based on community locale and context? ***]{.research-question-smaller}
+
+::: {.absolute top="0" left="100%"}
+::: sectionhead
+[1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"}
+:::
+:::
+
+## ***Teacher Learning:*** Data
+
+<hr>
+
+::: {.absolute top="0" left="100%"}
+::: sectionhead
+[1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"}
+:::
+:::
+
+::: incremental
+* Professional Learning Resources Survey Instrument
+  + *N* = 53 AP® teachers
+  + Embedded JavaScript mapping tool to geolocate resources
+  
+:::
+
+:::::{.fragment .much-smaller-font}
+|            | Bio       |Calc AB/BC | Chem      | CompSciA  | CompSciPr | EnvSci   | Physics C | Physics 1&2  | Stat
+|------------|-----------|-----------|-----------|-----------|-----------|----------|-----------|--------------|-----------|
+| **City**   | 3         | 2         | 1         | 2         | 0         | 3        | 3         | 2            | 2         |
+| **Suburb** | 0         | 2         | 3         | 0         | 1         | 1        | 0         | 1            | 1         |
+| **Town**   | 2         | 1         | 6         | 1         | 2         | 0        | 3         | 1            | 3         |
+| **Rural**  | 0         | 2         | 1         | 0         | 2         | 0        | 1         | 0            | 1         |
+:::::
+  
+::: incremental  
+  
+* Teacher Interviews
+  + *N* = 12 teachers
+  + Semi-structured interview protocol
+  
+:::
+  
+:::
+
 ------------------------------------------------------------------------
 
 ##  {#current-work-takeaway data-menu-title="AP® Success: Takeaway" background="#010130"}
