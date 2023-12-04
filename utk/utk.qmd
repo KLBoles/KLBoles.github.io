@@ -950,9 +950,27 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ------------------------------------------------------------------------
 
-## **Study 3:** Context
+## ***Teacher Learning:*** Context
 
 <hr>
+
+::::{.fragment .smaller-font}
+
+* Teachers learn from four spheres — interpersonal, institutional, community, and policy[^17]
+* Within these spheres, teachers learn with learning partners and distributed resources[^18]
+* These partners and tools comprise teachers' [**learning ecologies**]{.green}:
+
+:::{.custom-blockquote}
+ 
+>*the accessed set of contexts, comprised of configurations of activities, material resources and relationships, found in co-located physical or virtual spaces that provide opportunities for learning* (Barron, 2004, p.6)[^19]
+
+:::
+
+::::
+
+[^17]: Zavelevsky, E., & Lishchinsky, O. S. (2020). An ecological perspective of teacher retention: An emergent model. *Teaching and Teacher Education, 88*, 1-11.
+[^18]: Pea, R. (1993). Practices of distributed intelligence and designed for education. In G. Salomon (Ed.), *Distributed cognitions: Psychological and educational considerations* (pp. 47-87). Cambridge, UK: Cambridge University Press.
+[^19]: Barron, B. (2004). Learning ecologies for technological fluency: Gender and experience differences. *Journal of Educational Computing Research, 31* (1), 1-36.
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
@@ -973,11 +991,9 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 * [There are rural/non-rural disparities in AP® STEM Success]{.fragment}
   + [Widen in high math-demand, highly technical subjects]{.fragment}
     - [AP® Chemistry, AP® Calculus AB, AP® Computer Science A, AP® Physics C]{.fragment .smaller-font}
-    - [Preprint Available [^16]]{.fragment .smaller-font}
     
 ::::
 
-[^16]: [Boles, K. L., & Domingue, B. W. (2023). Spatial inequities in Advanced Placement® STEM success: Investigating rural disparities in examination results. EdArXiv.]{.fragment .white}
 
 :::
 :::

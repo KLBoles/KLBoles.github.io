@@ -219,6 +219,12 @@ hr {
   font-size: 0.5em !important;
 }
 
+//custom blockquote
+.custom-blockquote {
+    margin-top: -35px;  /* Adjust the value as needed */
+}
+
+
 //quote size 
 .reveal blockquote p:first-child, .reveal blockquote p:last-child{
   font-size: 0.93em;
