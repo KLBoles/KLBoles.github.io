@@ -1016,14 +1016,68 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 | **Rural**  | 0         | 2         | 1         | 0         | 2         | 0        | 1         | 0            | 1         |
 :::::
   
-::: incremental  
+::: incremental
   
-* Teacher Interviews
-  + *N* = 12 teachers
-  + Semi-structured interview protocol
-  
+* [Teacher Interviews]{.semi-transparent}
+  + [*N* = 12 teachers]{.semi-transparent}
+  + [Semi-structured interview protocol]{.semi-transparent}
+
 :::
   
+## ***Teacher Learning:*** Analytic Approach
+
+<hr>
+
+<br>
+
+:::incremental
+
+* Professional Learning Survey
+  + Travel time analysis
+  + Accessibility surface/ isochrone analysis
+  + Spatial composite index
+* Teacher Interviews
+  + Thematic analysis
+
+:::
+
+::: {.absolute top="0" left="100%"}
+::: sectionhead
+[1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"}
+:::
+:::
+
+## ***Teacher Learning:*** Results
+
+<hr>
+
+:::{layout="[5,5]"}
+
+![](images/TLearningEcologyACSA3.png){.fragment fig-alt="Local Teacher Learning Ecology Map"}
+
+::::{.center}
+
+[**AP® Computer Science A**]{.fragment}
+[City]{.fragment .purple .smaller-font}
+
+::::: {.fragment .smaller-font .smaller-line-height}
+* [**17.5** miles from [**school**]{.school-purple} to [**analog**]{.analog-red} resources]{.fragment}
+  + [38 minutes by car]{.fragment .smaller-font}
+* [**18.9** miles from [**school**]{.school-purple} to [**community**]{.community-green} resources]{.fragment}
+  + [31 minutes by car]{.fragment .smaller-font}
+* [**21.1** miles from [**school**]{.school-purple} to [**conference/training**]{.ct-blue} resources]{.fragment}
+  + [33 minutes by car]{.fragment .smaller-font}
+
+:::::
+
+::::
+
+:::
+
+::: {.absolute top="0" left="100%"}
+::: sectionhead
+[1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"}
+:::
 :::
 
 ------------------------------------------------------------------------
