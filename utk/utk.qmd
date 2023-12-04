@@ -504,14 +504,16 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ::: page-center
 ::: custom-subtitle-three
-**PREVIOUS WORK: TAKEAWAY** <br>
+**PREVIOUS WORK:** Implications<br>
 
-::::{.fragment .section-subtitle}
+::::{.fragment .section-subtitle .smaller-line-height}
 
-* [There are rural/non-rural disparities in AP® STEM Success]{.fragment}
-  + [Widen in high math-demand, highly technical subjects]{.fragment}
-    - [AP® Chemistry, AP® Calculus AB, AP® Computer Science A, AP® Physics C]{.fragment .smaller-font}
-    - [Preprint Available [^16]]{.fragment .smaller-font}
+* [Resources needed to support rural equity in advanced secondary STEM]{.fragment .smaller-font}
+* [Research needed in middle school/early secondary STEM preparation]{.fragment .smaller-font}
+* [Increase opportunities for teacher professional learning]{.fragment .smaller-font}
+* [Study/contrast non-rural ecosystem resources]{.fragment .smaller-font}
+    + [AP® Chemistry, AP® Calculus AB, AP® Computer Science A, AP® Physics C]{.fragment .much-smaller-font .smaller-line-height}
+* [Preprint Available [^16]]{.fragment .smaller-font .smaller-line-height}
     
 ::::
 
@@ -626,26 +628,6 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
-
-<!-- ## *AP® Access:* Exploratory Analysis [Aspatial] -->
-
-<!-- <hr> -->
-
-<!-- ::: {.center .smaller-font} -->
-<!-- |                           | City      | Suburb    | Town      | Rural     | -->
-<!-- |---------------------------|-----------|-----------|-----------|-----------| -->
-<!-- | **Total Schools**         | **5,110** | **5,186** | **2,876** | **7,967** | -->
-<!-- | *Count:* Calculus AB      | 2,782     | 3,773     | 1,518     | 3,021     | -->
-<!-- | *Proportion:* Calculus AB | 54.44%    | 72.75%    | 52.78%    | 37.92%    | -->
-<!-- | *Count:* CompSci A        | 1,067     | 1,850     | 270       | 652       | -->
-<!-- | *Proportion:* CompSci A   | 20.88%    | 35.67%    | 9.39%     | 8.18%     | -->
-<!-- ::: -->
-
-<!-- ::: {.absolute top="0" left="100%"} -->
-<!-- ::: sectionhead -->
-<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
-<!-- ::: -->
-<!-- ::: -->
 
 ## *AP® Access:* Analytic Strategy \[Aspatial\]
 
@@ -1086,16 +1068,17 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ::: page-center
 ::: custom-subtitle-three
-**CURRENT WORK: TAKEAWAY** <br>
+**CURRENT WORK:** Implications<br>
 
-::::{.fragment .section-subtitle}
+::::{.fragment .section-subtitle .smaller-line-height}
 
-* [There are rural/non-rural disparities in AP® STEM Success]{.fragment}
-  + [Widen in high math-demand, highly technical subjects]{.fragment}
-    - [AP® Chemistry, AP® Calculus AB, AP® Computer Science A, AP® Physics C]{.fragment .smaller-font}
+* [Resources needed to boost non-core-adjacent advanced STEM offerings in rural and town locales]{.fragment .smaller-font}
+  + [AP® Computer Science (both), AP® Physics (all), AP® Environmental Science, AP® Calculus BC, and AP® Statistics]{.fragment .much-smaller-font .smaller-line-height}
+* [Research needed into regional and state programs supporting STEM coursework]{.fragment .smaller-font}
+* [Opportunities for cross-locale resource networks may support advanced STEM teacher learning]{.fragment .smaller-font}
+
     
 ::::
-
 
 :::
 :::
@@ -1110,9 +1093,29 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 ------------------------------------------------------------------------
 
-## **Future Work**
+## **Research Agenda**
 
 <hr>
+
+:::{layout="[5,5,5]"}
+
+::::{.center}
+[**Learning Ecosystems**]{.fragment .smaller-font}
+
+::::
+
+::::{.center}
+[**Spatial Equity**]{.fragment .smaller-font}
+
+::::
+
+::::{.center}
+[**Data Science as Tool**]{.fragment .smaller-font}
+
+::::
+
+
+:::
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
