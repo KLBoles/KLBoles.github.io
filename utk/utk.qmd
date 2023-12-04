@@ -1034,7 +1034,7 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 * Professional Learning Survey
   + Travel time analysis
-  + Accessibility surface/ isochrone analysis
+  + Accessibility surface/ isochrones
   + Spatial composite index
 * Teacher Interviews
   + Thematic analysis
