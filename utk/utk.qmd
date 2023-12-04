@@ -346,7 +346,7 @@ Like the butterfly and flora...
 
 <hr>
 
-<br> <br> [***How is student success in advanced STEM is related to community demographics and geography?***]{.research-question}
+<br> <br> [***How is student success in advanced STEM related to community demographics and geography?***]{.research-question}
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
