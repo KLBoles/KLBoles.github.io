@@ -435,7 +435,7 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 
 :::{incremental}
 
-[$$\hspace{-1.5cm}Y_{ij} = \beta_0 + \beta_1City_{i} + \beta_2Town_{i} + \beta_3RuralFringe_{i} +  \beta_4RuralDistant_{i} + \beta_5RuralRemote_{i} + \\ \beta_6RaceEth_{i} + \beta_7Female_{i} + \beta_8SESDecile_{i} + \alpha_j + \varepsilon_{ij}$$]{.smaller-font}
+[$$\hspace{-1.75cm}Y_{ij} = \beta_0 + \beta_1City_{i} + \beta_2Town_{i} + \beta_3RuralFringe_{i} +  \beta_4RuralDistant_{i} + \beta_5RuralRemote_{i} + \\ \beta_6RaceEth_{i} + \beta_7Female_{i} + \beta_8SESDecile_{i} + \alpha_j + \varepsilon_{ij}$$]{.smaller-font}
 
 -   [$Y_{ij}$= Predicted AP® exam score for the *i* th student in the *j* th state-exam-year fixed effect]{.much-smaller-font}
 -   [$City_{i},Town_{i},RuralFringe_{i},RuralDistant_{i},RuralRemote_{i}$= NCES Locale indicator variables for school location]{.much-smaller-font}
