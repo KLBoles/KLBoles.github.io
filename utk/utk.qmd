@@ -1101,7 +1101,7 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 :::{layout="[5,5,5]"}
 
 ::::{.center}
-[**Learning Ecosystems**]{.fragment .smaller-font}
+[**Learning Ecosystems**]{.fragment .smaller-font .purple}
 
 :::incremental
 :::::{.fragment .much-smaller-font}
@@ -1113,12 +1113,12 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 ::::
 
 ::::{.center}
-[**Spatial Equity**]{.fragment .smaller-font}
+[**Spatial Equity**]{.fragment .smaller-font .purple}
 
 ::::
 
 ::::{.center}
-[**Data Science as Tool**]{.fragment .smaller-font}
+[**Data Science as Tool**]{.fragment .smaller-font .purple}
 
 ::::
 
