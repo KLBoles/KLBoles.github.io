@@ -1041,7 +1041,7 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 ::::{.center}
 
 [**AP® Computer Science A**]{.fragment}
-[City]{.fragment .purple .smaller-font}
+[City-Located]{.fragment .purple .smaller-font}
 
 ::::: {.fragment .smaller-font .smaller-line-height}
 * [**17.5** miles from [**school**]{.school-purple} to [**analog**]{.analog-red} resources]{.fragment}
