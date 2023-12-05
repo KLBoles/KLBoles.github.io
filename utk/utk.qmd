@@ -1108,7 +1108,7 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 * What resources characterize regional STEM learning ecosystems?
   + How does resource availability vary across communities?
-  + To what degree does the regional presence/absence of resources, institutions, and industry predict local STEM learning outcomes?
+  + To what extent does the regional presence/absence of resources, institutions, and industry predict local STEM learning outcomes?
 * How does human mobility and community resource exposure shape local STEM learning outcomes?
   + How does human mobility and resource exposure vary across geographies?
 * How do student learners engage with their local STEM learning ecosystems?
