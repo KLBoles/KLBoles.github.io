@@ -1182,9 +1182,17 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 <hr>
 
-Mapping Local Resources and Spatial Social Networks Supporting K-12 CS Education
+Understanding Local Resources and Spatial Social Networks Supporting K-12 CS Education
 
-[***RQ:*** (1) What resources and learning partners characterize a regional K-12 CS education learning ecosystem?<br>(2) How and with what frequency do students and teachers engage with these resources/partners?]{.green}
+[***Research Questions:***]{.green}<br> 
+1. What resources and learning partners characterize a regional K-12 CS education learning ecosystem?<br>
+  i. Which institutions and individuals are the key hubs and bridges in the network?
+2. How and with what frequency do students and teachers engage with these resources and partners?
+
+[***Methods***]{.purple}<br>
+* Participatory asset mapping
+* Spatial social network analysis
+* GIS StoryMaps
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
