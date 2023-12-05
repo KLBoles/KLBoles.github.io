@@ -1105,7 +1105,14 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 :::incremental
 :::::{.fragment .much-smaller-font}
-*To what degree d
+
+* What resources characterize regional STEM learning ecosystems?
+  + How does resource availability vary across communities?
+  + To what degree does the regional presence/absence of resources, institutions, and industry predict local STEM learning outcomes?
+* How does human mobility and community resource exposure shape local STEM learning outcomes?
+  + How does human mobility and resource exposure vary across geographies?
+* How do student learners engage with their local STEM learning ecosystems?
+  + Teacher learners?
 
 :::::
 :::
@@ -1115,15 +1122,53 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 ::::{.center}
 [**Spatial Equity**]{.fragment .smaller-font .purple}
 
+:::incremental
+:::::{.fragment .much-smaller-font}
+
+* Which high-leverage resources are most inequitably distributed across space?
+  + How might we amplify the reach of these resources to additional geographic areas?
+* Which regions have strong STEM learning ecosystems? weaker ecosystems?
+  + How might we leverage configurations and learnings of strong ecosystems to strengthen weak ecosystems?
+* Who are the key knowledge brokers within regional spatial social networks for STEM learning?
+  + How does boundary-crossing by knowledge brokers into neighboring regional networks impact STEM ecosystem health?
+
+:::::
+:::
+
 ::::
 
 ::::{.center}
 [**Data Science as Tool**]{.fragment .smaller-font .purple}
 
+:::incremental
+:::::{.fragment .much-smaller-font}
+
+* Which ideas, skills, and practices are most important for students to learn in data science?
+  + How might we support teachers in facilitating this learning?
+* What data science literacies (including ethics) are critical for students to learn in an age of AI and data science democratization?
+* How might data science ideas, skills, and practices be distributed vertically (across grade levels) and horizontally (across disciplines) in K-12 education?
+* What practices and structures support both teachers and students in developing identities as data scientists?
+* How might we support administrators and teachers to leverage data science in improving student outcomes?
+
+:::::
+:::
+
 ::::
 
 
 :::
+
+::: {.absolute top="0" left="100%"}
+::: sectionhead
+[1 2 3 4]{style="opacity:0.25"} 5
+:::
+:::
+
+------------------------------------------------------------------------
+
+## **Research Agenda**
+
+<hr>
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
