@@ -535,11 +535,17 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 <hr>
 
+::::{layout="[1,6]"}
+
+![](images/SankeyPlotLocaleKey.png){.fragment fig-alt="Key for Plot Colors" top="5px"}
+
 :::{.center}
 
-Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEMExam_Coefficients.png){.fragment fig-alt="Ranked Locale Coefficients Across all 12 AP® STEM Subjects" top="5px"}
+[Ranked Locale Coefficients Across All AP® STEM Exams]{.smaller-font}<br>![](images/Sankey_STEMExam_CoefficientsRanked.png){.fragment fig-alt="Ranked Locale Coefficients Across all 12 AP® STEM Subjects" top="5px"}
 
 :::
+::::
+
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
