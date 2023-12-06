@@ -38,13 +38,13 @@ include-after-body: add-custom-footer.html
     iii) [Long-term Goals]{.smaller-font}
 :::
 
-## Positionality {.unnumbered .unlisted}
+## About Me {.unnumbered .unlisted}
 
 <hr>
 
 ::: {.fragment layout="[3,2]"}
 
--   White, female, FGLI
+-   White, female, FLI
 -   Originally from Greene County, TN
 -   Taught secondary math, AP® Statistics, and computer science in Eastern KY for 6 years
 -   Facilitator of professional learning for 5+ years
@@ -749,8 +749,8 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 <hr>
 
-::: {layout="[5,5]"}
-![](images/OddsRatiosAllSTEMCourses.png){.fragment fig-alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP STEM Course"}
+::: {layout="[6,5]"}
+![](images/OddsRatiosAllSTEMCourses.png){.fragment fig-alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP STEM Course" height="800px"}
 
 ::: {.fragment .even-smaller-font}
 -   [**Core-adjacent AP® Coursework**]{.fragment}
@@ -758,10 +758,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
     -   [[**Rural**]{.ruralpink} and [**town**]{.green} schools have higher odds of offering *AP® Chemistry* and *AP® Biology* than [**city**]{.yellow} schools]{.fragment}
 -   [**Newer/Less traditional AP® Coursework**]{.fragment}
     -   [In the 9 other AP® STEM courses, the odds of offering a given course are lowest for [**rural**]{.ruralpink} and [**town**]{.green} schools]{.fragment}
-        -   [Physics (all)]{.fragment}
-        -   [Computer Science (both)]{.fragment}
-        -   [Calculus BC & Statistics]{.fragment}
-        -   [Environmental Science]{.fragment}
+        -   [Physics (all), CS (both), Calc BC, Stats, Environmental Science]{.fragment}
 :::
 :::
 
@@ -844,14 +841,14 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 :::{.center}
 
-[**Locale Coefficients — Odds Ratios**]{.fragment .purple}
+[**Locale Coefficients — Odds Ratios**]{.fragment .green}
 
 :::
 
 :::{.fragment .much-smaller-font .smaller-line-height}
 
-* [[**Red**]{.red-gwr} =[*locale*] schools have lower odds than suburban schools of offering course]{.fragment}
-* [[**Blue**]{.blue-gwr} = [*locale*] schools have higher odds than suburban schools of offering course]{.fragment}
+* [[**Orange**]{.orange} =[*locale*] schools have lower odds than suburban schools of offering course]{.fragment}
+* [[**Purple**]{.purple} = [*locale*] schools have higher odds than suburban schools of offering course]{.fragment}
 
 :::
 
