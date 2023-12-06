@@ -1080,11 +1080,13 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 * Professional Learning Survey
   + Travel time analysis
   + Accessibility surface/ isochrones
-  + Spatial composite index
+  + Spatial composite index [^23]
 * Teacher Interviews
   + Thematic analysis
 
 :::
+
+[^23]: Esri. (2023). *Creating composite indices using ArcGIS: Best practices*. Technical Paper.
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
