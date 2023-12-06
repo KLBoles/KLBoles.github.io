@@ -1186,13 +1186,17 @@ Understanding Local Resources and Spatial Social Networks Supporting K-12 CS Edu
 
 [***Research Questions:***]{.green}<br> 
 1. What resources and learning partners characterize a regional K-12 CS education learning ecosystem?<br>
-  i. Which institutions and individuals are the key hubs and bridges in the network?
+  i) Which institutions and individuals are the key hubs and bridges in the network?
 2. How and with what frequency do students and teachers engage with these resources and partners?
 
 [***Methods***]{.purple}<br>
-* Participatory asset mapping
-* Spatial social network analysis
-* GIS StoryMaps
+
+* Participatory asset mapping [^20]
+* Spatial social network analysis [^21]
+* GIS StoryMaps [^22]
+
+[^20] Elwood, S. (2011). Participatory approaches in GIS and society research: Foundations, practices, and future directions. In *The SAGE Handbook of GIS and Society* (pp. 381-399). SAGE.
+[^21] Andris, C., & Sarkar, D. (2022). Social networks in space. In S. J. Rey & R. Franklin (Eds.), *Handbook of Spatial Analysis in the Social Sciences* (pp. 400-415). Elgar.
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
