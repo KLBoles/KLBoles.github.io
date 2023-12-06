@@ -11,8 +11,8 @@ format:
     slide-number: true
     cap-location: bottom
     tbl-cap-location: bottom
-    chalkboard: 
-      boardmarker-width: 5
+    # chalkboard: 
+    #   boardmarker-width: 5
     preview-links: auto
     footer: <https://klboles.github.io/utk/utk>
 execute: 
@@ -194,11 +194,19 @@ floyd_co_ky
 
 <br>
 
+::::{.absolute top="100"}
+
+[**Ecosystem Health**[^3]]{.purple}
+
+::::
+
 ::: {layout="[-3,2,3,-3]"}
 ![](images/butterfly.png){.fragment fig-alt="Colorful butterfly is example of indicator species" height="150px"}<br> [Indicator]{.fragment}
 
 ![](images/flower.png){.fragment fig-alt="Colorful flower is example of keystone species" width="266px" height="350px"}<br> [Keystone]{.fragment}
 :::
+
+[^3]: Hecht, M. & Crowley, K. (2020). Unpacking the learning ecosystems framework: Lessons from the adaptive management of biological ecosystems. Journal of the Learning Sciences, 29(2), 264-284.
 
 ## **Frameworks:** Ecosystem Health
 
@@ -212,27 +220,33 @@ floyd_co_ky
 
 <br>
 
+::::{.absolute top="100"}
+
+[**Ecosystem Health**[^3]]{.purple}
+
+::::
+
 ::: {layout="[-3,2,3,-3]"}
 [ ](images/butterfly.png){height="150px"}
 
 ![](images/browningflower.png){fig-alt="Browning flower is example of declining health of keystone species/ecosystem" width="266px" height="350px"}<br> Keystone
 :::
 
-## **Frameworks:** Ecosystem Health
+<!-- ## **Frameworks:** Ecosystem Health -->
 
-<hr>
+<!-- <hr> -->
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-1 [2 3 4 6]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- 1 [2 3 4 6]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
-Like the butterfly and flora...
+<!-- Like the butterfly and flora... -->
 
-> "When youth are thriving, interested, and learning in a classroom, neighborhood, or informal learning program, we know the system is healthy. When they are struggling, we know the system is not healthy. Seeing learners as indicators could allow educational researchers to focus on youth as critical barometers of ecosystem health, while shifting energy away from creating interventions that target youth outcomes."<br><br>(Hecht & Crowley, 2020, p. 276) [^3]
+<!-- > "When youth are thriving, interested, and learning in a classroom, neighborhood, or informal learning program, we know the system is healthy. When they are struggling, we know the system is not healthy. Seeing learners as indicators could allow educational researchers to focus on youth as critical barometers of ecosystem health, while shifting energy away from creating interventions that target youth outcomes."<br><br>(Hecht & Crowley, 2020, p. 276) [^3] -->
 
-[^3]: Hecht, M. & Crowley, K. (2020). Unpacking the learning ecosystems framework: Lessons from the adaptive management of biological ecosystems. Journal of the Learning Sciences, 29(2), 264-284. https://doi.org/10.1080/10508406.2019.1693381
+<!-- [^3]: Hecht, M. & Crowley, K. (2020). Unpacking the learning ecosystems framework: Lessons from the adaptive management of biological ecosystems. Journal of the Learning Sciences, 29(2), 264-284. https://doi.org/10.1080/10508406.2019.1693381 -->
 
 ## **Frameworks:** Ecosystem Health
 
@@ -380,11 +394,28 @@ Like the butterfly and flora...
 
 <hr>
 
+::::{layout="[6,4]"}
+
 :::{.center}
 
-Mean AP® Exam Scores by Domain<br>![](images/Figure_AvgYearlyExamPerformanceByExamByLocale_Report.png){.fragment fig-alt="Mean AP® Exam Scores by Domain by Year" top="5px"}
+[Mean AP® Exam Scores by Domain]{.fragment .smaller-font}<br>![](images/Figure_AvgYearlyExamPerformanceByExamByLocale_Report.png){.fragment fig-alt="Mean AP® Exam Scores by Domain by Year" top="5px"}
 
 :::
+
+:::::incremental
+
+<br>
+
+* [[**City**]{.yellow}: principal U.S. city]{.smaller-font}
+* [[**Suburb**]{.blue}: densely populated urban area with population >= 50,000]{.smaller-font}
+* [[**Town**]{.green}: 2,500 =< population < 50,000]{.smaller-font}
+* [[**Rural**]{.ruralpink}: outside other locale classifications]{.smaller-font}
+
+:::::
+
+::::
+
+
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
