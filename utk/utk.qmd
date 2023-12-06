@@ -658,7 +658,18 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 <hr>
 
 ::: center
-![](images/ProportionofSchoolsOfferingEachSTEMAPByLocale.png){.fragment fig-alt="Bar graph of the proportion of U.S. public schools offering each STEM AP® by locale" height="550px"}
+
+[**Proportion of U.S. Public Schools Offering AP® STEM Course by Locale**]{.fragment .smaller-font}
+
+::::{.r-stack}
+
+![](images/ProportionPlotCalcABCompSciASlide1.png){.fragment fig-alt="Horizontal bar graph of the proportion of U.S. public schools by Locale" height="400px"}
+
+![](images/ProportionPlotCalcABCompSciASlide2.png){.fragment fig-alt="Horizontal bar graph of the proportion of U.S. public schools offering AP® Calculus AB" height="400px"}
+
+![](images/ProportionPlotCalcABCompSciASlide3.png){.fragment fig-alt="Horizontal bar graph of the proportion of U.S. public schools offering AP® Calculus AB and AP® Computer Science A by locale" height="400px"}
+::::
+
 :::
 
 ::: {.absolute top="0" left="100%"}
@@ -667,12 +678,15 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
+
 ## *AP® Access:* Exploratory Analysis \[Aspatial\]
 
 <hr>
 
 ::: center
-![](images/ProportionPlotCalcABCompSciA.png){.fragment fig-alt="Horizontal bar graph of the proportion of U.S. public schools offering AP® Calculus AB and AP® Computer Science A by locale" height="550px"}
+[**Proportion of U.S. Public Schools Offering AP® STEM Course by Locale**]{.fragment .smaller-font .smaller-line-height}
+
+![](images/ProportionofSchoolsOfferingEachSTEMAPByLocale.png){.fragment fig-alt="Bar graph of the proportion of U.S. public schools offering each STEM AP® by locale" height="550px"}
 :::
 
 ::: {.absolute top="0" left="100%"}
