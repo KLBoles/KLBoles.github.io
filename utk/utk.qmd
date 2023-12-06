@@ -29,13 +29,13 @@ include-after-body: add-custom-footer.html
 
 ::: incremental
 1.  Research Overview & Frameworks
-2.  Previous Work
-    i) [Landscape of Student Success in Advanced STEM]{.smaller-font}
-3.  Current Work
-    i) [Landscape of Course Availability in Advanced STEM]{.smaller-font}
-    ii) [Landscape of Professional Learning Opportunities in Advanced STEM]{.smaller-font}
-4.  Research Agenda
-5.  Research Goals
+2.  Previous Work - AP® Success
+3.  Current Work - AP® Access
+4.  Current Work - Teacher Learning
+5.  Future Work
+    i) [Research Agenda]{.smaller-font}
+    ii) [Research Proposal]{.smaller-font}
+    iii) [Long-term Goals]{.smaller-font}
 :::
 
 ## Positionality {.unnumbered .unlisted}
