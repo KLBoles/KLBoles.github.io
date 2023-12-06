@@ -381,11 +381,16 @@ floyd_co_ky
 :::
 
 ::: incremental
+
+::::{.smaller-line-height}
 -   Population of all AP® exam results for U.S. public high school students from AY 2015-2019
-    -   *N* = 16,993,460
-    -   Success (passing the exam; 3+) demonstrates access to the course content
+    -   [*N* = 16,993,460]{.smaller-font}
+    -   [Success (passing the exam; 3+) demonstrates access to the course content]{.smaller-font}
 -   Stanford Education Data Archive (SEDA) [^14]
-    -   Composite SES measure by school district
+    -   [Composite SES measure by school district]{.smaller-font}
+        - [median family income, proportion adults with bachelor's +, proportion adults unemployed, household poverty rate, proportion of households receiving SNAP, proportion of households headed by a single mother]{.much-smaller-font}
+
+::::
 :::
 
 [^14]: reardon., s.f., Ho, A. D., Shear, B. R., Fahle, E. M., Kalogrides, D., Jang, H., & Chavez, B. (2021). Stanford Education Data Archive (Version 4.1).
@@ -398,7 +403,16 @@ floyd_co_ky
 
 :::{.center}
 
-[Mean AP® Exam Scores by Domain]{.fragment .smaller-font}<br>![](images/Figure_AvgYearlyExamPerformanceByExamByLocale_Report.png){.fragment fig-alt="Mean AP® Exam Scores by Domain by Year" top="5px"}
+[Mean AP® Exam Scores by Domain]{.fragment .smaller-font}<br>
+
+:::::{.r-stack}
+
+![](images/Figure_AvgYearlyExamPerformanceByExamByLocale_Report_AllOnly.png){.fragment fig-alt="Mean AP® Exam Scores by Domain by Year" top="5px"}
+
+![](images/Figure_AvgYearlyExamPerformanceByExamByLocale_Report.png){.fragment fig-alt="Mean AP® Exam Scores by Domain by Year" top="5px"}
+
+
+:::::
 
 :::
 
@@ -474,7 +488,7 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 -   [$City_{i},Town_{i},RuralFringe_{i},RuralDistant_{i},RuralRemote_{i}$= NCES Locale indicator variables for school location]{.much-smaller-font}
 -   [$SESDecile_{i}$= Composite SES variable from SEDA, in deciles]{.much-smaller-font}
 -   [$RaceEth_{i},Female_{i}$= Binary indicator variables for student demographics]{.much-smaller-font}
--   [$\alpha_{j}$= State by exam by year fixed-effects]{.much-smaller-font}
+-   [$\alpha_{j}$= State by exam by year fixed effects]{.much-smaller-font}
 
 :::
 
@@ -507,7 +521,7 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 
 :::{.center}
 
-Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNonRuralGaps.png){.fragment fig-alt="Top 10 Rural/Non-Rural Gaps by Raw Mean Difference, Rural Disaggregated" top="5px"}
+Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNonRuralGapsBoldNumbers.png){.fragment fig-alt="Top 10 Rural/Non-Rural Gaps by Raw Mean Difference, Rural Disaggregated" top="5px"}
 
 :::
 
