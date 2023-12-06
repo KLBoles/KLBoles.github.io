@@ -29,9 +29,9 @@ include-after-body: add-custom-footer.html
 
 ::: incremental
 1.  Research Overview & Frameworks
-2.  Previous Work - AP® Success
-3.  Current Work - AP® Access
-4.  Current Work - Teacher Learning
+2.  Previous Work - *AP® Success*
+3.  Current Work - *AP® Access*
+4.  Current Work - *Teacher Learning*
 5.  Future Work
     i) [Research Agenda]{.smaller-font}
     ii) [Research Proposal]{.smaller-font}
