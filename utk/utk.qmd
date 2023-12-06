@@ -859,11 +859,11 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 [**AP® Calculus AB**]{.fragment .smaller-font}
 
 ::::{.r-stack}
-![](images/GWR_CityCoef_APCalcAB_Map.png){.fragment fig-alt="Local Coefficients on City from GWR"}
+![](images/GWR_CityCoef_APCalcAB_Map.png){.fragment fig-alt="Local Coefficients on City from GWR" height="370px"}
 
-![](images/GWR_TownCoef_APCalcAB_Map.png){.fragment fig-alt="Local Coefficients on Town from GWR"}
+![](images/GWR_TownCoef_APCalcAB_Map.png){.fragment fig-alt="Local Coefficients on Town from GWR" height="370px"}
 
-![](images/GWR_RuralCoef_APCalcAB_Map.png){.fragment fig-alt="Local Coefficients on Rural from GWR"}
+![](images/GWR_RuralCoef_APCalcAB_Map.png){.fragment fig-alt="Local Coefficients on Rural from GWR" height="370px"}
 
 :::::
 
@@ -874,11 +874,11 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 [**AP® Computer Science A**]{.fragment .smaller-font}
 
 ::::{.r-stack}
-![](images/GWR_CityCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on City from GWR"}
+![](images/GWR_CityCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on City from GWR" height="370px"}
 
-![](images/GWR_TownCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on Town from GWR"}
+![](images/GWR_TownCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on Town from GWR" height="370px"}
 
-![](images/GWR_RuralCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on Rural from GWR"}
+![](images/GWR_RuralCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on Rural from GWR" height="370px"}
 
 :::::
 
@@ -929,14 +929,14 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 :::{.center}
 
-[**Locale Coefficients — Odds Ratios**]{.fragment .purple}
+[**Locale Coefficients — Odds Ratios**]{.fragment .green}
 
 :::
 
 :::{.fragment .much-smaller-font .smaller-line-height}
 
-* [[**Red**]{.red-gwr} =[*locale*] schools have lower odds than suburban schools of offering course]{.fragment}
-* [[**Blue**]{.blue-gwr} = [*locale*] schools have higher odds than suburban schools of offering course]{.fragment}
+* [[**Orange**]{.orange} =[*locale*] schools have lower odds than suburban schools of offering course]{.fragment}
+* [[**Purple**]{.purple} = [*locale*] schools have higher odds than suburban schools of offering course]{.fragment}
 
 :::
 
