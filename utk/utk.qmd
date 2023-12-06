@@ -1182,21 +1182,29 @@ Ranked Locale Coefficients Across All AP® STEM Exams<br>![](images/Sankey_STEME
 
 <hr>
 
-Understanding Local Resources and Spatial Social Networks Supporting K-12 CS Education
+[***Regional Ecosystems to Support K-12 CS Education***]{.smaller-font}
 
-[***Research Questions:***]{.green}<br> 
-1. What resources and learning partners characterize a regional K-12 CS education learning ecosystem?<br>
-  i) Which institutions and individuals are the key hubs and bridges in the network?
-2. How and with what frequency do students and teachers engage with these resources and partners?
+[**Research Questions:**]{.green .smaller-font}<br>
 
-[***Methods***]{.purple}<br>
+::::{.fragment .smaller-font .smaller-line-height}
 
-* Participatory asset mapping [^20]
-* Spatial social network analysis [^21]
-* GIS StoryMaps [^22]
+1. [What resources and learning partners characterize a regional K-12 CS education learning ecosystem?]{.fragment .smaller-font .smaller-line-height}
+    i) [Which institutions and individuals are the key hubs and bridges in the network?]{.fragment .smaller-font .smaller-line-height}
+2. [How do students and teachers engage with the ecosystem?]{.fragment .smaller-font .smaller-line-height}
 
-[^20] Elwood, S. (2011). Participatory approaches in GIS and society research: Foundations, practices, and future directions. In *The SAGE Handbook of GIS and Society* (pp. 381-399). SAGE.
-[^21] Andris, C., & Sarkar, D. (2022). Social networks in space. In S. J. Rey & R. Franklin (Eds.), *Handbook of Spatial Analysis in the Social Sciences* (pp. 400-415). Elgar.
+::::
+
+[**Methods:**]{.purple .smaller-font}<br>
+
+::::{.fragment .smaller-font .smaller-line-height}
+
+* [Participatory asset mapping [^20], Spatial social network analysis [^21], GIS story maps [^22]]{.fragment .smaller-font .smaller-line-height}
+
+::::
+
+[^20]: Elwood, S. (2011). Participatory approaches in GIS and society research: Foundations, practices, and future directions. In *The SAGE Handbook of GIS and Society* (pp. 381-399). SAGE.
+[^21]: Andris, C., & Sarkar, D. (2022). Social networks in space. In S. J. Rey & R. Franklin (Eds.), *Handbook of Spatial Analysis in the Social Sciences* (pp. 400-415). Elgar.
+[^22]: Lung-Amam, W. S., & Dawkins, C. (2019). The power of participatory story mapping: Advancing equitable development in disadvantaged neighbourhoods. *Community Development Journal, 55*(3), 473-495.
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
@@ -1210,7 +1218,11 @@ Understanding Local Resources and Spatial Social Networks Supporting K-12 CS Edu
 
 <hr>
 
+<br>
 
+1. To [**make visible spatial inequities**]{.green} in STEM learning opportunities
+2. To support [**high-quality STEM experiences for all learners**]{.purple} in regions of inopportunity
+3. To move toward the realization of [**spatial justice**]{.blue-gwr} — *spatial equity in the distribution of resources and opportunities* — [**for all learners**]{.blue-gwr}
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
