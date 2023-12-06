@@ -630,7 +630,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 -   AP® Course Audit Data for all U.S. Public Schools (2015-'19)
     -   *N* = 21,139 schools
 -   [PLTW® Schools and Programs for AY 2021-2022]{.fragment .semi-fade-out}
--   NCES Common Core of Data
+
 :::
 
 ::: {.absolute top="0" left="100%"}
