@@ -1246,7 +1246,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 [***Regional Ecosystems to Support K-12 CS Education***]{.smaller-font}
 
-[**Research Questions:**]{.green .smaller-font}<br>
+[**Research Questions:**]{.fragment .green .smaller-font}<br>
 
 ::::{.fragment .smaller-font .smaller-line-height}
 
@@ -1256,7 +1256,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 ::::
 
-[**Methods:**]{.purple .smaller-font}<br>
+[**Methods:**]{.fragment .purple .smaller-font}<br>
 
 ::::{.fragment .smaller-font .smaller-line-height}
 
@@ -1284,7 +1284,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 1. To [**make visible spatial inequities**]{.green} in STEM learning opportunities
 2. To support [**high-quality STEM experiences for all learners**]{.purple} in regions of inopportunity
-3. To move toward the realization of [**spatial justice**]{.blue-gwr} — *spatial equity in the distribution of resources and opportunities* — [**for all learners**]{.blue-gwr}
+3. To move toward the realization of [**spatial justice**]{.orange} — *spatial equity in the distribution of resources and opportunities* — [**for all learners**]{.orange}
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
