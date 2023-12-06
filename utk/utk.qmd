@@ -399,7 +399,18 @@ floyd_co_ky
 
 <hr>
 
-::::{layout="[6,4]"}
+::::{layout="[4,6]"}
+
+:::::incremental
+
+<br>
+
+* [[**City**]{.yellow}: principal U.S. city]{.smaller-font}
+* [[**Suburb**]{.blue}: densely populated urban area with population >= 50,000]{.smaller-font}
+* [[**Town**]{.green}: 2,500 =< population < 50,000]{.smaller-font}
+* [[**Rural**]{.ruralpink}: outside other locale classifications]{.smaller-font}
+
+:::::
 
 :::{.center}
 
@@ -415,17 +426,6 @@ floyd_co_ky
 :::::
 
 :::
-
-:::::incremental
-
-<br>
-
-* [[**City**]{.yellow}: principal U.S. city]{.smaller-font}
-* [[**Suburb**]{.blue}: densely populated urban area with population >= 50,000]{.smaller-font}
-* [[**Town**]{.green}: 2,500 =< population < 50,000]{.smaller-font}
-* [[**Rural**]{.ruralpink}: outside other locale classifications]{.smaller-font}
-
-:::::
 
 ::::
 
