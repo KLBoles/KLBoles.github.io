@@ -124,7 +124,7 @@ floyd_co_ky
 
 :::
 
-## Terminology
+## Terminology: Space/Spatial
 
 <hr>
 
@@ -143,6 +143,33 @@ floyd_co_ky
     - is not: data that is spatially distributed
       +  Demographic data for each U.S. county
       +  [**NCES locale codes**]{.green} *(e.g., City, Suburb, Town, Rural)*
+    
+::::   
+
+:::
+
+:::
+
+## Terminology: Advanced STEM
+
+<hr>
+
+::: incremental
+
+::::{.smaller-font .smaller-line-width}
+
+-   What is advanced STEM?
+    - Advanced Secondary STEM
+        - Science
+        - Technology
+        - Engineering
+        - Mathematics
+        
+-   Advanced STEM Delivery?
+    -   **Advanced Placement (AP)**
+    -   **Project Lead the Way (PLTW)**
+    -   International Baccalaureate (IB)
+    -   Dual Enrollment
     
 ::::   
 
@@ -654,8 +681,6 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 -   [AP® Course Audit Data for all U.S. Public Schools (2015-'19)]{.fragment .semi-fade-out}
 -   PLTW® Schools and Programs for AY 2021-2022
-    - $N_{PLTW}$ = 5,178 schools
-    - $N_{PLTW^C}$ = 16,015 schools
 
 :::
 
