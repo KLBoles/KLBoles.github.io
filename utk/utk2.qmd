@@ -627,9 +627,9 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 ::: incremental
 <br>
 
--   AP® Course Audit Data for all U.S. Public Schools (2015-'19)
-    -   *N* = 21,139 schools
--   [PLTW® Schools and Programs for AY 2021-2022]{.fragment .semi-fade-out}
+-   [AP® Course Audit Data for all U.S. Public Schools (2015-'19)]{.fragment .semi-fade-out}
+-   PLTW® Schools and Programs for AY 2021-2022
+    -   *N* = 21,210 schools
 
 :::
 
@@ -644,7 +644,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 <hr>
 
 ::: center
-![](images/BarplotOfTotalSchoolsOfferingEachAPSTEMCourse.png){.fragment fig-alt="Bar graph showing the total counts of public U.S. high schools offering each AP® STEM Course"}
+![](images/PLTW/BarplotOfTotalSchoolsOfferingEachPLTWSTEMCourse.png){.fragment fig-alt="Bar graph showing the total counts of public U.S. high schools offering each PLTW® STEM Course"}
 :::
 
 ::: {.absolute top="0" left="100%"}
