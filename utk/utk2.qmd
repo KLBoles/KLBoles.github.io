@@ -124,6 +124,31 @@ floyd_co_ky
 
 :::
 
+## Terminology
+
+<hr>
+
+::: incremental
+
+::::{.smaller-font .smaller-line-width}
+
+-   What is 'space'?
+    -   outer space, physical space, [**geographic space**]{.green}
+    
+-   Spatial data
+    - is: data that has a spatial component
+      +  geographic boundaries
+      +  geographic features
+      +  [**geographic coordinates**]{.green}
+    - is not: data that is spatially distributed
+      +  Demographic data for each U.S. county
+      +  [**NCES locale codes**]{.green} *(e.g., City, Suburb, Town, Rural)*
+    
+::::   
+
+:::
+
+
 ## Why Space?
 
 <hr>
@@ -629,7 +654,8 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 -   [AP® Course Audit Data for all U.S. Public Schools (2015-'19)]{.fragment .semi-fade-out}
 -   PLTW® Schools and Programs for AY 2021-2022
-    -   *N* = 21,193 schools
+    - $N_{PLTW}$ = 5,178 schools
+    - $N_{PLTW^C}$ = 16,015 schools
 
 :::
 
@@ -703,7 +729,14 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 <hr>
 
 ::: center
-![](images/PLTW/OddsRatiosPLTWBiomedical_Engineering.png){.fragment fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering Biomedical Science or Engineering" height="300px"}
+
+:::::{.r-stack}
+![](images/PLTW/OddsRatiosPLTWBiomedical_Engineering1.png){.fragment fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering Biomedical Science" height="300px"}
+
+![](images/PLTW/OddsRatiosPLTWBiomedical_Engineering2.png){.fragment fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering Biomedical Science or Engineering" height="300px"}
+
+:::::
+
 :::
 
 ::: {layout="[5,5]"}
@@ -728,6 +761,41 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
+## *STEM Access:* Results \[Aspatial\]
+
+<hr>
+
+::: center
+
+![](images/PLTW/OddsRatiosPLTWAll.png){.fragment fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering PLTW pathway" height="300px"}
+:::
+
+
+::: {.fragment .even-smaller-font}
+:::: {.columns}
+:::::{.column width="33.3%"}
+**Biomedical Science**
+    - Relative to Suburban school, [**Rural**]{.ruralpink} (17% lower) and [**City**]{.yellow} (9% lower) schools have lowest odds for offering the pathway
+::::: 
+
+:::::{.column width="33.3%"}
+**Computer Science**
+    -   [**Rural**]{.ruralpink} (11% lower),[**Town**]{.green} (8% lower), and [**City**]{.yellow} (12% lower) all have lower odds than suburban schools of offering pathway
+:::::
+
+:::::{.column width="33.3%"}
+**Engineering**
+    -   [**City**]{.yellow} schools have lowest odds (19% lower) of offering the pathway compared to suburban schools
+:::::
+::::
+:::
+
+::: {.absolute top="0" left="100%"}
+::: sectionhead
+[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
+:::
+:::
+
 
 ## *STEM Access:* Exploratory Analysis \[Spatial\]
 
@@ -737,9 +805,9 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 [**Raw Data**]{.fragment .purple}
 
 ::: {layout="[5,5]"}
-![](images/CalculusABMappingRaw.png){.fragment fig-alt="Spatial plot of all high schools offering/not offering AP Calculus AB across the U.S."}[AP® Calculus AB]{.fragment}
+![](images/PLTW/BiomedicalScienceMappingRaw.png){.fragment fig-alt="Spatial plot of all high schools offering/not offering PLTW Engineering across the U.S."}[PLTW® Biomedical Science]{.fragment}
 
-![](images/ComputerScienceAMappingRaw.png){.fragment fig-alt="Spatial plot of all high schools offering/not offering AP Computer Science A across the U.S."}[AP® Computer Science A]{.fragment}
+![](images/PLTW/EngineeringMappingRaw.png){.fragment fig-alt="Spatial plot of all high schools offering/not offering PLTW Engineering across the U.S."}[PLTW® Engineering]{.fragment}
 :::
 :::
 
@@ -757,9 +825,9 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 [**Residuals from Logit Models**]{.fragment .purple}
 
 ::: {layout="[5,5]"}
-![](images/ResidualPlotCalculusABLogit.png){.fragment fig-alt="Residual plot AP® Calculus AB Logit Model"}[AP® Calculus AB]{.fragment}
+![](images/PLTW/ResidualPlotBiomedicalScienceLogit.png){.fragment fig-alt="Residual plot PLTW® Biomedical Science Logit Model"}[PLTW® Biomedical Science]{.fragment}
 
-![](images/ResidualPlotComputerScienceALogit.png){.fragment fig-alt="Residual plot AP® Computer Science A Logit Model"}[AP® Computer Science A]{.fragment}
+![](images/PLTW/ResidualPlotEngineeringLogit.png){.fragment fig-alt="Residual plot PLTW® Engineering Logit Model"}[PLTW® Engineering]{.fragment}
 :::
 :::
 
@@ -781,11 +849,11 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 ::: {layout="[5,5]"}
 ::: center
-[**AP® Calculus AB**]{.green .fragment}<br>[$$I = .220 , p < .001$$]{.fragment .smaller-line-height}
+[**PLTW® Biomedical Science**]{.green .fragment}<br>[$$I = .292 , p < .001$$]{.fragment .smaller-line-height}
 :::
 
 ::: center
-[**AP® Computer Science A**]{.green .fragment}<br>[$$I = .262 , p < .001$$]{.fragment .smaller-line-height}
+[**PLTW® Engineering**]{.green .fragment}<br>[$$I = .289 , p < .001$$]{.fragment .smaller-line-height}
 :::
 :::
 
@@ -807,8 +875,8 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 :::{.fragment .much-smaller-font .smaller-line-height}
 
-* [[**Orange**]{.orange} =[*locale*] schools have lower odds than suburban schools of offering course]{.fragment}
-* [[**Purple**]{.purple} = [*locale*] schools have higher odds than suburban schools of offering course]{.fragment}
+* [[**Orange**]{.orange} =[*locale*] schools have lower odds than suburban schools of offering pathway]{.fragment}
+* [[**Purple**]{.purple} = [*locale*] schools have higher odds than suburban schools of offering pathway]{.fragment}
 
 :::
 
@@ -816,7 +884,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 :::::{.center}
 
-[**AP® Calculus AB**]{.fragment .smaller-font}
+[**PLTW® Biomedical Science**]{.fragment .smaller-font}
 
 ::::{.r-stack}
 ![](images/GWR_CityCoef_APCalcAB_Map.png){.fragment fig-alt="Local Coefficients on City from GWR" height="370px"}
@@ -831,7 +899,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 :::::{.center}
 
-[**AP® Computer Science A**]{.fragment .smaller-font}
+[**PLTW® Engineering**]{.fragment .smaller-font}
 
 ::::{.r-stack}
 ![](images/GWR_CityCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on City from GWR" height="370px"}
@@ -858,22 +926,25 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 <hr>
 
 ::: center
-![](images/OddsRatiosCalcABCompSciA.png){fig-alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP CalcAB or AP Computer Science A" height="300px"}
+
+![](images/PLTW/OddsRatiosPLTWBiomedical_Engineering2.png){fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering Biomedical Science or Engineering" height="300px"}
+
+
 :::
 
 ::: {layout="[5,5]"}
 ::: {.even-smaller-font}
--   [Relative to suburban schools, the odds of offering **AP® Calculus AB**:]{ .smaller-line-height}
-    -   [16% lower in [**city**]{.yellow} schools]{.smaller-line-height}
-    -   [29% *higher* in [**town**]{.green} schools]{.smaller-line-height}
-    -   [18% *higher* in [**rural**]{.ruralpink} schools]{.smaller-line-height}
+-   [Relative to suburban schools, the odds of offering the **Biomedical Science** pathway:]{.smaller-line-height}
+    -   [9% lower in [**city**]{.yellow} schools]{.smaller-line-height}
+    -   [2% lower in [**town**]{.green} schools]{.smaller-line-height}
+    -   [17% lower in [**rural**]{.ruralpink} schools]{.smaller-line-height}
 :::
 
 ::: {.even-smaller-font}
--   [Relative to suburban schools, the odds of offering **AP® Computer Science A**:]{ .smaller-line-height}
--   [5% lower in [**city**]{.yellow} schools]{.smaller-line-height}
--   [29% lower in [**town**]{.green} schools]{.smaller-line-height}
--   [36% lower in [**rural**]{.ruralpink} schools]{.smaller-line-height}
+-   [Relative to suburban schools, the odds of offering the **Engineering** pathway:]{ .smaller-line-height}
+-   [19% lower in [**city**]{.yellow} schools]{.smaller-line-height}
+-   [1% *higher* in [**town**]{.green} schools]{.smaller-line-height}
+-   [2% *higher* in [**rural**]{.ruralpink} schools]{.smaller-line-height}
 :::
 :::
 
@@ -882,6 +953,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
+
 
 ## *STEM Access:* GWR — Results \[Spatial\]
 
@@ -895,8 +967,8 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 :::{.fragment .much-smaller-font .smaller-line-height}
 
-* [[**Orange**]{.orange} =[*locale*] schools have lower odds than suburban schools of offering course]{.fragment}
-* [[**Purple**]{.purple} = [*locale*] schools have higher odds than suburban schools of offering course]{.fragment}
+* [[**Orange**]{.orange} =[*locale*] schools have lower odds than suburban schools of offering pathway]{.fragment}
+* [[**Purple**]{.purple} = [*locale*] schools have higher odds than suburban schools of offering pathway]{.fragment}
 
 :::
 
@@ -941,7 +1013,25 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
+##  {#current-work-1-implications data-menu-title="AP® Success: Takeaway" background="#010130"}
 
+::: page-center
+::: custom-subtitle-three
+**CURRENT WORK:** Implications<br>
+
+EDIT THIS SLIDE
+
+::::{.fragment .section-subtitle .smaller-line-height}
+
+* [Shows urgency of boosting non-core-adjacent advanced STEM offerings in rural and town locales]{.fragment .smaller-font}
+  + [AP® Computer Science (both), AP® Physics (all), AP® Environmental Science, AP® Calculus BC, and AP® Statistics]{.fragment .much-smaller-font .smaller-line-height}
+* [Demonstrates need for inquiry into regional and state programs supporting STEM coursework]{.fragment .smaller-font}
+*
+
+::::
+
+:::
+:::
 
 ------------------------------------------------------------------------
 
@@ -1006,53 +1096,74 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 
 ::: incremental
+
+:::{.smaller-line-height}
 * Professional Learning Resources Survey Instrument
-  + *N* = 53 AP® teachers
+  + *N* = 68 AP® & PLTW® teachers
   + Embedded JavaScript mapping tool to geolocate resources
+
+::::
   
 :::
 
 :::::{.fragment .much-smaller-font}
-|            | Bio       |Calc AB/BC | Chem      | CompSciA  | CompSciPr | EnvSci   | Physics C | Physics 1&2  | Stat
+|            | AP® Bio       |AP® Calc AB/BC | AP® Chem      | AP® CompSciA  | AP® CompSciPr | AP® EnvSci   | AP® Physics C | AP® Physics 1&2  | AP® Stat
 |------------|-----------|-----------|-----------|-----------|-----------|----------|-----------|--------------|-----------|
 | **City**   | 3         | 2         | 1         | 2         | 0         | 3        | 3         | 2            | 2         |
 | **Suburb** | 0         | 2         | 3         | 0         | 1         | 1        | 0         | 1            | 1         |
 | **Town**   | 2         | 1         | 6         | 1         | 2         | 0        | 3         | 1            | 3         |
 | **Rural**  | 0         | 2         | 1         | 0         | 2         | 0        | 1         | 0            | 1         |
 :::::
+
+:::::{.fragment .much-smaller-font}
+|            | PLTW® Engineering      |PLTW® Biomedical Science | PLTW® Computer Science     |
+|------------|-----------|-----------|-----------|
+| **City**   | 2         | 0         | 2         | 
+| **Suburb** | 2         | 2         | 0         | 
+| **Town**   | 2         | 1         | 0         | 
+| **Rural**  | 0         | 2         | 0         |
+:::::
   
 ::: incremental
-  
-* [Teacher Interviews]{.semi-transparent}
-  + [*N* = 12 teachers]{.semi-transparent}
-  + [Semi-structured interview protocol]{.semi-transparent}
+::::{.smaller-line-height}
 
+* [Teacher Interviews]{.semi-transparent}
+
+::::
 :::
   
 ## ***Teacher Learning:*** Analytic Approach
 
 <hr>
 
-<br>
+
+[**Mixed Methods Geospatial Approach**[^24]]{.fragment .purple}
 
 :::incremental
 
+::::{.smaller-line-height}
+
 * Professional Learning Survey
-  + Travel time analysis
-  + Accessibility surface/ isochrones
-  + Spatial composite index [^23]
-* Teacher Interviews
-  + Thematic analysis
+  + [Travel time analysis [^25]]{.smaller-font}
+  + [Accessibility surface/ isochrones [^25]]{.smaller-font}
+  + [Spatial composite index [^23]]{.smaller-font}
+* [Teacher Interviews]{.semi-transparent .smaller-font}
+  + [Thematic analysis]{.semi-transparent .smaller-font}
+
+::::
 
 :::
 
 [^23]: Esri. (2023). *Creating composite indices using ArcGIS: Best practices*. Technical Paper.
+[^24]: Yoon, E., & Lubienski, C. (2018). Thinking critically in space: Toward a mixed-methods geospatial approach to education policy analysis. *Educational Researcher, 47*(1), 53-61.
+[^25]: Walker, K. (2023). *Analyzing US census data: Methods, maps, and models in R.* CRC Press.
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
 [1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"}
 :::
 :::
+
 
 ## ***Teacher Learning:*** Results
 
@@ -1087,9 +1198,41 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
+## ***Teacher Learning:*** Results
+
+<hr>
+
+:::{layout="[5,5]"}
+
+![](images/TLearningEcologyPB5.png){.fragment fig-alt="Local Teacher Learning Ecology Map"}
+
+::::{.center}
+
+[**PLTW® Biomedical Science**]{.fragment}
+[Town-Located]{.fragment .purple .smaller-font}
+
+::::: {.fragment .smaller-font .smaller-line-height}
+* [**1.6** miles from [**school**]{.school-purple} to [**community**]{.community-green} resources]{.fragment}
+  + [5 minutes by car]{.fragment .smaller-font}
+* [**0** miles from [**school**]{.school-purple} to [**conference/training**]{.ct-blue} at same school]{.fragment}
+* [**194** miles from [**school**]{.school-purple} to [**conference/training**]{.ct-blue} at state department]{.fragment}
+  + [3 hours and 5 minutes by car]{.fragment .smaller-font}
+  
+:::::
+
+::::
+
+:::
+
+::: {.absolute top="0" left="100%"}
+::: sectionhead
+[1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"}
+:::
+:::
+
 ------------------------------------------------------------------------
 
-##  {#current-work-implications data-menu-title="AP® Success: Takeaway" background="#010130"}
+##  {#current-work-2-implications data-menu-title="AP® Success: Takeaway" background="#010130"}
 
 ::: page-center
 ::: custom-subtitle-three
@@ -1097,11 +1240,11 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 ::::{.fragment .section-subtitle .smaller-line-height}
 
-* [Shows urgency of boosting non-core-adjacent advanced STEM offerings in rural and town locales]{.fragment .smaller-font}
-  + [AP® Computer Science (both), AP® Physics (all), AP® Environmental Science, AP® Calculus BC, and AP® Statistics]{.fragment .much-smaller-font .smaller-line-height}
-* [Demonstrates need for inquiry into regional and state programs supporting STEM coursework]{.fragment .smaller-font}
-* [Exposes possibilities for leveraging cross-community resources to support advanced STEM teacher learning]{.fragment .smaller-font}
+[These initial findings speak to the need for stakeholders to engage with rural/town teacher learners differently:]{.smaller-font}
 
+* [Universities should offer outreach programs and professional development opportunities in rural/town areas or nearby areas]{.smaller-font}
+* [State departments should provide multiple regional professional development opportunities]{.smaller-font}
+* [Industry should partner with rural/town teachers to provide resources and training in advanced STEM]{.smaller-font}
     
 ::::
 
@@ -1127,7 +1270,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 ::::{.center}
 [**Learning Ecosystems**]{.fragment .smaller-font .purple}
 
-:::incremental
+
 :::::{.fragment .much-smaller-font}
 
 * What resources characterize regional STEM learning ecosystems?
@@ -1139,43 +1282,39 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
   + Teacher learners?
 
 :::::
-:::
 
 ::::
 
 ::::{.center}
 [**Spatial Equity**]{.fragment .smaller-font .purple}
 
-:::incremental
+
 :::::{.fragment .much-smaller-font}
 
 * Which high-leverage resources are most inequitably distributed across space?
   + How might we amplify the reach of these resources to additional geographic areas?
 * Which regions have strong STEM learning ecosystems? weaker ecosystems?
-  + How might we leverage configurations and learnings of strong ecosystems to strengthen weak ecosystems?
+  + How might we leverage configurations of and learnings from strong ecosystems to strengthen weak ecosystems?
 * Who are the key knowledge brokers within regional spatial social networks for STEM learning?
   + How does boundary-crossing by knowledge brokers into neighboring regional networks impact STEM ecosystem health?
 
 :::::
-:::
 
 ::::
 
 ::::{.center}
 [**Data Science as Tool**]{.fragment .smaller-font .purple}
 
-:::incremental
+
 :::::{.fragment .much-smaller-font}
 
 * Which ideas, skills, and practices are most important for students to learn in data science?
   + How might we support teachers in facilitating this learning?
 * What data science literacies (including ethics) are critical for students to learn in an age of AI and data science democratization?
 * How might data science ideas, skills, and practices be distributed vertically (across grade levels) and horizontally (across disciplines) in K-12 education?
-* What practices and structures support both teachers and students in developing identities as data scientists?
-* How might we support administrators and teachers to leverage data science in improving student outcomes?
+* How might we support administrators, teachers, and other stakeholders to leverage data science in improving student outcomes? community outcomes?
 
 :::::
-:::
 
 ::::
 
@@ -1194,12 +1333,68 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 <hr>
 
+:::{layout="[5,5,5]"}
+
+::::{.center}
+[**Learning Ecosystems**]{.smaller-font .purple}
+
+
+:::::{.much-smaller-font}
+
+* **What resources characterize regional STEM learning ecosystems?**
+  + How does resource availability and quality vary across communities?
+  + To what extent does the regional presence of resources, institutions, and industry predict local STEM learning outcomes?
+* How does human mobility and community resource exposure shape local STEM learning outcomes?
+  + How does human mobility and resource exposure vary across geographies?
+* **How do student learners engage with their local STEM learning ecosystems?**
+  + **Teacher learners?**
+
+:::::
+
+::::
+
+::::{.center}
+[**Spatial Equity**]{.smaller-font .purple}
+
+
+:::::{.much-smaller-font}
+
+* Which high-leverage resources are most inequitably distributed across space?
+  + How might we amplify the reach of these resources to additional geographic areas?
+* Which regions have strong STEM learning ecosystems? weaker ecosystems?
+  + How might we leverage configurations of and learnings from strong ecosystems to strengthen weak ecosystems?
+* **Who are the key knowledge brokers within regional spatial social networks for STEM learning?**
+  + How does network-crossing by knowledge brokers into neighboring regional networks impact STEM ecosystem health?
+
+:::::
+
+
+::::
+
+::::{.center}
+[**Data Science as Tool**]{.smaller-font .purple}
+
+
+:::::{.much-smaller-font}
+
+* **Which ideas, skills, and practices are most important for students to learn in data science?**
+  + **How might we support teachers in facilitating this learning?**
+* What data science literacies (including ethics) are critical for students to learn in an age of AI and data science democratization?
+* How might data science ideas, skills, and practices be distributed vertically (across grade levels) and horizontally (across disciplines) in K-12 education?
+* How might we support administrators, teachers, and other stakeholders to leverage data science in improving student outcomes? community outcomes?
+
+:::::
+
+::::
+
+
+:::
+
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
 [1 2 3 4]{style="opacity:0.25"} 5
 :::
 :::
-
 ------------------------------------------------------------------------
 
 ## **Research Proposal**
@@ -1245,7 +1440,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 <br>
 
 1. To [**make visible spatial inequities**]{.green} in STEM learning opportunities
-2. To support [**high-quality STEM experiences for all learners**]{.purple} in regions of inopportunity
+2. To support [**high-quality STEM experiences for all learners**]{.purple}, particularly in regions of inopportunity
 3. To move toward the realization of [**spatial justice**]{.orange} — *spatial equity in the distribution of resources and opportunities* — [**for all learners**]{.orange}
 
 ::: {.absolute top="0" left="100%"}

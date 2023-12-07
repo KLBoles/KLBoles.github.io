@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.3.450">
 
   <meta name="author" content="Kelly L. Boles">
-  <meta name="dcterms.date" content="2023-12-06">
+  <meta name="dcterms.date" content="2023-12-07">
   <title>The Spatiality of STEM Learning Opportunities</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -336,7 +336,7 @@ Kelly L. Boles
 </div>
 </div>
 
-  <p class="date">2023-12-06</p>
+  <p class="date">2023-12-07</p>
 </section>
 <section id="agenda" class="slide level2">
 <h2>Agenda</h2>
@@ -387,6 +387,34 @@ Kelly L. Boles
 </div>
 </div>
 </div>
+</div>
+</div>
+</section>
+<section id="terminology" class="slide level2">
+<h2>Terminology</h2>
+<hr>
+<div>
+<div class="smaller-font smaller-line-width">
+<ul>
+<li class="fragment">What is ‘space’?
+<ul>
+<li class="fragment">outer space, physical space, <span class="green"><strong>geographic space</strong></span></li>
+</ul></li>
+<li class="fragment">Spatial data
+<ul>
+<li class="fragment">is: data that has a spatial component
+<ul>
+<li class="fragment">geographic boundaries</li>
+<li class="fragment">geographic features</li>
+<li class="fragment"><span class="green"><strong>geographic coordinates</strong></span></li>
+</ul></li>
+<li class="fragment">is not: data that is spatially distributed
+<ul>
+<li class="fragment">Demographic data for each U.S. county</li>
+<li class="fragment"><span class="green"><strong>NCES locale codes</strong></span> <em>(e.g., City, Suburb, Town, Rural)</em></li>
+</ul></li>
+</ul></li>
+</ul>
 </div>
 </div>
 </section>
@@ -835,7 +863,8 @@ Kelly L. Boles
 <li class="fragment"><span class="fragment semi-fade-out">AP® Course Audit Data for all U.S. Public Schools (2015-’19)</span></li>
 <li class="fragment">PLTW® Schools and Programs for AY 2021-2022
 <ul>
-<li class="fragment"><em>N</em> = 21,193 schools</li>
+<li class="fragment"><span class="math inline">\(N_{PLTW}\)</span> = 5,178 schools</li>
+<li class="fragment"><span class="math inline">\(N_{PLTW^C}\)</span> = 16,015 schools</li>
 </ul></li>
 </ul>
 </div>
@@ -900,7 +929,10 @@ Kelly L. Boles
 <h2><em>STEM Access:</em> Results [Aspatial]</h2>
 <hr>
 <div class="center">
-<p><img data-src="images/PLTW/OddsRatiosPLTWBiomedical_Engineering.png" class="fragment" alt="Odds ratios of locale (city, town, rural) on probability of school i offering Biomedical Science or Engineering" height="300"></p>
+<div class="r-stack">
+<p><img data-src="images/PLTW/OddsRatiosPLTWBiomedical_Engineering1.png" class="fragment" alt="Odds ratios of locale (city, town, rural) on probability of school i offering Biomedical Science" height="300"></p>
+<p><img data-src="images/PLTW/OddsRatiosPLTWBiomedical_Engineering2.png" class="fragment" alt="Odds ratios of locale (city, town, rural) on probability of school i offering Biomedical Science or Engineering" height="300"></p>
+</div>
 </div>
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
@@ -930,6 +962,29 @@ Kelly L. Boles
 </div>
 </div>
 </section>
+<section id="stem-access-results-aspatial-1" class="slide level2">
+<h2><em>STEM Access:</em> Results [Aspatial]</h2>
+<hr>
+<div class="center">
+<p><img data-src="images/PLTW/OddsRatiosPLTWAll.png" class="fragment" alt="Odds ratios of locale (city, town, rural) on probability of school i offering PLTW pathway" height="300"></p>
+</div>
+<div class="fragment even-smaller-font">
+<div class="columns">
+<div class="column" style="width:33.3%;">
+<p><strong>Biomedical Science</strong> - Relative to Suburban school, <span class="ruralpink"><strong>Rural</strong></span> (17% lower) and <span class="yellow"><strong>City</strong></span> (9% lower) schools have lowest odds for offering the pathway</p>
+</div><div class="column" style="width:33.3%;">
+<p><strong>Computer Science</strong> - <span class="ruralpink"><strong>Rural</strong></span> (11% lower),<span class="green"><strong>Town</strong></span> (8% lower), and <span class="yellow"><strong>City</strong></span> (12% lower) all have lower odds than suburban schools of offering pathway</p>
+</div><div class="column" style="width:33.3%;">
+<p><strong>Engineering</strong> - <span class="yellow"><strong>City</strong></span> schools have lowest odds (19% lower) of offering the pathway compared to suburban schools</p>
+</div>
+</div>
+</div>
+<div class="absolute" style="top: 0px; left: 100%; ">
+<div class="sectionhead">
+<p><span style="opacity:0.25">1 2</span> 3 <span style="opacity:0.25">4 5</span></p>
+</div>
+</div>
+</section>
 <section id="stem-access-exploratory-analysis-spatial" class="slide level2">
 <h2><em>STEM Access:</em> Exploratory Analysis [Spatial]</h2>
 <hr>
@@ -938,10 +993,10 @@ Kelly L. Boles
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img data-src="images/CalculusABMappingRaw.png" class="fragment" alt="Spatial plot of all high schools offering/not offering AP Calculus AB across the U.S."><span class="fragment">AP® Calculus AB</span></p>
+<p><img data-src="images/PLTW/BiomedicalScienceMappingRaw.png" class="fragment" alt="Spatial plot of all high schools offering/not offering PLTW Engineering across the U.S."><span class="fragment">PLTW® Biomedical Science</span></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img data-src="images/ComputerScienceAMappingRaw.png" class="fragment" alt="Spatial plot of all high schools offering/not offering AP Computer Science A across the U.S."><span class="fragment">AP® Computer Science A</span></p>
+<p><img data-src="images/PLTW/EngineeringMappingRaw.png" class="fragment" alt="Spatial plot of all high schools offering/not offering PLTW Engineering across the U.S."><span class="fragment">PLTW® Engineering</span></p>
 </div>
 </div>
 </div>
@@ -960,10 +1015,10 @@ Kelly L. Boles
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img data-src="images/ResidualPlotCalculusABLogit.png" class="fragment" alt="Residual plot AP® Calculus AB Logit Model"><span class="fragment">AP® Calculus AB</span></p>
+<p><img data-src="images/PLTW/ResidualPlotBiomedicalScienceLogit.png" class="fragment" alt="Residual plot PLTW® Biomedical Science Logit Model"><span class="fragment">PLTW® Biomedical Science</span></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img data-src="images/ResidualPlotComputerScienceALogit.png" class="fragment" alt="Residual plot AP® Computer Science A Logit Model"><span class="fragment">AP® Computer Science A</span></p>
+<p><img data-src="images/PLTW/ResidualPlotEngineeringLogit.png" class="fragment" alt="Residual plot PLTW® Engineering Logit Model"><span class="fragment">PLTW® Engineering</span></p>
 </div>
 </div>
 </div>
@@ -983,10 +1038,10 @@ Kelly L. Boles
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><span class="green fragment"><strong>AP® Calculus AB</strong></span><br><span class="fragment smaller-line-height"><span class="math display">\[I = .220 , p &lt; .001\]</span></span></p>
+<p><span class="green fragment"><strong>PLTW® Biomedical Science</strong></span><br><span class="fragment smaller-line-height"><span class="math display">\[I = .292 , p &lt; .001\]</span></span></p>
 </div>
 <div class="center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><span class="green fragment"><strong>AP® Computer Science A</strong></span><br><span class="fragment smaller-line-height"><span class="math display">\[I = .262 , p &lt; .001\]</span></span></p>
+<p><span class="green fragment"><strong>PLTW® Engineering</strong></span><br><span class="fragment smaller-line-height"><span class="math display">\[I = .289 , p &lt; .001\]</span></span></p>
 </div>
 </div>
 </div>
@@ -1004,14 +1059,14 @@ Kelly L. Boles
 </div>
 <div class="fragment much-smaller-font smaller-line-height">
 <ul>
-<li><span class="fragment"><span class="orange"><strong>Orange</strong></span> =[<em>locale</em>] schools have lower odds than suburban schools of offering course</span></li>
-<li><span class="fragment"><span class="purple"><strong>Purple</strong></span> = [<em>locale</em>] schools have higher odds than suburban schools of offering course</span></li>
+<li><span class="fragment"><span class="orange"><strong>Orange</strong></span> =[<em>locale</em>] schools have lower odds than suburban schools of offering pathway</span></li>
+<li><span class="fragment"><span class="purple"><strong>Purple</strong></span> = [<em>locale</em>] schools have higher odds than suburban schools of offering pathway</span></li>
 </ul>
 </div>
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><span class="fragment smaller-font"><strong>AP® Calculus AB</strong></span></p>
+<p><span class="fragment smaller-font"><strong>PLTW® Biomedical Science</strong></span></p>
 <div class="r-stack">
 <p><img data-src="images/GWR_CityCoef_APCalcAB_Map.png" class="fragment" alt="Local Coefficients on City from GWR" height="370"></p>
 <p><img data-src="images/GWR_TownCoef_APCalcAB_Map.png" class="fragment" alt="Local Coefficients on Town from GWR" height="370"></p>
@@ -1019,7 +1074,7 @@ Kelly L. Boles
 </div>
 </div>
 <div class="center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><span class="fragment smaller-font"><strong>AP® Computer Science A</strong></span></p>
+<p><span class="fragment smaller-font"><strong>PLTW® Engineering</strong></span></p>
 <div class="r-stack">
 <p><img data-src="images/GWR_CityCoef_APCompSciA_Map.png" class="fragment" alt="Local Coefficients on City from GWR" height="370"></p>
 <p><img data-src="images/GWR_TownCoef_APCompSciA_Map.png" class="fragment" alt="Local Coefficients on Town from GWR" height="370"></p>
@@ -1034,30 +1089,30 @@ Kelly L. Boles
 </div>
 </div>
 </section>
-<section id="stem-access-results-aspatial-1" class="slide level2">
+<section id="stem-access-results-aspatial-2" class="slide level2">
 <h2><em>STEM Access:</em> Results [Aspatial]</h2>
 <hr>
 <div class="center">
-<p><img data-src="images/OddsRatiosCalcABCompSciA.png" alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP CalcAB or AP Computer Science A" height="300"></p>
+<p><img data-src="images/PLTW/OddsRatiosPLTWBiomedical_Engineering2.png" alt="Odds ratios of locale (city, town, rural) on probability of school i offering Biomedical Science or Engineering" height="300"></p>
 </div>
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="even-smaller-font quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <ul>
-<li><span class="smaller-line-height">Relative to suburban schools, the odds of offering <strong>AP® Calculus AB</strong>:</span>
+<li><span class="smaller-line-height">Relative to suburban schools, the odds of offering the <strong>Biomedical Science</strong> pathway:</span>
 <ul>
-<li><span class="smaller-line-height">16% lower in <span class="yellow"><strong>city</strong></span> schools</span></li>
-<li><span class="smaller-line-height">29% <em>higher</em> in <span class="green"><strong>town</strong></span> schools</span></li>
-<li><span class="smaller-line-height">18% <em>higher</em> in <span class="ruralpink"><strong>rural</strong></span> schools</span></li>
+<li><span class="smaller-line-height">9% lower in <span class="yellow"><strong>city</strong></span> schools</span></li>
+<li><span class="smaller-line-height">2% lower in <span class="green"><strong>town</strong></span> schools</span></li>
+<li><span class="smaller-line-height">17% lower in <span class="ruralpink"><strong>rural</strong></span> schools</span></li>
 </ul></li>
 </ul>
 </div>
 <div class="even-smaller-font quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <ul>
-<li><span class="smaller-line-height">Relative to suburban schools, the odds of offering <strong>AP® Computer Science A</strong>:</span></li>
-<li><span class="smaller-line-height">5% lower in <span class="yellow"><strong>city</strong></span> schools</span></li>
-<li><span class="smaller-line-height">29% lower in <span class="green"><strong>town</strong></span> schools</span></li>
-<li><span class="smaller-line-height">36% lower in <span class="ruralpink"><strong>rural</strong></span> schools</span></li>
+<li><span class="smaller-line-height">Relative to suburban schools, the odds of offering the <strong>Engineering</strong> pathway:</span></li>
+<li><span class="smaller-line-height">19% lower in <span class="yellow"><strong>city</strong></span> schools</span></li>
+<li><span class="smaller-line-height">1% <em>higher</em> in <span class="green"><strong>town</strong></span> schools</span></li>
+<li><span class="smaller-line-height">2% <em>higher</em> in <span class="ruralpink"><strong>rural</strong></span> schools</span></li>
 </ul>
 </div>
 </div>
@@ -1076,8 +1131,8 @@ Kelly L. Boles
 </div>
 <div class="fragment much-smaller-font smaller-line-height">
 <ul>
-<li><span class="fragment"><span class="orange"><strong>Orange</strong></span> =[<em>locale</em>] schools have lower odds than suburban schools of offering course</span></li>
-<li><span class="fragment"><span class="purple"><strong>Purple</strong></span> = [<em>locale</em>] schools have higher odds than suburban schools of offering course</span></li>
+<li><span class="fragment"><span class="orange"><strong>Orange</strong></span> =[<em>locale</em>] schools have lower odds than suburban schools of offering pathway</span></li>
+<li><span class="fragment"><span class="purple"><strong>Purple</strong></span> = [<em>locale</em>] schools have higher odds than suburban schools of offering pathway</span></li>
 </ul>
 </div>
 <div class="quarto-layout-panel">
@@ -1103,6 +1158,25 @@ Kelly L. Boles
 <div class="absolute" style="top: 0px; left: 100%; ">
 <div class="sectionhead">
 <p><span style="opacity:0.25">1 2</span> 3 <span style="opacity:0.25">4 5</span></p>
+</div>
+</div>
+</section>
+<section id="current-work-1-implications" class="slide level2" data-menu-title="AP® Success: Takeaway" data-background="#010130">
+<h2></h2>
+<div class="page-center">
+<div class="custom-subtitle-three">
+<p><strong>CURRENT WORK:</strong> Implications<br></p>
+<p>EDIT THIS SLIDE</p>
+<div class="fragment section-subtitle smaller-line-height">
+<ul>
+<li><span class="fragment smaller-font">Shows urgency of boosting non-core-adjacent advanced STEM offerings in rural and town locales</span>
+<ul>
+<li><span class="fragment much-smaller-font smaller-line-height">AP® Computer Science (both), AP® Physics (all), AP® Environmental Science, AP® Calculus BC, and AP® Statistics</span></li>
+</ul></li>
+<li><span class="fragment smaller-font">Demonstrates need for inquiry into regional and state programs supporting STEM coursework</span></li>
+<li></li>
+</ul>
+</div>
 </div>
 </div>
 </section>
@@ -1154,13 +1228,15 @@ Kelly L. Boles
 </div>
 </div>
 <div>
+<div class="smaller-line-height">
 <ul>
 <li class="fragment">Professional Learning Resources Survey Instrument
 <ul>
-<li class="fragment"><em>N</em> = 53 AP® teachers</li>
+<li class="fragment"><em>N</em> = 68 AP® &amp; PLTW® teachers</li>
 <li class="fragment">Embedded JavaScript mapping tool to geolocate resources</li>
 </ul></li>
 </ul>
+</div>
 </div>
 <div class="fragment much-smaller-font">
 <table>
@@ -1179,15 +1255,15 @@ Kelly L. Boles
 <thead>
 <tr class="header">
 <th></th>
-<th>Bio</th>
-<th>Calc AB/BC</th>
-<th>Chem</th>
-<th>CompSciA</th>
-<th>CompSciPr</th>
-<th>EnvSci</th>
-<th>Physics C</th>
-<th>Physics 1&amp;2</th>
-<th>Stat</th>
+<th>AP® Bio</th>
+<th>AP® Calc AB/BC</th>
+<th>AP® Chem</th>
+<th>AP® CompSciA</th>
+<th>AP® CompSciPr</th>
+<th>AP® EnvSci</th>
+<th>AP® Physics C</th>
+<th>AP® Physics 1&amp;2</th>
+<th>AP® Stat</th>
 </tr>
 </thead>
 <tbody>
@@ -1242,40 +1318,84 @@ Kelly L. Boles
 </tbody>
 </table>
 </div>
+<div class="fragment much-smaller-font">
+<table>
+<colgroup>
+<col style="width: 26%">
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>PLTW® Engineering</th>
+<th>PLTW® Biomedical Science</th>
+<th>PLTW® Computer Science</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>City</strong></td>
+<td>2</td>
+<td>0</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td><strong>Suburb</strong></td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td><strong>Town</strong></td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td><strong>Rural</strong></td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div>
 <div>
+<div class="smaller-line-height">
 <ul>
-<li class="fragment"><span class="semi-transparent">Teacher Interviews</span>
-<ul>
-<li class="fragment"><span class="semi-transparent"><em>N</em> = 12 teachers</span></li>
-<li class="fragment"><span class="semi-transparent">Semi-structured interview protocol</span></li>
-</ul></li>
+<li class="fragment"><span class="semi-transparent">Teacher Interviews</span></li>
 </ul>
+</div>
 </div>
 </section>
 <section id="teacher-learning-analytic-approach" class="slide level2">
 <h2><strong><em>Teacher Learning:</em></strong> Analytic Approach</h2>
 <hr>
-<p><br></p>
+<p><span class="fragment purple"><strong>Mixed Methods Geospatial Approach</strong><sup>1</sup></span></p>
 <div>
+<div class="smaller-line-height">
 <ul>
 <li class="fragment">Professional Learning Survey
 <ul>
-<li class="fragment">Travel time analysis</li>
-<li class="fragment">Accessibility surface/ isochrones</li>
-<li class="fragment">Spatial composite index <sup>1</sup></li>
+<li class="fragment"><span class="smaller-font">Travel time analysis <sup>2</sup></span></li>
+<li class="fragment"><span class="smaller-font">Accessibility surface/ isochrones <sup>3</sup></span></li>
+<li class="fragment"><span class="smaller-font">Spatial composite index <sup>4</sup></span></li>
 </ul></li>
-<li class="fragment">Teacher Interviews
+<li class="fragment"><span class="semi-transparent smaller-font">Teacher Interviews</span>
 <ul>
-<li class="fragment">Thematic analysis</li>
+<li class="fragment"><span class="semi-transparent smaller-font">Thematic analysis</span></li>
 </ul></li>
 </ul>
+</div>
 </div>
 <div class="absolute" style="top: 0px; left: 100%; ">
 <div class="sectionhead">
 <p><span style="opacity:0.25">1 2 3</span> 4 <span style="opacity:0.25">5</span></p>
 </div>
 </div>
-<aside><ol class="aside-footnotes"><li id="fn21"><p>Esri. (2023). <em>Creating composite indices using ArcGIS: Best practices</em>. Technical Paper.</p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn21"><p>Yoon, E., &amp; Lubienski, C. (2018). Thinking critically in space: Toward a mixed-methods geospatial approach to education policy analysis. <em>Educational Researcher, 47</em>(1), 53-61.</p></li><li id="fn22"><p>Walker, K. (2023). <em>Analyzing US census data: Methods, maps, and models in R.</em> CRC Press.</p></li><li id="fn23"><p>Walker, K. (2023). <em>Analyzing US census data: Methods, maps, and models in R.</em> CRC Press.</p></li><li id="fn24"><p>Esri. (2023). <em>Creating composite indices using ArcGIS: Best practices</em>. Technical Paper.</p></li></ol></aside></section>
 <section id="teacher-learning-results" class="slide level2">
 <h2><strong><em>Teacher Learning:</em></strong> Results</h2>
 <hr>
@@ -1311,19 +1431,49 @@ Kelly L. Boles
 </div>
 </div>
 </section>
-<section id="current-work-implications" class="slide level2" data-menu-title="AP® Success: Takeaway" data-background="#010130">
+<section id="teacher-learning-results-1" class="slide level2">
+<h2><strong><em>Teacher Learning:</em></strong> Results</h2>
+<hr>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img data-src="images/TLearningEcologyPB5.png" class="fragment" alt="Local Teacher Learning Ecology Map"></p>
+</div>
+<div class="center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><span class="fragment"><strong>PLTW® Biomedical Science</strong></span> <span class="fragment purple smaller-font">Town-Located</span></p>
+<div class="fragment smaller-font smaller-line-height">
+<ul>
+<li><span class="fragment"><strong>1.6</strong> miles from <span class="school-purple"><strong>school</strong></span> to <span class="community-green"><strong>community</strong></span> resources</span>
+<ul>
+<li><span class="fragment smaller-font">5 minutes by car</span></li>
+</ul></li>
+<li><span class="fragment"><strong>0</strong> miles from <span class="school-purple"><strong>school</strong></span> to <span class="ct-blue"><strong>conference/training</strong></span> at same school</span></li>
+<li><span class="fragment"><strong>194</strong> miles from <span class="school-purple"><strong>school</strong></span> to <span class="ct-blue"><strong>conference/training</strong></span> at state department</span>
+<ul>
+<li><span class="fragment smaller-font">3 hours and 5 minutes by car</span></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="absolute" style="top: 0px; left: 100%; ">
+<div class="sectionhead">
+<p><span style="opacity:0.25">1 2 3</span> 4 <span style="opacity:0.25">5</span></p>
+</div>
+</div>
+</section>
+<section id="current-work-2-implications" class="slide level2" data-menu-title="AP® Success: Takeaway" data-background="#010130">
 <h2></h2>
 <div class="page-center">
 <div class="custom-subtitle-three">
 <p><strong>CURRENT WORK:</strong> Implications<br></p>
 <div class="fragment section-subtitle smaller-line-height">
+<p><span class="smaller-font">These initial findings speak to the need for stakeholders to engage with rural/town teacher learners differently:</span></p>
 <ul>
-<li><span class="fragment smaller-font">Shows urgency of boosting non-core-adjacent advanced STEM offerings in rural and town locales</span>
-<ul>
-<li><span class="fragment much-smaller-font smaller-line-height">AP® Computer Science (both), AP® Physics (all), AP® Environmental Science, AP® Calculus BC, and AP® Statistics</span></li>
-</ul></li>
-<li><span class="fragment smaller-font">Demonstrates need for inquiry into regional and state programs supporting STEM coursework</span></li>
-<li><span class="fragment smaller-font">Exposes possibilities for leveraging cross-community resources to support advanced STEM teacher learning</span></li>
+<li><span class="smaller-font">Universities should offer outreach programs and professional development opportunities in rural/town areas or nearby areas</span></li>
+<li><span class="smaller-font">State departments should provide multiple regional professional development opportunities</span></li>
+<li><span class="smaller-font">Industry should partner with rural/town teachers to provide resources and training in advanced STEM</span></li>
 </ul>
 </div>
 </div>
@@ -1344,62 +1494,55 @@ Kelly L. Boles
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="center quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
 <p><span class="fragment smaller-font purple"><strong>Learning Ecosystems</strong></span></p>
-<div>
 <div class="fragment much-smaller-font">
 <ul>
-<li class="fragment">What resources characterize regional STEM learning ecosystems?
+<li>What resources characterize regional STEM learning ecosystems?
 <ul>
-<li class="fragment">How does resource availability and quality vary across communities?</li>
-<li class="fragment">To what extent does the regional presence of resources, institutions, and industry predict local STEM learning outcomes?</li>
+<li>How does resource availability and quality vary across communities?</li>
+<li>To what extent does the regional presence of resources, institutions, and industry predict local STEM learning outcomes?</li>
 </ul></li>
-<li class="fragment">How does human mobility and community resource exposure shape local STEM learning outcomes?
+<li>How does human mobility and community resource exposure shape local STEM learning outcomes?
 <ul>
-<li class="fragment">How does human mobility and resource exposure vary across geographies?</li>
+<li>How does human mobility and resource exposure vary across geographies?</li>
 </ul></li>
-<li class="fragment">How do student learners engage with their local STEM learning ecosystems?
+<li>How do student learners engage with their local STEM learning ecosystems?
 <ul>
-<li class="fragment">Teacher learners?</li>
+<li>Teacher learners?</li>
 </ul></li>
 </ul>
-</div>
 </div>
 </div>
 <div class="center quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
 <p><span class="fragment smaller-font purple"><strong>Spatial Equity</strong></span></p>
-<div>
 <div class="fragment much-smaller-font">
 <ul>
-<li class="fragment">Which high-leverage resources are most inequitably distributed across space?
+<li>Which high-leverage resources are most inequitably distributed across space?
 <ul>
-<li class="fragment">How might we amplify the reach of these resources to additional geographic areas?</li>
+<li>How might we amplify the reach of these resources to additional geographic areas?</li>
 </ul></li>
-<li class="fragment">Which regions have strong STEM learning ecosystems? weaker ecosystems?
+<li>Which regions have strong STEM learning ecosystems? weaker ecosystems?
 <ul>
-<li class="fragment">How might we leverage configurations and learnings of strong ecosystems to strengthen weak ecosystems?</li>
+<li>How might we leverage configurations of and learnings from strong ecosystems to strengthen weak ecosystems?</li>
 </ul></li>
-<li class="fragment">Who are the key knowledge brokers within regional spatial social networks for STEM learning?
+<li>Who are the key knowledge brokers within regional spatial social networks for STEM learning?
 <ul>
-<li class="fragment">How does boundary-crossing by knowledge brokers into neighboring regional networks impact STEM ecosystem health?</li>
+<li>How does boundary-crossing by knowledge brokers into neighboring regional networks impact STEM ecosystem health?</li>
 </ul></li>
 </ul>
-</div>
 </div>
 </div>
 <div class="center quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
 <p><span class="fragment smaller-font purple"><strong>Data Science as Tool</strong></span></p>
-<div>
 <div class="fragment much-smaller-font">
 <ul>
-<li class="fragment">Which ideas, skills, and practices are most important for students to learn in data science?
+<li>Which ideas, skills, and practices are most important for students to learn in data science?
 <ul>
-<li class="fragment">How might we support teachers in facilitating this learning?</li>
+<li>How might we support teachers in facilitating this learning?</li>
 </ul></li>
-<li class="fragment">What data science literacies (including ethics) are critical for students to learn in an age of AI and data science democratization?</li>
-<li class="fragment">How might data science ideas, skills, and practices be distributed vertically (across grade levels) and horizontally (across disciplines) in K-12 education?</li>
-<li class="fragment">What practices and structures support both teachers and students in developing identities as data scientists?</li>
-<li class="fragment">How might we support administrators and teachers to leverage data science in improving student outcomes?</li>
+<li>What data science literacies (including ethics) are critical for students to learn in an age of AI and data science democratization?</li>
+<li>How might data science ideas, skills, and practices be distributed vertically (across grade levels) and horizontally (across disciplines) in K-12 education?</li>
+<li>How might we support administrators, teachers, and other stakeholders to leverage data science in improving student outcomes? community outcomes?</li>
 </ul>
-</div>
 </div>
 </div>
 </div>
@@ -1413,6 +1556,63 @@ Kelly L. Boles
 <section id="research-agenda-1" class="slide level2">
 <h2><strong>Research Agenda</strong></h2>
 <hr>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="center quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><span class="smaller-font purple"><strong>Learning Ecosystems</strong></span></p>
+<div class="much-smaller-font">
+<ul>
+<li><strong>What resources characterize regional STEM learning ecosystems?</strong>
+<ul>
+<li>How does resource availability and quality vary across communities?</li>
+<li>To what extent does the regional presence of resources, institutions, and industry predict local STEM learning outcomes?</li>
+</ul></li>
+<li>How does human mobility and community resource exposure shape local STEM learning outcomes?
+<ul>
+<li>How does human mobility and resource exposure vary across geographies?</li>
+</ul></li>
+<li><strong>How do student learners engage with their local STEM learning ecosystems?</strong>
+<ul>
+<li><strong>Teacher learners?</strong></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div class="center quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><span class="smaller-font purple"><strong>Spatial Equity</strong></span></p>
+<div class="much-smaller-font">
+<ul>
+<li>Which high-leverage resources are most inequitably distributed across space?
+<ul>
+<li>How might we amplify the reach of these resources to additional geographic areas?</li>
+</ul></li>
+<li>Which regions have strong STEM learning ecosystems? weaker ecosystems?
+<ul>
+<li>How might we leverage configurations of and learnings from strong ecosystems to strengthen weak ecosystems?</li>
+</ul></li>
+<li><strong>Who are the key knowledge brokers within regional spatial social networks for STEM learning?</strong>
+<ul>
+<li>How does network-crossing by knowledge brokers into neighboring regional networks impact STEM ecosystem health?</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div class="center quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><span class="smaller-font purple"><strong>Data Science as Tool</strong></span></p>
+<div class="much-smaller-font">
+<ul>
+<li><strong>Which ideas, skills, and practices are most important for students to learn in data science?</strong>
+<ul>
+<li><strong>How might we support teachers in facilitating this learning?</strong></li>
+</ul></li>
+<li>What data science literacies (including ethics) are critical for students to learn in an age of AI and data science democratization?</li>
+<li>How might data science ideas, skills, and practices be distributed vertically (across grade levels) and horizontally (across disciplines) in K-12 education?</li>
+<li>How might we support administrators, teachers, and other stakeholders to leverage data science in improving student outcomes? community outcomes?</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 <div class="absolute" style="top: 0px; left: 100%; ">
 <div class="sectionhead">
 <p><span style="opacity:0.25">1 2 3 4</span> 5</p>
@@ -1444,14 +1644,14 @@ Kelly L. Boles
 <p><span style="opacity:0.25">1 2 3 4</span> 5</p>
 </div>
 </div>
-<aside><ol class="aside-footnotes"><li id="fn22"><p>Elwood, S. (2011). Participatory approaches in GIS and society research: Foundations, practices, and future directions. In <em>The SAGE Handbook of GIS and Society</em> (pp.&nbsp;381-399). SAGE.</p></li><li id="fn23"><p>Andris, C., &amp; Sarkar, D. (2022). Social networks in space. In S. J. Rey &amp; R. Franklin (Eds.), <em>Handbook of Spatial Analysis in the Social Sciences</em> (pp.&nbsp;400-415). Elgar.</p></li><li id="fn24"><p>Lung-Amam, W. S., &amp; Dawkins, C. (2019). The power of participatory story mapping: Advancing equitable development in disadvantaged neighbourhoods. <em>Community Development Journal, 55</em>(3), 473-495.</p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn25"><p>Elwood, S. (2011). Participatory approaches in GIS and society research: Foundations, practices, and future directions. In <em>The SAGE Handbook of GIS and Society</em> (pp.&nbsp;381-399). SAGE.</p></li><li id="fn26"><p>Andris, C., &amp; Sarkar, D. (2022). Social networks in space. In S. J. Rey &amp; R. Franklin (Eds.), <em>Handbook of Spatial Analysis in the Social Sciences</em> (pp.&nbsp;400-415). Elgar.</p></li><li id="fn27"><p>Lung-Amam, W. S., &amp; Dawkins, C. (2019). The power of participatory story mapping: Advancing equitable development in disadvantaged neighbourhoods. <em>Community Development Journal, 55</em>(3), 473-495.</p></li></ol></aside></section>
 <section id="long-term-research-goals" class="slide level2">
 <h2><strong>Long-Term Research Goals</strong></h2>
 <hr>
 <p><br></p>
 <ol type="1">
 <li>To <span class="green"><strong>make visible spatial inequities</strong></span> in STEM learning opportunities</li>
-<li>To support <span class="purple"><strong>high-quality STEM experiences for all learners</strong></span> in regions of inopportunity</li>
+<li>To support <span class="purple"><strong>high-quality STEM experiences for all learners</strong></span>, particularly in regions of inopportunity</li>
 <li>To move toward the realization of <span class="orange"><strong>spatial justice</strong></span> — <em>spatial equity in the distribution of resources and opportunities</em> — <span class="orange"><strong>for all learners</strong></span></li>
 </ol>
 <div class="absolute" style="top: 0px; left: 100%; ">
