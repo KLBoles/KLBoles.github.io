@@ -835,7 +835,7 @@ Kelly L. Boles
 <li class="fragment"><span class="fragment semi-fade-out">AP® Course Audit Data for all U.S. Public Schools (2015-’19)</span></li>
 <li class="fragment">PLTW® Schools and Programs for AY 2021-2022
 <ul>
-<li class="fragment"><em>N</em> = 21,210 schools</li>
+<li class="fragment"><em>N</em> = 21,193 schools</li>
 </ul></li>
 </ul>
 </div>
@@ -874,27 +874,14 @@ Kelly L. Boles
 </div>
 </div>
 </section>
-<section id="stem-access-exploratory-analysis-aspatial-2" class="slide level2">
-<h2><em>STEM Access:</em> Exploratory Analysis [Aspatial]</h2>
-<hr>
-<div class="center">
-<p><span class="fragment smaller-font smaller-line-height"><strong>Proportion of U.S. Public Schools Offering AP® STEM Course by Locale</strong></span></p>
-<p><img data-src="images/ProportionofSchoolsOfferingEachSTEMAPByLocale.png" class="fragment" alt="Bar graph of the proportion of U.S. public schools offering each STEM AP® by locale" height="550"></p>
-</div>
-<div class="absolute" style="top: 0px; left: 100%; ">
-<div class="sectionhead">
-<p><span style="opacity:0.25">1 2</span> 3 <span style="opacity:0.25">4 5</span></p>
-</div>
-</div>
-</section>
 <section id="stem-access-analytic-strategy-aspatial" class="slide level2">
 <h2><em>STEM Access:</em> Analytic Strategy [Aspatial]</h2>
 <hr>
 <div>
 <ul>
-<li class="fragment">One logit for each AP® STEM course <span class="much-smaller-font"><span class="math display">\[\frac{P_i}{1-P_i} = exp(\beta_{0} + \beta_{1}City_{i} + \beta_{2}Rural_{i} + \beta_{3}Town_{i} + \beta_{4}log(SES)_{i} + \\ \beta_{5}\sqrt{Enrollment}\;_{i} + \beta_{6}log(Prop\;Black)_{i} + \beta_{7}log(Prop\;Latinx)_{i} + \beta_{8}log(Prop\;Asian)_{i} + \alpha_{i}+\epsilon_{i})\]</span></span>
+<li class="fragment">One logit for each PLTW® Pathway <span class="much-smaller-font"><span class="math display">\[\frac{P_i}{1-P_i} = exp(\beta_{0} + \beta_{1}City_{i} + \beta_{2}Rural_{i} + \beta_{3}Town_{i} + \beta_{4}log(SES)_{i} + \\ \beta_{5}\sqrt{Enrollment}\;_{i} + \beta_{6}log(Prop\;Black)_{i} + \beta_{7}log(Prop\;Latinx)_{i} + \beta_{8}log(Prop\;Asian)_{i} + \alpha_{i}+\epsilon_{i})\]</span></span>
 <ul>
-<li class="fragment"><span class="much-smaller-font"><span class="math inline">\(P_{i}\)</span>= Probability of offering course at school <em>i</em></span></li>
+<li class="fragment"><span class="much-smaller-font"><span class="math inline">\(P_{i}\)</span>= Probability of offering pathway at school <em>i</em></span></li>
 <li class="fragment"><span class="much-smaller-font"><span class="math inline">\(City_{i},Rural_{i},Town_{i}\)</span>= <strong>Locale indicator variables</strong></span></li>
 <li class="fragment"><span class="much-smaller-font"><span class="math inline">\(SES_{i}\)</span>= Composite SES variable ranging from 0 - 999</span></li>
 <li class="fragment"><span class="much-smaller-font"><span class="math inline">\(Enrollment_{i}\)</span>= Student school population</span></li>
@@ -913,58 +900,26 @@ Kelly L. Boles
 <h2><em>STEM Access:</em> Results [Aspatial]</h2>
 <hr>
 <div class="center">
-<p><img data-src="images/OddsRatiosCalcABCompSciA.png" class="fragment" alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP CalcAB or AP Computer Science A" height="300"></p>
+<p><img data-src="images/PLTW/OddsRatiosPLTWBiomedical_Engineering.png" class="fragment" alt="Odds ratios of locale (city, town, rural) on probability of school i offering Biomedical Science or Engineering" height="300"></p>
 </div>
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="fragment even-smaller-font quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <ul>
-<li><span class="fragment smaller-line-height">Relative to suburban schools, the odds of offering <strong>AP® Calculus AB</strong>:</span>
+<li><span class="fragment smaller-line-height">Relative to suburban schools, the odds of offering the <strong>Biomedical Science</strong> pathway:</span>
 <ul>
-<li><span class="fragment smaller-line-height">16% lower in <span class="yellow"><strong>city</strong></span> schools</span></li>
-<li><span class="fragment smaller-line-height">29% <em>higher</em> in <span class="green"><strong>town</strong></span> schools</span></li>
-<li><span class="fragment smaller-line-height">18% <em>higher</em> in <span class="ruralpink"><strong>rural</strong></span> schools</span></li>
+<li><span class="fragment smaller-line-height">9% lower in <span class="yellow"><strong>city</strong></span> schools</span></li>
+<li><span class="fragment smaller-line-height">2% lower in <span class="green"><strong>town</strong></span> schools</span></li>
+<li><span class="fragment smaller-line-height">17% lower in <span class="ruralpink"><strong>rural</strong></span> schools</span></li>
 </ul></li>
 </ul>
 </div>
 <div class="fragment even-smaller-font quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <ul>
-<li><span class="fragment smaller-line-height">Relative to suburban schools, the odds of offering <strong>AP® Computer Science A</strong>:</span></li>
-<li><span class="fragment smaller-line-height">5% lower in <span class="yellow"><strong>city</strong></span> schools</span></li>
-<li><span class="fragment smaller-line-height">29% lower in <span class="green"><strong>town</strong></span> schools</span></li>
-<li><span class="fragment smaller-line-height">36% lower in <span class="ruralpink"><strong>rural</strong></span> schools</span></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="absolute" style="top: 0px; left: 100%; ">
-<div class="sectionhead">
-<p><span style="opacity:0.25">1 2</span> 3 <span style="opacity:0.25">4 5</span></p>
-</div>
-</div>
-</section>
-<section id="stem-access-results-aspatial-1" class="slide level2">
-<h2><em>STEM Access:</em> Results [Aspatial]</h2>
-<hr>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 54.6%;justify-content: center;">
-<p><img data-src="images/OddsRatiosAllSTEMCourses.png" class="fragment" alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP STEM Course"></p>
-</div>
-<div class="fragment even-smaller-font quarto-layout-cell" style="flex-basis: 45.5%;justify-content: center;">
-<ul>
-<li><span class="fragment"><strong>Core-adjacent AP® Coursework</strong></span>
-<ul>
-<li><span class="fragment"><span class="ruralpink"><strong>Rural</strong></span> and <span class="green"><strong>town</strong></span> schools have higher odds of offering <em>AP® Calculus AB</em> than <span class="blue"><strong>suburban</strong></span> and <span class="yellow"><strong>city</strong></span> schools</span></li>
-<li><span class="fragment"><span class="ruralpink"><strong>Rural</strong></span> and <span class="green"><strong>town</strong></span> schools have higher odds of offering <em>AP® Chemistry</em> and <em>AP® Biology</em> than <span class="yellow"><strong>city</strong></span> schools</span></li>
-</ul></li>
-<li><span class="fragment"><strong>Newer/Less traditional AP® Coursework</strong></span>
-<ul>
-<li><span class="fragment">In the 9 other AP® STEM courses, the odds of offering a given course are lowest for <span class="ruralpink"><strong>rural</strong></span> and <span class="green"><strong>town</strong></span> schools</span>
-<ul>
-<li><span class="fragment">Physics (all), CS (both), Calc BC, Stats, Environmental Science</span></li>
-</ul></li>
-</ul></li>
+<li><span class="fragment smaller-line-height">Relative to suburban schools, the odds of offering the <strong>Engineering</strong> pathway:</span></li>
+<li><span class="fragment smaller-line-height">19% lower in <span class="yellow"><strong>city</strong></span> schools</span></li>
+<li><span class="fragment smaller-line-height">1% <em>higher</em> in <span class="green"><strong>town</strong></span> schools</span></li>
+<li><span class="fragment smaller-line-height">2% <em>higher</em> in <span class="ruralpink"><strong>rural</strong></span> schools</span></li>
 </ul>
 </div>
 </div>
@@ -1079,7 +1034,7 @@ Kelly L. Boles
 </div>
 </div>
 </section>
-<section id="stem-access-results-aspatial-2" class="slide level2">
+<section id="stem-access-results-aspatial-1" class="slide level2">
 <h2><em>STEM Access:</em> Results [Aspatial]</h2>
 <hr>
 <div class="center">

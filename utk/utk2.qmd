@@ -629,7 +629,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 -   [AP® Course Audit Data for all U.S. Public Schools (2015-'19)]{.fragment .semi-fade-out}
 -   PLTW® Schools and Programs for AY 2021-2022
-    -   *N* = 21,210 schools
+    -   *N* = 21,193 schools
 
 :::
 
@@ -678,30 +678,13 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
-
-## *STEM Access:* Exploratory Analysis \[Aspatial\]
-
-<hr>
-
-::: center
-[**Proportion of U.S. Public Schools Offering AP® STEM Course by Locale**]{.fragment .smaller-font .smaller-line-height}
-
-![](images/ProportionofSchoolsOfferingEachSTEMAPByLocale.png){.fragment fig-alt="Bar graph of the proportion of U.S. public schools offering each STEM AP® by locale" height="550px"}
-:::
-
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
-
 ## *STEM Access:* Analytic Strategy \[Aspatial\]
 
 <hr>
 
 ::: incremental
--   One logit for each AP® STEM course [$$\frac{P_i}{1-P_i} = exp(\beta_{0} + \beta_{1}City_{i} + \beta_{2}Rural_{i} + \beta_{3}Town_{i} + \beta_{4}log(SES)_{i} + \\ \beta_{5}\sqrt{Enrollment}\;_{i} + \beta_{6}log(Prop\;Black)_{i} + \beta_{7}log(Prop\;Latinx)_{i} + \beta_{8}log(Prop\;Asian)_{i} + \alpha_{i}+\epsilon_{i})$$]{.much-smaller-font}
-    -   [$P_{i}$= Probability of offering course at school *i*]{.much-smaller-font}
+-   One logit for each PLTW® Pathway [$$\frac{P_i}{1-P_i} = exp(\beta_{0} + \beta_{1}City_{i} + \beta_{2}Rural_{i} + \beta_{3}Town_{i} + \beta_{4}log(SES)_{i} + \\ \beta_{5}\sqrt{Enrollment}\;_{i} + \beta_{6}log(Prop\;Black)_{i} + \beta_{7}log(Prop\;Latinx)_{i} + \beta_{8}log(Prop\;Asian)_{i} + \alpha_{i}+\epsilon_{i})$$]{.much-smaller-font}
+    -   [$P_{i}$= Probability of offering pathway at school *i*]{.much-smaller-font}
     -   [$City_{i},Rural_{i},Town_{i}$= **Locale indicator variables**]{.much-smaller-font}
     -   [$SES_{i}$= Composite SES variable ranging from 0 - 999]{.much-smaller-font}
     -   [$Enrollment_{i}$= Student school population]{.much-smaller-font}
@@ -720,45 +703,22 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 <hr>
 
 ::: center
-![](images/OddsRatiosCalcABCompSciA.png){.fragment fig-alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP CalcAB or AP Computer Science A" height="300px"}
+![](images/PLTW/OddsRatiosPLTWBiomedical_Engineering.png){.fragment fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering Biomedical Science or Engineering" height="300px"}
 :::
 
 ::: {layout="[5,5]"}
 ::: {.fragment .even-smaller-font}
--   [Relative to suburban schools, the odds of offering **AP® Calculus AB**:]{.fragment .smaller-line-height}
-    -   [16% lower in [**city**]{.yellow} schools]{.fragment .smaller-line-height}
-    -   [29% *higher* in [**town**]{.green} schools]{.fragment .smaller-line-height}
-    -   [18% *higher* in [**rural**]{.ruralpink} schools]{.fragment .smaller-line-height}
+-   [Relative to suburban schools, the odds of offering the **Biomedical Science** pathway:]{.fragment .smaller-line-height}
+    -   [9% lower in [**city**]{.yellow} schools]{.fragment .smaller-line-height}
+    -   [2% lower in [**town**]{.green} schools]{.fragment .smaller-line-height}
+    -   [17% lower in [**rural**]{.ruralpink} schools]{.fragment .smaller-line-height}
 :::
 
 ::: {.fragment .even-smaller-font}
--   [Relative to suburban schools, the odds of offering **AP® Computer Science A**:]{.fragment .smaller-line-height}
--   [5% lower in [**city**]{.yellow} schools]{.fragment .smaller-line-height}
--   [29% lower in [**town**]{.green} schools]{.fragment .smaller-line-height}
--   [36% lower in [**rural**]{.ruralpink} schools]{.fragment .smaller-line-height}
-:::
-:::
-
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
-
-## *STEM Access:* Results \[Aspatial\]
-
-<hr>
-
-::: {layout="[6,5]"}
-![](images/OddsRatiosAllSTEMCourses.png){.fragment fig-alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP STEM Course" height="800px"}
-
-::: {.fragment .even-smaller-font}
--   [**Core-adjacent AP® Coursework**]{.fragment}
-    -   [[**Rural**]{.ruralpink} and [**town**]{.green} schools have higher odds of offering *AP® Calculus AB* than [**suburban**]{.blue} and [**city**]{.yellow} schools]{.fragment}
-    -   [[**Rural**]{.ruralpink} and [**town**]{.green} schools have higher odds of offering *AP® Chemistry* and *AP® Biology* than [**city**]{.yellow} schools]{.fragment}
--   [**Newer/Less traditional AP® Coursework**]{.fragment}
-    -   [In the 9 other AP® STEM courses, the odds of offering a given course are lowest for [**rural**]{.ruralpink} and [**town**]{.green} schools]{.fragment}
-        -   [Physics (all), CS (both), Calc BC, Stats, Environmental Science]{.fragment}
+-   [Relative to suburban schools, the odds of offering the **Engineering** pathway:]{.fragment .smaller-line-height}
+-   [19% lower in [**city**]{.yellow} schools]{.fragment .smaller-line-height}
+-   [1% *higher* in [**town**]{.green} schools]{.fragment .smaller-line-height}
+-   [2% *higher* in [**rural**]{.ruralpink} schools]{.fragment .smaller-line-height}
 :::
 :::
 
