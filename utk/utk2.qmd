@@ -1447,6 +1447,6 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 ::: page-center
 ::: custom-subtitle
-**THANK YOU** <br><br>[Questions?]{.section-subtitle}
+**THANK YOU**
 :::
 :::
