@@ -1178,8 +1178,13 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 ::: {.fragment .section-subtitle .smaller-line-height}
 [These initial findings speak to the need for stakeholders to engage with rural/town teacher learners differently:]{.smaller-font .smaller-line-height}
 
+::: {.smaller-font}
+
 -   [Professional development opportunities should be offered regionally in rural/town areas or nearby areas]{.smaller-font}
 -   [Efforts needed to expand community resources into areas of sparsity ]{.smaller-font}
+
+:::
+
 :::
 :::
 :::
