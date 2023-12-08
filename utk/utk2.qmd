@@ -462,8 +462,8 @@ floyd_co_ky
 <br>
 
 * [[**City**]{.yellow}: principal U.S. city]{.smaller-font}
-* [[**Suburb**]{.blue}: densely populated urban area with population >= 50,000]{.smaller-font}
-* [[**Town**]{.green}: 2,500 =< population < 50,000]{.smaller-font}
+* [[**Suburb**]{.blue}: densely populated urban area with population $\geq$ 50,000]{.smaller-font}
+* [[**Town**]{.green}: 2,500 $\leq$ population $<$ 50,000]{.smaller-font}
 * [[**Rural**]{.ruralpink}: outside other locale classifications]{.smaller-font}
 
 :::::
@@ -901,8 +901,8 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 :::{.fragment .much-smaller-font .smaller-line-height}
 
-* [[**Orange**]{.orange} =[*locale*] schools have lower odds than suburban schools of offering pathway]{.fragment}
-* [[**Purple**]{.purple} = [*locale*] schools have higher odds than suburban schools of offering pathway]{.fragment}
+* [[**Orange**]{.orange} =*city* schools have lower odds than suburban schools of offering pathway]{.fragment}
+* [[**Purple**]{.purple} = *city* schools have higher odds than suburban schools of offering pathway]{.fragment}
 
 :::
 
@@ -1091,8 +1091,8 @@ EDIT THIS SLIDE
 
 :::{.smaller-line-height}
 * Professional Learning Resources Survey Instrument
-  + *N* = 68 AP® & PLTW® teachers
-  + Embedded JavaScript mapping tool to geolocate resources
+  + [*N* = 68 AP® & PLTW® teachers]{.smaller-font}
+  + [Embedded JavaScript mapping tool to geolocate resources]{.smaller-font}
 
 ::::
   
