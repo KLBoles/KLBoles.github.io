@@ -263,25 +263,25 @@ floyd_co_ky
 
 <!-- [^5]: Used with permission of The National Academies Press, from Identifying and Supporting Productive STEM Programs in Out-of-School Settings, National Research Council, 2015; permission conveyed through Copyright Clearance Center, Inc. -->
 
-## **Frameworks:** Ecosystem Health
+<!-- ## **Frameworks:** Ecosystem Health -->
 
-<hr>
+<!-- <hr> -->
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-1 [2 3 4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- 1 [2 3 4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
-::: {layout="[4,-1,5]"}
-::: center
-![](images/teacher-brain-learning.png){.fragment fig-alt="Picture of a teacher with a brain superimposed showing lots of thinking and ideas" height="360px"}<br> [[**Keystone**]{.purple}<br>STEM Teacher Learning]{.fragment}
-:::
+<!-- ::: {layout="[4,-1,5]"} -->
+<!-- ::: center -->
+<!-- ![](images/teacher-brain-learning.png){.fragment fig-alt="Picture of a teacher with a brain superimposed showing lots of thinking and ideas" height="360px"}<br> [[**Keystone**]{.purple}<br>STEM Teacher Learning]{.fragment} -->
+<!-- ::: -->
 
-<br>["Creating a profession of teaching in which teachers have the opportunity for continual learning is the likeliest way to inspire greater achievement for children..."<br><br>(Darling-Hammond, 2008, p. 99)[^6]]{.fragment .smaller-font}
-:::
+<!-- <br>["Creating a profession of teaching in which teachers have the opportunity for continual learning is the likeliest way to inspire greater achievement for children..."<br><br>(Darling-Hammond, 2008, p. 99)[^6]]{.fragment .smaller-font} -->
+<!-- ::: -->
 
-[^6]: Darling-Hammond, L. (2008). Teacher learning that supports student learning. In B. Z. Presseisen (Ed.), Teaching for intelligence (pp. 91 - 100). Corwin.
+<!-- [^6]: Darling-Hammond, L. (2008). Teacher learning that supports student learning. In B. Z. Presseisen (Ed.), Teaching for intelligence (pp. 91 - 100). Corwin. -->
 
 ## **Frameworks:** Opportunities to Learn
 
@@ -843,35 +843,35 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 :::
 :::
 
-## *STEM Access:* Results \[Aspatial\]
+<!-- ## *STEM Access:* Results \[Aspatial\] -->
 
-<hr>
+<!-- <hr> -->
 
-::: center
-![](images/OddsRatiosCalcABCompSciASlide2.png){fig-alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP CalcAB or AP Computer Science A" height="300px"}
-:::
+<!-- ::: center -->
+<!-- ![](images/OddsRatiosCalcABCompSciASlide2.png){fig-alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP CalcAB or AP Computer Science A" height="300px"} -->
+<!-- ::: -->
 
-::: {layout="[5,5]"}
-::: even-smaller-font
--   [Relative to suburban schools, the odds of offering **AP® Calculus AB**:]{.smaller-line-height}
-    -   [16% lower in]{.smaller-line-height} [**city**]{.yellow} schools
-    -   [29% *higher* in]{.smaller-line-height} [**town**]{.green} schools
-    -   [18% *higher* in]{.smaller-line-height} [**rural**]{.ruralpink} schools
-:::
+<!-- ::: {layout="[5,5]"} -->
+<!-- ::: even-smaller-font -->
+<!-- -   [Relative to suburban schools, the odds of offering **AP® Calculus AB**:]{.smaller-line-height} -->
+<!--     -   [16% lower in]{.smaller-line-height} [**city**]{.yellow} schools -->
+<!--     -   [29% *higher* in]{.smaller-line-height} [**town**]{.green} schools -->
+<!--     -   [18% *higher* in]{.smaller-line-height} [**rural**]{.ruralpink} schools -->
+<!-- ::: -->
 
-::: even-smaller-font
--   [Relative to suburban schools, the odds of offering **AP® Computer Science A**:]{.smaller-line-height}
--   [5% lower in]{.smaller-line-height} [**city**]{.yellow} schools
--   [29% lower in]{.smaller-line-height} [**town**]{.green} schools
--   [36% lower in]{.smaller-line-height} [**rural**]{.ruralpink} schools
-:::
-:::
+<!-- ::: even-smaller-font -->
+<!-- -   [Relative to suburban schools, the odds of offering **AP® Computer Science A**:]{.smaller-line-height} -->
+<!-- -   [5% lower in]{.smaller-line-height} [**city**]{.yellow} schools -->
+<!-- -   [29% lower in]{.smaller-line-height} [**town**]{.green} schools -->
+<!-- -   [36% lower in]{.smaller-line-height} [**rural**]{.ruralpink} schools -->
+<!-- ::: -->
+<!-- ::: -->
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## *STEM Access:* GWR --- Results \[Spatial\]
 
@@ -952,7 +952,7 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 <hr>
 
 ::: {.fragment .smaller-font}
--   Teachers learn from four spheres --- interpersonal, institutional, community, and policy[^17]
+-   Teachers learn from four spheres --- interpersonal, institutional, community, and policy[^22]
 -   Within these spheres, teachers learn with learning partners and distributed resources[^18]
 -   These partners and tools comprise teachers' [**learning ecologies**]{.green}:
 
@@ -961,7 +961,7 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 :::
 :::
 
-[^17]: Zavelevsky, E., & Lishchinsky, O. S. (2020). An ecological perspective of teacher retention: An emergent model. *Teaching and Teacher Education, 88*, 1-11.
+[^22]: Zavelevsky, E., & Lishchinsky, O. S. (2020). An ecological perspective of teacher retention: An emergent model. *Teaching and Teacher Education, 88*, 1-11.
 
 [^18]: Pea, R. (1993). Practices of distributed intelligence and designed for education. In G. Salomon (Ed.), *Distributed cognitions: Psychological and educational considerations* (pp. 47-87). Cambridge, UK: Cambridge University Press.
 
@@ -1123,9 +1123,8 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 ::: {.fragment .section-subtitle .smaller-line-height}
 [These initial findings speak to the need for stakeholders to engage with rural/town teacher learners differently:]{.smaller-font}
 
--   [Universities should offer outreach programs and professional development opportunities in rural/town areas or nearby areas]{.smaller-font}
--   [State departments should provide multiple regional professional development opportunities]{.smaller-font}
--   [Industry should partner with rural/town teachers to provide resources and training in advanced STEM]{.smaller-font}
+-   [Professional development opportunities should be offered regionally in rural/town areas or nearby areas]{.smaller-font}
+-   [Efforts needed to expand community resources into areas of sparsity ]{.smaller-font}
 :::
 :::
 :::
