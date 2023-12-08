@@ -245,43 +245,43 @@ floyd_co_ky
 
 <!-- [^3]: Hecht, M. & Crowley, K. (2020). Unpacking the learning ecosystems framework: Lessons from the adaptive management of biological ecosystems. Journal of the Learning Sciences, 29(2), 264-284. https://doi.org/10.1080/10508406.2019.1693381 -->
 
-## **Frameworks:** Ecosystem Health
+<!-- ## **Frameworks:** Ecosystem Health -->
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-1 [2 3 4 6]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- 1 [2 3 4 6]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
-<hr>
+<!-- <hr> -->
 
-::: {.r-stack .center}
-![](images/child-at-center-of-ecosystem.png){.fragment fig-alt="Picture of child who is centered in the STEM Learning Ecosystem Model" height="200px"}<br> [[**Indicator**]{.purple}<br>Student STEM Learning]{.fragment}
+<!-- ::: {.r-stack .center} -->
+<!-- ![](images/child-at-center-of-ecosystem.png){.fragment fig-alt="Picture of child who is centered in the STEM Learning Ecosystem Model" height="200px"}<br> [[**Indicator**]{.purple}<br>Student STEM Learning]{.fragment} -->
 
-![](images/STEM-Learning-Ecosystem.png){.fragment fig-alt="Picture of the STEM Learning Ecosystem Model" height="383px" top="5px"}<br> [STEM Learning Ecosystem Model[^5]]{.fragment}
-:::
+<!-- ![](images/STEM-Learning-Ecosystem.png){.fragment fig-alt="Picture of the STEM Learning Ecosystem Model" height="383px" top="5px"}<br> [STEM Learning Ecosystem Model[^5]]{.fragment} -->
+<!-- ::: -->
 
-[^5]: Used with permission of The National Academies Press, from Identifying and Supporting Productive STEM Programs in Out-of-School Settings, National Research Council, 2015; permission conveyed through Copyright Clearance Center, Inc.
+<!-- [^5]: Used with permission of The National Academies Press, from Identifying and Supporting Productive STEM Programs in Out-of-School Settings, National Research Council, 2015; permission conveyed through Copyright Clearance Center, Inc. -->
 
-## **Frameworks:** Ecosystem Health
+<!-- ## **Frameworks:** Ecosystem Health -->
 
-<hr>
+<!-- <hr> -->
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-1 [2 3 4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- 1 [2 3 4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
-::: {layout="[4,-1,5]"}
-::: center
-![](images/teacher-brain-learning.png){.fragment fig-alt="Picture of a teacher with a brain superimposed showing lots of thinking and ideas" height="360px"}<br> [[**Keystone**]{.purple}<br>STEM Teacher Learning]{.fragment}
-:::
+<!-- ::: {layout="[4,-1,5]"} -->
+<!-- ::: center -->
+<!-- ![](images/teacher-brain-learning.png){.fragment fig-alt="Picture of a teacher with a brain superimposed showing lots of thinking and ideas" height="360px"}<br> [[**Keystone**]{.purple}<br>STEM Teacher Learning]{.fragment} -->
+<!-- ::: -->
 
-<br>["Creating a profession of teaching in which teachers have the opportunity for continual learning is the likeliest way to inspire greater achievement for children..."<br><br>(Darling-Hammond, 2008, p. 99)[^6]]{.fragment .smaller-font}
-:::
+<!-- <br>["Creating a profession of teaching in which teachers have the opportunity for continual learning is the likeliest way to inspire greater achievement for children..."<br><br>(Darling-Hammond, 2008, p. 99)[^6]]{.fragment .smaller-font} -->
+<!-- ::: -->
 
-[^6]: Darling-Hammond, L. (2008). Teacher learning that supports student learning. In B. Z. Presseisen (Ed.), Teaching for intelligence (pp. 91 - 100). Corwin.
+<!-- [^6]: Darling-Hammond, L. (2008). Teacher learning that supports student learning. In B. Z. Presseisen (Ed.), Teaching for intelligence (pp. 91 - 100). Corwin. -->
 
 ## **Frameworks:** Opportunities to Learn
 
