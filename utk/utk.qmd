@@ -153,7 +153,7 @@ floyd_co_ky
 
 ::: page-center
 ::: custom-subtitle
-**identify, examine, and address spatial inequities in learning opportunities**
+**identify, examine, and address spatial inequities in STEM learning opportunities**
 :::
 :::
 
