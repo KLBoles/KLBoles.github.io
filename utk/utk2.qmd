@@ -148,7 +148,7 @@ floyd_co_ky
 
 :::
 
-:::
+
 
 ## Terminology: Advanced STEM
 
@@ -389,12 +389,16 @@ floyd_co_ky
 :::
 :::
 
+::::{.smaller-font}
+
 ::: incremental
 -   Multi-year sustained decrease in pass rates among Black, Latinx, and Native American students [^10]
 -   Low socioeconomic status (SES) students have a pass rate 17% lower than more affluent peers [^11]
--   Men outperform women across all AP® STEM exams [^12]
+-   On average, men outperform women across all AP® STEM exams [^12]
 -   In 2015 rural students had the lowest AP® STEM pass rate of all locales [^13]
 :::
+
+::::
 
 [^10]: Judson, E., & Hobson, A. (2015). Growth and achievement trends of advanced placement (AP) exams in American high schools. *American Secondary Education, 43*(2), 59-76.
 
@@ -891,7 +895,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 :::{.center}
 
-[**Locale Coefficients — Odds Ratios**]{.fragment .green}
+[**City Locale Coefficients — Odds Ratios**]{.fragment .green}
 
 :::
 
@@ -909,11 +913,11 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 [**PLTW® Biomedical Science**]{.fragment .smaller-font}
 
 ::::{.r-stack}
-![](images/GWR_CityCoef_APCalcAB_Map.png){.fragment fig-alt="Local Coefficients on City from GWR" height="370px"}
+![](images/PLTW/GWR_CityCoef_PLTWBiomedical_Map.png){.fragment fig-alt="Local Coefficients on City from GWR"}
 
-![](images/GWR_TownCoef_APCalcAB_Map.png){.fragment fig-alt="Local Coefficients on Town from GWR" height="370px"}
+<!-- ![](images/PLTW/GWR_TownCoef_PLTWBiomedical_Map.png){.fragment fig-alt="Local Coefficients on Town from GWR"} -->
 
-![](images/GWR_RuralCoef_APCalcAB_Map.png){.fragment fig-alt="Local Coefficients on Rural from GWR" height="370px"}
+<!-- ![](images/PLTW/GWR_RuralCoef_PLTWBiomedical_Map.png){.fragment fig-alt="Local Coefficients on Rural from GWR"} -->
 
 :::::
 
@@ -924,11 +928,11 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 [**PLTW® Engineering**]{.fragment .smaller-font}
 
 ::::{.r-stack}
-![](images/GWR_CityCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on City from GWR" height="370px"}
+![](images/PLTW/GWR_CityCoef_PLTWEngineering_Map.png){.fragment fig-alt="Local Coefficients on City from GWR"}
 
-![](images/GWR_TownCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on Town from GWR" height="370px"}
+<!-- ![](images/PLTW/GWR_TownCoef_PLTWEngineering_Map.png){.fragment fig-alt="Local Coefficients on Town from GWR"} -->
 
-![](images/GWR_RuralCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on Rural from GWR" height="370px"}
+<!-- ![](images/PLTW/GWR_RuralCoef_PLTWEngineering_Map.png){.fragment fig-alt="Local Coefficients on Rural from GWR"} -->
 
 :::::
 
@@ -942,40 +946,6 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
-
-## *STEM Access:* Results \[Aspatial\]
-
-<hr>
-
-::: center
-
-![](images/PLTW/OddsRatiosPLTWBiomedical_Engineering2.png){fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering Biomedical Science or Engineering" height="300px"}
-
-
-:::
-
-::: {layout="[5,5]"}
-::: {.even-smaller-font}
--   [Relative to suburban schools, the odds of offering the **Biomedical Science** pathway:]{.smaller-line-height}
-    -   [9% lower in [**city**]{.yellow} schools]{.smaller-line-height}
-    -   [2% lower in [**town**]{.green} schools]{.smaller-line-height}
-    -   [17% lower in [**rural**]{.ruralpink} schools]{.smaller-line-height}
-:::
-
-::: {.even-smaller-font}
--   [Relative to suburban schools, the odds of offering the **Engineering** pathway:]{ .smaller-line-height}
--   [19% lower in [**city**]{.yellow} schools]{.smaller-line-height}
--   [1% *higher* in [**town**]{.green} schools]{.smaller-line-height}
--   [2% *higher* in [**rural**]{.ruralpink} schools]{.smaller-line-height}
-:::
-:::
-
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
-
 
 ## *STEM Access:* GWR — Results \[Spatial\]
 
@@ -998,14 +968,14 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 :::::{.center}
 
-[**AP® Calculus AB**]{.fragment .smaller-font}
+[**PLTW® Biomedical Science**]{.fragment .smaller-font}
 
 ::::{.r-stack}
-![](images/GWR_CityCoef_APCalcAB_TNMap.png){.fragment fig-alt="Local TN Coefficients on City from GWR"}
+![](images/PLTW/GWR_CityCoef_PLTWBiomedical_TNMap.png){.fragment fig-alt="Local TN Coefficients on City from GWR"}
 
-![](images/GWR_TownCoef_APCalcAB_TNMap.png){.fragment fig-alt="Local TN Coefficients on Town from GWR"}
+![](images/PLTW/GWR_TownCoef_PLTWBiomedical_TNMap.png){.fragment fig-alt="Local TN Coefficients on Town from GWR"}
 
-![](images/GWR_RuralCoef_APCalcAB_TNMap.png){.fragment fig-alt="Local TN Coefficients on Rural from GWR"}
+![](images/PLTW/GWR_RuralCoef_PLTWBiomedical_TNMap.png){.fragment fig-alt="Local TN Coefficients on Rural from GWR"}
 
 :::::
 
@@ -1013,14 +983,14 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 
 :::::{.center}
 
-[**AP® Computer Science A**]{.fragment .smaller-font}
+[**PLTW® Engineering**]{.fragment .smaller-font}
 
 ::::{.r-stack}
-![](images/GWR_CityCoef_APCompSciA_TNMap.png){.fragment fig-alt="Local TN Coefficients on City from GWR"}
+![](images/PLTW/GWR_CityCoef_PLTWEngineering_TNMap.png){.fragment fig-alt="Local TN Coefficients on City from GWR"}
 
-![](images/GWR_TownCoef_APCompSciA_TNMap.png){.fragment fig-alt="Local TN Coefficients on Town from GWR"}
+![](images/PLTW/GWR_TownCoef_PLTWEngineering_TNMap.png){.fragment fig-alt="Local TN Coefficients on Town from GWR"}
 
-![](images/GWR_RuralCoef_APCompSciA_TNMap.png){.fragment fig-alt="Local TN Coefficients on Rural from GWR"}
+![](images/PLTW/GWR_RuralCoef_PLTWEngineering_TNMap.png){.fragment fig-alt="Local TN Coefficients on Rural from GWR"}
 
 :::::
 
