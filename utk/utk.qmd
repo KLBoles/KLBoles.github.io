@@ -113,8 +113,8 @@ floyd_co_ky
 
 ::: incremental
 1.  Research Overview & Frameworks
-2.  Previous Work - *AP® Success*
-3.  Current Work - *AP® Access*
+2.  Previous Work - *STEM Success*
+3.  Current Work - *STEM Access*
 4.  Current Work - *Teacher Learning*
 5.  Future Work
 
@@ -532,9 +532,8 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 **PREVIOUS WORK**[^14]: Implications<br>
 
 ::: {.fragment .section-subtitle .smaller-line-height}
--   [Demonstrates that support is needed to advance rural equity in advanced secondary STEM success]{.fragment .smaller-font}
+-   [Support needed to advance rural equity in advanced secondary STEM success]{.fragment .smaller-font}
 -   [Highlights need to investigate middle school/early secondary STEM preparation in rural areas]{.fragment .smaller-font}
--   [Provides evidence for increasing opportunities for rural STEM teacher professional learning]{.fragment .smaller-font}
 -   [Lays groundwork for inquiry into community learning ecosystem resources]{.fragment .smaller-font}
     -   [AP® Chemistry, AP® Calculus AB, AP® Computer Science A, AP® Physics C]{.fragment .much-smaller-font .smaller-line-height}
 :::
@@ -587,7 +586,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
-## *AP® Access:* Data
+## *STEM Access:* Data
 
 <hr>
 
@@ -604,7 +603,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
-## *AP® Access:* Exploratory Analysis \[Aspatial\]
+## *STEM Access:* Exploratory Analysis \[Aspatial\]
 
 <hr>
 
@@ -618,7 +617,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
-## *AP® Access:* Exploratory Analysis \[Aspatial\]
+## *STEM Access:* Exploratory Analysis \[Aspatial\]
 
 <hr>
 
@@ -640,7 +639,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
-## *AP® Access:* Exploratory Analysis \[Aspatial\]
+## *STEM Access:* Exploratory Analysis \[Aspatial\]
 
 <hr>
 
@@ -656,7 +655,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
-## *AP® Access:* Analytic Strategy \[Aspatial\]
+## *STEM Access:* Analytic Strategy \[Aspatial\]
 
 <hr>
 
@@ -676,7 +675,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
-## *AP® Access:* Results \[Aspatial\]
+## *STEM Access:* Results \[Aspatial\]
 
 <hr>
 
@@ -710,7 +709,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
-## *AP® Access:* Results \[Aspatial\]
+## *STEM Access:* Results \[Aspatial\]
 
 <hr>
 
@@ -733,7 +732,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
-## *AP® Access:* Exploratory Analysis \[Spatial\]
+## *STEM Access:* Exploratory Analysis \[Spatial\]
 
 <hr>
 
@@ -753,7 +752,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
-## *AP® Access:* Exploratory Analysis \[Spatial\]
+## *STEM Access:* Exploratory Analysis \[Spatial\]
 
 <hr>
 
@@ -773,7 +772,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
-## *AP® Access:* Exploratory Analysis \[Spatial\]
+## *STEM Access:* Exploratory Analysis \[Spatial\]
 
 <hr>
 
@@ -799,7 +798,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
-## *AP® Access:* GWR --- Results \[Spatial\]
+## *STEM Access:* GWR --- Results \[Spatial\]
 
 <hr>
 
@@ -844,7 +843,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
-## *AP® Access:* Results \[Aspatial\]
+## *STEM Access:* Results \[Aspatial\]
 
 <hr>
 
@@ -874,7 +873,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 :::
 :::
 
-## *AP® Access:* GWR --- Results \[Spatial\]
+## *STEM Access:* GWR --- Results \[Spatial\]
 
 <hr>
 
@@ -925,14 +924,13 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 ::: custom-subtitle-three
 **CURRENT WORK:** Implications<br>
 
-MUST EDIT
-
 ::: {.fragment .section-subtitle .smaller-line-height}
-[These initial findings speak to the need for stakeholders to engage with rural/town teacher learners differently:]{.smaller-font}
 
--   [Universities should offer outreach programs and professional development opportunities in rural/town areas or nearby areas]{.smaller-font}
--   [State departments should provide multiple regional professional development opportunities]{.smaller-font}
--   [Industry should partner with rural/town teachers to provide resources and training in advanced STEM]{.smaller-font}
+-   [Need to attend to local context to address geographic disparity in STEM learning opportunity]{.smaller-font}
+    - [Policy, Research, and Teacher Education]{.smaller-font}
+-   [Further investigation needed concerning the mechanisms that create and maintain geographic disparities in STEM learning opportunities]{.smaller-font}
+    - [Ways to disrupt]{.smaller-font}
+
 :::
 :::
 :::
@@ -1099,10 +1097,10 @@ MUST EDIT
 [**PLTW® Biomedical Science**]{.fragment} [Town-Located]{.fragment .purple .smaller-font}
 
 ::: {.fragment .smaller-font .smaller-line-height}
--   [**1.6** miles from[**school**]{.school-purple} to [**community**]{.community-green} resources]{.fragment}
+-   [**1.6** miles from [**school**]{.school-purple} to [**community**]{.community-green} resources]{.fragment}
     -   [5 minutes by car]{.fragment .smaller-font}
--   [**0** miles from[**school**]{.school-purple} to [**conference/training**]{.ct-blue} at same school]{.fragment}
--   [**194** miles from[**school**]{.school-purple} to [**conference/training**]{.ct-blue} at state department]{.fragment}
+-   [**0** miles from [**school**]{.school-purple} to [**conference/training**]{.ct-blue} at same school]{.fragment}
+-   [**194** miles from [**school**]{.school-purple} to [**conference/training**]{.ct-blue} at state department]{.fragment}
     -   [3 hours and 5 minutes by car]{.fragment .smaller-font}
 :::
 :::
