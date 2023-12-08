@@ -976,9 +976,9 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 ::: {.fragment .section-subtitle .smaller-line-height}
 
 -   [Need to attend to local context to address geographic variability in STEM learning opportunity]{.smaller-font}
-    - [Policy, Research, and Teacher Education]{.smaller-font}
+    <!-- - [Policy, Research, and Teacher Education]{.smaller-font} -->
 -   [Further investigation needed concerning the mechanisms that create and maintain geographic disparities in STEM learning opportunities]{.smaller-font}
-    - [Ways to disrupt]{.smaller-font}
+    <!-- - [May offer insight on ways to disrupt]{.smaller-font} -->
 
 :::
 :::
