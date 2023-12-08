@@ -263,25 +263,25 @@ floyd_co_ky
 
 <!-- [^5]: Used with permission of The National Academies Press, from Identifying and Supporting Productive STEM Programs in Out-of-School Settings, National Research Council, 2015; permission conveyed through Copyright Clearance Center, Inc. -->
 
-<!-- ## **Frameworks:** Ecosystem Health -->
+## **Frameworks:** Ecosystem Health
 
-<!-- <hr> -->
+<hr>
 
-<!-- ::: {.absolute top="0" left="100%"} -->
-<!-- ::: sectionhead -->
-<!-- 1 [2 3 4 5]{style="opacity:0.25"} -->
-<!-- ::: -->
-<!-- ::: -->
+::: {.absolute top="0" left="100%"}
+::: sectionhead
+1 [2 3 4 5]{style="opacity:0.25"}
+:::
+:::
 
-<!-- ::: {layout="[4,-1,5]"} -->
-<!-- ::: center -->
-<!-- ![](images/teacher-brain-learning.png){.fragment fig-alt="Picture of a teacher with a brain superimposed showing lots of thinking and ideas" height="360px"}<br> [[**Keystone**]{.purple}<br>STEM Teacher Learning]{.fragment} -->
-<!-- ::: -->
+::: {layout="[4,-1,5]"}
+::: center
+![](images/teacher-brain-learning.png){.fragment fig-alt="Picture of a teacher with a brain superimposed showing lots of thinking and ideas" height="360px"}<br> [[**Keystone**]{.purple}<br>STEM Teacher Learning]{.fragment}
+:::
 
-<!-- <br>["Creating a profession of teaching in which teachers have the opportunity for continual learning is the likeliest way to inspire greater achievement for children..."<br><br>(Darling-Hammond, 2008, p. 99)[^6]]{.fragment .smaller-font} -->
-<!-- ::: -->
+<br>["Creating a profession of teaching in which teachers have the opportunity for continual learning is the likeliest way to inspire greater achievement for children..."<br><br>(Darling-Hammond, 2008, p. 99)[^6]]{.fragment .smaller-font}
+:::
 
-<!-- [^6]: Darling-Hammond, L. (2008). Teacher learning that supports student learning. In B. Z. Presseisen (Ed.), Teaching for intelligence (pp. 91 - 100). Corwin. -->
+[^6]: Darling-Hammond, L. (2008). Teacher learning that supports student learning. In B. Z. Presseisen (Ed.), Teaching for intelligence (pp. 91 - 100). Corwin.
 
 ## **Frameworks:** Opportunities to Learn
 
@@ -639,21 +639,21 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 :::
 :::
 
-## *STEM Access:* Exploratory Analysis \[Aspatial\]
+<!-- ## *STEM Access:* Exploratory Analysis \[Aspatial\] -->
 
-<hr>
+<!-- <hr> -->
 
-::: center
-[**Proportion of U.S. Public Schools Offering AP® STEM Course by Locale**]{.fragment .smaller-font .smaller-line-height}
+<!-- ::: center -->
+<!-- [**Proportion of U.S. Public Schools Offering AP® STEM Course by Locale**]{.fragment .smaller-font .smaller-line-height} -->
 
-![](images/ProportionofSchoolsOfferingEachSTEMAPByLocale.png){.fragment fig-alt="Bar graph of the proportion of U.S. public schools offering each STEM AP® by locale" height="550px"}
-:::
+<!-- ![](images/ProportionofSchoolsOfferingEachSTEMAPByLocale.png){.fragment fig-alt="Bar graph of the proportion of U.S. public schools offering each STEM AP® by locale" height="550px"} -->
+<!-- ::: -->
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## *STEM Access:* Analytic Strategy \[Aspatial\]
 
@@ -736,15 +736,15 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 
 <hr>
 
-::: center
-[**Raw Data**]{.fragment .purple}
+<!-- ::: center -->
+<!-- [**Raw Data**]{.fragment .purple} -->
 
-::: {layout="[5,5]"}
-![](images/CalculusABMappingRaw.png){.fragment fig-alt="Spatial plot of all high schools offering/not offering AP Calculus AB across the U.S."}[AP® Calculus AB]{.fragment}
+<!-- ::: {layout="[5,5]"} -->
+<!-- ![](images/CalculusABMappingRaw.png){.fragment fig-alt="Spatial plot of all high schools offering/not offering AP Calculus AB across the U.S."}[AP® Calculus AB]{.fragment} -->
 
-![](images/ComputerScienceAMappingRaw.png){.fragment fig-alt="Spatial plot of all high schools offering/not offering AP Computer Science A across the U.S."}[AP® Computer Science A]{.fragment}
-:::
-:::
+<!-- ![](images/ComputerScienceAMappingRaw.png){.fragment fig-alt="Spatial plot of all high schools offering/not offering AP Computer Science A across the U.S."}[AP® Computer Science A]{.fragment} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
@@ -760,9 +760,9 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 [**Residuals from Logit Models**]{.fragment .purple}
 
 ::: {layout="[5,5]"}
-![](images/ResidualPlotCalculusABLogit.png){.fragment fig-alt="Residual plot AP® Calculus AB Logit Model"}[AP® Calculus AB]{.fragment}
+![](images/ResidualPlotCalculusABLogit.png){.fragment fig-alt="Residual plot AP® Calculus AB Logit Model"}[**AP® Calculus AB**]{.green .fragment}<br>[$$I = .220 , p < .001$$]{.fragment .smaller-line-height}
 
-![](images/ResidualPlotComputerScienceALogit.png){.fragment fig-alt="Residual plot AP® Computer Science A Logit Model"}[AP® Computer Science A]{.fragment}
+![](images/ResidualPlotComputerScienceALogit.png){.fragment fig-alt="Residual plot AP® Computer Science A Logit Model"}[**AP® Computer Science A**]{.green .fragment}<br>[$$I = .262 , p < .001$$]{.fragment}
 :::
 :::
 
@@ -772,31 +772,31 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 :::
 :::
 
-## *STEM Access:* Exploratory Analysis \[Spatial\]
+<!-- ## *STEM Access:* Exploratory Analysis \[Spatial\] -->
 
-<hr>
+<!-- <hr> -->
 
-[**Spatial Autocorrelation**]{.purple} : Is the (in)availability of a specific AP® STEM course correlated with its nearby course (in)availability?
+<!-- [**Spatial Autocorrelation**]{.purple} : Is the (in)availability of a specific AP® STEM course correlated with its nearby course (in)availability? -->
 
-[$$Moran's\;I = \frac{N}{\sum_i \sum_j w_{ij}} \frac{\sum_i \sum_j w_{ij}(X_i - \bar{X})(X_j - \bar{X})}{\sum_i (X_i - \bar{X})^2}$$]{.fragment}
+<!-- [$$Moran's\;I = \frac{N}{\sum_i \sum_j w_{ij}} \frac{\sum_i \sum_j w_{ij}(X_i - \bar{X})(X_j - \bar{X})}{\sum_i (X_i - \bar{X})^2}$$]{.fragment} -->
 
-<br>
+<!-- <br> -->
 
-::: {layout="[5,5]"}
-::: center
-[**AP® Calculus AB**]{.green .fragment}<br>[$$I = .220 , p < .001$$]{.fragment .smaller-line-height}
-:::
+<!-- ::: {layout="[5,5]"} -->
+<!-- ::: center -->
+<!-- [**AP® Calculus AB**]{.green .fragment}<br>[$$I = .220 , p < .001$$]{.fragment .smaller-line-height} -->
+<!-- ::: -->
 
-::: center
-[**AP® Computer Science A**]{.green .fragment}<br>[$$I = .262 , p < .001$$]{.fragment .smaller-line-height}
-:::
-:::
+<!-- ::: center -->
+<!-- [**AP® Computer Science A**]{.green .fragment}<br>[$$I = .262 , p < .001$$]{.fragment .smaller-line-height} -->
+<!-- ::: -->
+<!-- ::: -->
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## *STEM Access:* GWR --- Results \[Spatial\]
 
@@ -816,7 +816,7 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 [**AP® Calculus AB**]{.fragment .smaller-font}
 
 ::: r-stack
-![](images/GWR_CityCoef_APCalcAB_Map.png){.fragment fig-alt="Local Coefficients on City from GWR" height="370px"}
+<!-- ![](images/GWR_CityCoef_APCalcAB_Map.png){.fragment fig-alt="Local Coefficients on City from GWR" height="370px"} -->
 
 ![](images/GWR_TownCoef_APCalcAB_Map.png){.fragment fig-alt="Local Coefficients on Town from GWR" height="370px"}
 
@@ -828,7 +828,7 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 [**AP® Computer Science A**]{.fragment .smaller-font}
 
 ::: r-stack
-![](images/GWR_CityCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on City from GWR" height="370px"}
+<!-- ![](images/GWR_CityCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on City from GWR" height="370px"} -->
 
 ![](images/GWR_TownCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on Town from GWR" height="370px"}
 
@@ -926,7 +926,7 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 
 ::: {.fragment .section-subtitle .smaller-line-height}
 
--   [Need to attend to local context to address geographic disparity in STEM learning opportunity]{.smaller-font}
+-   [Need to attend to local context to address geographic variability in STEM learning opportunity]{.smaller-font}
     - [Policy, Research, and Teacher Education]{.smaller-font}
 -   [Further investigation needed concerning the mechanisms that create and maintain geographic disparities in STEM learning opportunities]{.smaller-font}
     - [Ways to disrupt]{.smaller-font}
