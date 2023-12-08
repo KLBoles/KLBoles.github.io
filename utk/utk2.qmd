@@ -166,8 +166,8 @@ floyd_co_ky
         - Mathematics
         
 -   Advanced STEM Delivery?
-    -   **Advanced Placement (AP)**
-    -   **Project Lead the Way (PLTW)**
+    -   [**Advanced Placement (AP)**]{.green}
+    -   [**Project Lead the Way (PLTW)**]{.green}
     -   International Baccalaureate (IB)
     -   Dual Enrollment
     
@@ -1135,7 +1135,7 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 ::::{.smaller-line-height}
 
 * Professional Learning Survey
-  + [Travel time analysis [^25]]{.smaller-font}
+  + [Spatial distance/ proximity analysis [^25]]{.smaller-font}
   + [Accessibility surface/ isochrones [^25]]{.smaller-font}
   + [Spatial composite index [^23]]{.smaller-font}
 * [Teacher Interviews]{.semi-transparent .smaller-font}
