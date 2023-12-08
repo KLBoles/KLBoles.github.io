@@ -1011,15 +1011,14 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 ::: custom-subtitle-three
 **CURRENT WORK:** Implications<br>
 
-EDIT THIS SLIDE
-
 ::::{.fragment .section-subtitle .smaller-line-height}
 
-* [Shows urgency of boosting non-core-adjacent advanced STEM offerings in rural and town locales]{.fragment .smaller-font}
-  + [AP® Computer Science (both), AP® Physics (all), AP® Environmental Science, AP® Calculus BC, and AP® Statistics]{.fragment .much-smaller-font .smaller-line-height}
-* [Demonstrates need for inquiry into regional and state programs supporting STEM coursework]{.fragment .smaller-font}
-*
-
+* [Shows necessity in taking a regional/local lens in expanding access to advanced STEM]{.fragment .smaller-font}
+  + [Need for inquiry into regional and state programs supporting STEM coursework]{.fragment .smaller-font}
+* [Stakeholders should work to expand access to:]{.fragment .smaller-font}
+  +   [PLTW® Biomedical Science in the greater Nashville area for non-suburban schools]{.fragment .smaller-font}
+  +   [PLTW® Engineering in the greater Nashville, Knoxville, Chattanooga, and plateau area for city schools]{.fragment .smaller-font}
+  +   [PLTW® Engineering in the greater Chattanooga, Knoxville, and southern TN areas for rural schools]{.fragment .smaller-font}
 ::::
 
 :::
