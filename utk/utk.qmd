@@ -493,19 +493,19 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 :::
 :::
 
-## ***STEM Success:*** Findings
+<!-- ## ***STEM Success:*** Findings -->
 
-<hr>
+<!-- <hr> -->
 
-::: center
-Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNonRuralGapsBoldNumbers.png){.fragment fig-alt="Top 10 Rural/Non-Rural Gaps by Raw Mean Difference, Rural Disaggregated" top="5px"}
-:::
+<!-- ::: center -->
+<!-- Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNonRuralGapsBoldNumbers.png){.fragment fig-alt="Top 10 Rural/Non-Rural Gaps by Raw Mean Difference, Rural Disaggregated" top="5px"} -->
+<!-- ::: -->
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## ***STEM Success:*** Findings
 
