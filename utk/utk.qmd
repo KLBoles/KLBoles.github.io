@@ -487,6 +487,10 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 ![](images/MarginalEffectsofLocaleonAPSTEMSuccessRuralDisag.png){.fragment fig-alt="Marginal Effects of Locale on AP STEM Exam Scores, Rural Disaggregated" top="5px"}
 :::
 
+:::center
+[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+:::
+
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
 [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
@@ -546,7 +550,8 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 
 ::: page-center
 ::: custom-subtitle-two
-**CURRENT WORK:** *PART I* <br>[*Spatial Inequities in Advanced STEM* ***Availability***]{.section-subtitle} <br>[\[Student Learning = Indicator Study\]]{.section-subtitle-two}
+**CURRENT WORK:** *PART I* <br>[*Spatial Inequities in Advanced STEM* ***Availability***]{.section-subtitle} <br>[\[Student Learning = Indicator Study\]]{.section-subtitle-two}<br>[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+
 :::
 :::
 
@@ -609,6 +614,9 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 
 ::: center
 ![](images/BarplotOfTotalSchoolsOfferingEachAPSTEMCourse.png){.fragment fig-alt="Bar graph showing the total counts of public U.S. high schools offering each AP® STEM Course"}
+<br>
+[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+
 :::
 
 ::: {.absolute top="0" left="100%"}
@@ -632,6 +640,12 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 ![](images/ProportionPlotCalcABCompSciASlide3.png){.fragment fig-alt="Horizontal bar graph of the proportion of U.S. public schools offering AP® Calculus AB and AP® Computer Science A by locale" height="400px"}
 :::
 :::
+
+:::center
+<br>
+[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+:::
+
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
@@ -660,6 +674,8 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 <hr>
 
 ::: incremental
+
+:::: smaller-line-height
 -   One logit for each AP® STEM course [$$\frac{P_i}{1-P_i} = exp(\beta_{0} + \beta_{1}City_{i} + \beta_{2}Rural_{i} + \beta_{3}Town_{i} + \beta_{4}log(SES)_{i} + \\ \beta_{5}\sqrt{Enrollment}\;_{i} + \beta_{6}log(Prop\;Black)_{i} + \beta_{7}log(Prop\;Latinx)_{i} + \beta_{8}log(Prop\;Asian)_{i} + \alpha_{i}+\epsilon_{i})$$]{.much-smaller-font}
     -   [$P_{i}$= Probability of offering course at school *i*]{.much-smaller-font}
     -   [$City_{i},Rural_{i},Town_{i}$= **Locale indicator variables**]{.much-smaller-font}
@@ -667,6 +683,13 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
     -   [$Enrollment_{i}$= Student school population]{.much-smaller-font}
     -   [$Prop\;Black_{i},Prop\;Latinx_{i},Prop\;Asian_{i}$= Proportion of enrollment Black, Latinx, Asian]{.much-smaller-font}
     -   [$\alpha_{i}$= state fixed-effects]{.much-smaller-font}
+
+::::
+:::
+
+:::center
+<br>
+[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
 ::: {.absolute top="0" left="100%"}
@@ -687,6 +710,7 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 :::
 :::
 
+:::: smaller-line-height
 ::: {layout="[5,5]"}
 ::: {.fragment .even-smaller-font}
 -   [Relative to suburban schools, the odds of offering **AP® Calculus AB**:]{.fragment .smaller-line-height}
@@ -702,12 +726,18 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 -   [36% lower in [**rural**]{.ruralpink} schools]{.fragment .smaller-line-height}
 :::
 :::
+::::
+
+:::center
+[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+:::
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
 [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
 :::
 :::
+
 
 ## *STEM Access:* Results \[Aspatial\]
 
@@ -724,6 +754,10 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
     -   [In the 9 other AP® STEM courses, the odds of offering a given course are lowest for [**rural**]{.ruralpink} and [**town**]{.green} schools]{.fragment}
         -   [Physics (all), CS (both), Calc BC, Stats, Environmental Science]{.fragment}
 :::
+:::
+
+:::center
+[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
 ::: {.absolute top="0" left="100%"}
@@ -764,6 +798,11 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 
 ![](images/ResidualPlotComputerScienceALogit.png){.fragment fig-alt="Residual plot AP® Computer Science A Logit Model"}[**AP® Computer Science A**]{.green .fragment}<br>[$$I = .262 , p < .001$$]{.fragment}
 :::
+:::
+
+:::center
+<br>
+[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
 ::: {.absolute top="0" left="100%"}
@@ -835,6 +874,11 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 ![](images/GWR_RuralCoef_APCompSciA_Map.png){.fragment fig-alt="Local Coefficients on Rural from GWR" height="370px"}
 :::
 :::
+:::
+
+:::center
+<br>
+[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
 ::: {.absolute top="0" left="100%"}
@@ -912,6 +956,11 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 :::
 :::
 
+:::center
+<br>
+[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+:::
+
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
 [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
@@ -933,6 +982,12 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 
 :::
 :::
+
+:::center
+<br>
+[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+:::
+
 :::
 
 ------------------------------------------------------------------------
