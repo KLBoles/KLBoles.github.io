@@ -1078,7 +1078,7 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 
 ::: incremental
 ::: smaller-line-height
--   [Teacher Interviews]{.semi-transparent}
+-   [Teacher Interviews]{.semi-transparent .smaller-font}
 :::
 :::
 
