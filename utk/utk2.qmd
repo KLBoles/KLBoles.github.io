@@ -643,14 +643,11 @@ Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNo
 <hr>
 
 ::: incremental
--   In 2015 nearly half of rural U.S. secondary schools had no AP® program.[^7]
--   Low-SES students are nearly twice as likely to attend a school with no AP® program.[^8]
+-   In a study of Iowa PLTW® programs, districts that offered PLTW® pathways had larger enrollments, were more affluent, and more urban.[^7]
 -   Advanced math is less available in small high schools, schools serving historically marginalized groups, and rural high schools.[^9]
 :::
 
-[^7]: Gagnon, D. J., & Mattingly, M. J. (2016). Advanced Placement and rural schools: Access, success, and exploring alternatives. *Journal of Advanced Academics, 27* (4), 266-284.
-
-[^8]: Theokas, C., & Saaris, R. (2013). *Finding America's missing AP and IB students.* Education Trust.
+[^7]: Starobin, S.S., Schenk,T., Jr., Laanan, F. S., Rethwisch, D. G., & Moeller, D. (2013). Going and passing through community college: Examining the effectiveness of Project Lead the Way in STEM pathways. *Community College Journal of Research and Practice, 37*(3), 226-236.
 
 [^9]: Wolfe, R.L., Steiner, E. D., & Schweig, J. (2023). *Getting students to (and through) advanced math.* RAND Corporation.
 
