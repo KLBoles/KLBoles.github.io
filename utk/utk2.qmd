@@ -11,8 +11,8 @@ format:
     slide-number: true
     cap-location: bottom
     tbl-cap-location: bottom
-    # chalkboard: 
-    #   boardmarker-width: 5
+    chalkboard:
+      boardmarker-width: 5
     preview-links: auto
     footer: <https://klboles.github.io/utk/utk2>
 execute: 
