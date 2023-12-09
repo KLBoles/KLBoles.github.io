@@ -639,7 +639,7 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <br>
 
 -   AP® Course Audit Data for all U.S. Public Schools (2015-'19)
--   [PLTW® Schools and Programs for AY 2021-2022]{.fragment .semi-fade-out}
+
 :::
 
 ::: {.absolute top="0" left="100%"}
