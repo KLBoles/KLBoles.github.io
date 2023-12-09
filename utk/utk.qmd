@@ -574,6 +574,15 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 
+:::{.notes}
+
+* Each of these four NCES locales also has three subtypes. 
+* I am specifically interested in rurality
+    + rural categorization is functionally "everything that doesn't fit elsewhere"
+    
+* The suburban, town, city values are the same as the previous graph
+:::
+
 ## ***STEM Success:*** Analytic Approach
 
 <hr>
@@ -594,6 +603,14 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 ::: sectionhead
 [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
 :::
+:::
+
+:::{.notes}
+* I control for Locale (Rural Disaggregated)
+* SES
+* Gender
+* Race/Ethnicity
+
 :::
 
 ## ***STEM Success:*** Findings
@@ -618,6 +635,15 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 ::: sectionhead
 [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
 :::
+:::
+
+:::{.notes}
+
+* Marginal effects - holding everything else constant, a student on average gets this much boost or decrease in their AP STEM exam score
+* Scores range 1-5
+* Comparison group: Suburb
+
+
 :::
 
 <!-- ## ***STEM Success:*** Findings -->
@@ -666,6 +692,24 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 
+:::{.notes}
+
+* Ran the same model - 1 for each of the 12 AP STEM exams
+  + Controlling for race, SES, gender
+* Shows the same marginal effects, but disaggregated by exam, too
+* Black zero line = Suburb
+    + Ranked vertically
+    + Circles above suburb line outperform them
+    + Circles below underperform
+    
+* Look @ Rural
+* Circles scaled by marginal effect
+    + Smallest = AP Calc AB, Physics C: Mechanices, Computer Science A, and Chemistry
+
+
+
+:::
+
 ##  {#previous-work-implications data-menu-title="AP® Success: Takeaway" background="#010130"}
 
 ::: page-center
@@ -687,6 +731,14 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 ::: custom-subtitle-two
 **CURRENT WORK:** *PART I* <br>[*Spatial Inequities in Advanced STEM* ***Availability***]{.section-subtitle} <br>[\[Student Learning = Indicator Study\]]{.section-subtitle-two}<br>[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
+:::
+
+:::{.notes}
+1. See rural disadvantage across the STEM domain and every single AP exam
+2. Unlikely that disadvantage starts with AP
+3. Advanced STEM Success - student indicator- is weak
+    i) Need to further investigates rural community ecosystems (and non-rural)
+    ii) Exp in the subjects with the smallest coefficients 
 :::
 
 ------------------------------------------------------------------------
