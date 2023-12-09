@@ -545,10 +545,23 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <hr>
 
 ::: {layout="[1,6]"}
+
 ![](images/SankeyPlotLocaleKey.png){.fragment fig-alt="Key for Plot Colors" top="5px"}
 
 ::: center
-[Ranked Locale Coefficients Across All AP® STEM Exams]{.smaller-font}<br>![](images/Sankey_STEMExam_CoefficientsRanked.png){.fragment fig-alt="Ranked Locale Coefficients Across all 12 AP® STEM Subjects" top="5px"}
+
+[Ranked Locale Coefficients Across All AP® STEM Exams]{.smaller-font}<br>
+
+::::: r-stack
+
+![](images/Sankey_STEMExam_CoefficientsRanked_SuburbanAxis.png){.fragment fig-alt="Ranked Locale Coefficients Across all 12 AP® STEM Subjects" top="5px"}
+
+![](images/Sankey_STEMExam_CoefficientsRanked_Positive.png){.fragment fig-alt="Ranked Locale Coefficients Across all 12 AP® STEM Subjects" top="5px"}
+
+![](images/Sankey_STEMExam_CoefficientsRanked.png){.fragment fig-alt="Ranked Locale Coefficients Across all 12 AP® STEM Subjects" top="5px"}
+
+:::::
+
 :::
 :::
 
@@ -562,7 +575,7 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 
 ::: page-center
 ::: custom-subtitle-three
-**PREVIOUS WORK**[^14]: Implications<br>
+**PREVIOUS WORK**: Implications<br>
 
 ::: {.fragment .section-subtitle .smaller-line-height}
 -   [Support needed to advance rural equity in advanced secondary STEM success]{.fragment .smaller-font}
@@ -572,8 +585,6 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 :::
-
-[^14]: [Boles, K. L., & Domingue, B. W. (2023). Spatial inequities in Advanced Placement® STEM success: Investigating rural disparities in examination results. EdArXiv.]{.fragment .white}
 
 ##  {#current-work-1 data-menu-title="Spatial Inequities in AP STEM Availability" background="#010130"}
 
