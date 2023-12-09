@@ -449,6 +449,8 @@ floyd_co_ky
 
 :::{.notes}
 
+* I acknowledge that advanced secondary STEM comes from a lot of sources - AP, IB, PLTW, Dual Enrollment
+
 * Every single AP® exam score from a public high school student in the U.S. from 2016-2019
     + Negotiated for over 1.5 years
     + "Please do not circulate or cite"
