@@ -1297,8 +1297,6 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 
-------------------------------------------------------------------------
-
 <!-- ## **Research Agenda** -->
 
 <!-- <hr> -->
