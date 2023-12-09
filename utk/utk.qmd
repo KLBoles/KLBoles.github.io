@@ -786,7 +786,14 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <hr>
 
 ::: {layout="[6,5]"}
-![](images/OddsRatiosAllSTEMCourses.png){.fragment fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering AP STEM Course" height="800px"}
+
+::: center
+::: r-stack
+![](images/OddsRatiosAllSTEMCourses.png){.fragment fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering AP STEM Course"}
+
+![](images/OddsRatiosAllSTEMCourses_TraditionalBox.png){.fragment fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering AP STEM Course"}
+:::
+:::
 
 ::: {.fragment .even-smaller-font}
 -   [**Core-adjacent AP® Coursework**]{.fragment}
