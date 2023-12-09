@@ -457,7 +457,18 @@ Mean Unadjusted AP® STEM Exam Scores by State
 <hr>
 
 ::: center
-Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYearlyExamPerformanceByLocaleRuralDisag.png){.fragment fig-alt="Mean AP® Exam Scores by Domain by Year, Rural Disaggregated" top="5px"}
+Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
+
+::::r-stack
+![](images/Figure_AvgYearlyExamPerformanceByLocaleRuralDisagSlide1.png){.fragment fig-alt="Mean AP® Exam Scores by Domain by Year, Rural Disaggregated" top="5px"}
+
+
+![](images/Figure_AvgYearlyExamPerformanceByLocaleRuralDisagSlide2.png){.fragment fig-alt="Mean AP® Exam Scores by Domain by Year, Rural Disaggregated" top="5px"}
+
+
+![](images/Figure_AvgYearlyExamPerformanceByLocaleRuralDisag.png){.fragment fig-alt="Mean AP® Exam Scores by Domain by Year, Rural Disaggregated" top="5px"}
+
+::::
 :::
 
 ::: {.absolute top="0" left="100%"}
@@ -493,7 +504,16 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 <hr>
 
 ::: center
+
+:::: r-stack
+
+![](images/MarginalEffectsofLocaleonAPSTEMSuccessRuralDisagSlide1.png){.fragment fig-alt="Marginal Effects of Locale on AP STEM Exam Scores, Rural Disaggregated" top="5px"}
+
+![](images/MarginalEffectsofLocaleonAPSTEMSuccessRuralDisagSlide2.png){.fragment fig-alt="Marginal Effects of Locale on AP STEM Exam Scores, Rural Disaggregated" top="5px"}
+
 ![](images/MarginalEffectsofLocaleonAPSTEMSuccessRuralDisag.png){.fragment fig-alt="Marginal Effects of Locale on AP STEM Exam Scores, Rural Disaggregated" top="5px"}
+
+::::
 :::
 
 :::center
