@@ -198,11 +198,11 @@ floyd_co_ky
 
 ## **Frameworks:** Spatial Theory
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-1 [2 3 4 6]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- 1 [2 3 4 6]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 <hr>
 
@@ -216,11 +216,11 @@ floyd_co_ky
 
 ## **Frameworks:** Ecosystem Health
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-1 [2 3 4 6]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- 1 [2 3 4 6]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 <hr>
 
@@ -240,11 +240,11 @@ floyd_co_ky
 
 ## **Frameworks:** Ecosystem Health
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-1 [2 3 4 6]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- 1 [2 3 4 6]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 <hr>
 
@@ -282,67 +282,67 @@ floyd_co_ky
 
 <!-- [^3]: Hecht, M. & Crowley, K. (2020). Unpacking the learning ecosystems framework: Lessons from the adaptive management of biological ecosystems. Journal of the Learning Sciences, 29(2), 264-284. https://doi.org/10.1080/10508406.2019.1693381 -->
 
-## **Frameworks:** Ecosystem Health
+<!-- ## **Frameworks:** Ecosystem Health -->
 
-::: {.absolute top="0" left="100%"}
+<!-- ::: {.absolute top="0" left="100%"} -->
 
-::: sectionhead
+<!-- ::: sectionhead -->
 
-1 [2 3 4 6]{style="opacity:0.25"}
+<!-- 1 [2 3 4 6]{style="opacity:0.25"} -->
 
-:::
+<!-- ::: -->
 
-:::
+<!-- ::: -->
 
-<hr>
+<!-- <hr> -->
 
-::: {.r-stack .center}
+<!-- ::: {.r-stack .center} -->
 
-![](images/child-at-center-of-ecosystem.png){.fragment fig-alt="Picture of child who is centered in the STEM Learning Ecosystem Model" height="200px"}<br> [[**Indicator**]{.purple}<br>Student STEM Learning]{.fragment}
+<!-- ![](images/child-at-center-of-ecosystem.png){.fragment fig-alt="Picture of child who is centered in the STEM Learning Ecosystem Model" height="200px"}<br> [[**Indicator**]{.purple}<br>Student STEM Learning]{.fragment} -->
 
-![](images/STEM-Learning-Ecosystem.png){.fragment fig-alt="Picture of the STEM Learning Ecosystem Model" height="383px" top="5px"}<br> [STEM Learning Ecosystem Model[^31]]{.fragment}
+<!-- ![](images/STEM-Learning-Ecosystem.png){.fragment fig-alt="Picture of the STEM Learning Ecosystem Model" height="383px" top="5px"}<br> [STEM Learning Ecosystem Model[^31]]{.fragment} -->
 
-:::
+<!-- ::: -->
 
-[^31]: Used with permission of The National Academies Press, from Identifying and Supporting Productive STEM Programs in Out-of-School Settings, National Research Council, 2015; permission conveyed through Copyright Clearance Center, Inc.
+<!-- [^31]: Used with permission of The National Academies Press, from Identifying and Supporting Productive STEM Programs in Out-of-School Settings, National Research Council, 2015; permission conveyed through Copyright Clearance Center, Inc. -->
 
-## **Frameworks:** Ecosystem Health
+<!-- ## **Frameworks:** Ecosystem Health -->
 
-<hr>
+<!-- <hr> -->
 
-::: {.absolute top="0" left="100%"}
+<!-- ::: {.absolute top="0" left="100%"} -->
 
-::: sectionhead
+<!-- ::: sectionhead -->
 
-1 [2 3 4 5]{style="opacity:0.25"}
+<!-- 1 [2 3 4 5]{style="opacity:0.25"} -->
 
-:::
+<!-- ::: -->
 
-:::
+<!-- ::: -->
 
-::: {layout="[4,-1,5]"}
+<!-- ::: {layout="[4,-1,5]"} -->
 
-::: center
+<!-- ::: center -->
 
-![](images/teacher-brain-learning.png){.fragment fig-alt="Picture of a teacher with a brain superimposed showing lots of thinking and ideas" height="360px"}<br> [[**Keystone**]{.purple}<br>STEM Teacher Learning]{.fragment}
+<!-- ![](images/teacher-brain-learning.png){.fragment fig-alt="Picture of a teacher with a brain superimposed showing lots of thinking and ideas" height="360px"}<br> [[**Keystone**]{.purple}<br>STEM Teacher Learning]{.fragment} -->
 
-:::
+<!-- ::: -->
 
-<br>["Creating a profession of teaching in which teachers have the opportunity for continual learning is the likeliest way to inspire greater achievement for children..."<br><br>(Darling-Hammond, 2008, p. 99)[^30]]{.fragment .smaller-font}
+<!-- <br>["Creating a profession of teaching in which teachers have the opportunity for continual learning is the likeliest way to inspire greater achievement for children..."<br><br>(Darling-Hammond, 2008, p. 99)[^30]]{.fragment .smaller-font} -->
 
-:::
+<!-- ::: -->
 
-[^30]: Darling-Hammond, L. (2008). Teacher learning that supports student learning. In B. Z. Presseisen (Ed.), Teaching for intelligence (pp. 91 - 100). Corwin.
+<!-- [^30]: Darling-Hammond, L. (2008). Teacher learning that supports student learning. In B. Z. Presseisen (Ed.), Teaching for intelligence (pp. 91 - 100). Corwin. -->
 
 ## **Frameworks:** Opportunities to Learn
 
 <hr>
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-1 [2 3 4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- 1 [2 3 4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ::: incremental
 -   What are the necessary conditions for learning?
@@ -381,11 +381,11 @@ floyd_co_ky
 
 <hr>
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ::: smaller-font
 ::: incremental
@@ -404,11 +404,11 @@ floyd_co_ky
 
 [^10]: Mann, S., Sponsler, B., Welch, M., & Wyatt, J. (2017). *Advanced Placement across and success: How do rural schools stack up?* Education Commission of the States & CollegeBoard.
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## ***STEM Success:*** Research Question
 
@@ -416,21 +416,21 @@ floyd_co_ky
 
 <br> <br> [***How is student success in advanced STEM related to community demographics and geography?***]{.research-question}
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## ***STEM Success:*** Data
 
 <hr>
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ::: incremental
 ::: smaller-line-height
@@ -493,11 +493,11 @@ floyd_co_ky
 :::
 :::
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 :::{.notes}
 * SUBURBAN - ALL: mean in 2016 was abt 2.95 pts
@@ -517,40 +517,40 @@ floyd_co_ky
 
 :::
 
-## ***STEM Success:*** Data
+<!-- ## ***STEM Success:*** Data -->
 
-<hr>
+<!-- <hr> -->
 
-Mean Unadjusted AP® STEM Exam Scores by State
+<!-- Mean Unadjusted AP® STEM Exam Scores by State -->
 
-::: {layout="[5,5]"}
-[*Town*]{.fragment .smaller-font}<br>![](images/MeanAPSTEMExamScoreTown.png){.fragment fig-alt="Mean AP® STEM Exam Scores for Town Schools by State" top="5px"}
+<!-- ::: {layout="[5,5]"} -->
+<!-- [*Town*]{.fragment .smaller-font}<br>![](images/MeanAPSTEMExamScoreTown.png){.fragment fig-alt="Mean AP® STEM Exam Scores for Town Schools by State" top="5px"} -->
 
-[*Rural*]{.fragment .smaller-font}<br>![](images/MeanAPSTEMExamScoreRural.png){.fragment fig-alt="Mean AP® STEM Exam Scores for Rural Schools by State" top="5px"}
-:::
+<!-- [*Rural*]{.fragment .smaller-font}<br>![](images/MeanAPSTEMExamScoreRural.png){.fragment fig-alt="Mean AP® STEM Exam Scores for Rural Schools by State" top="5px"} -->
+<!-- ::: -->
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
-:::{.notes}
+<!-- :::{.notes} -->
 
-Since we see the lowest scores in Town/Rural - focusing on those
+<!-- Since we see the lowest scores in Town/Rural - focusing on those -->
 
-In this data, smallest grainsize geographically is state.
+<!-- In this data, smallest grainsize geographically is state. -->
 
-TOWN
-* Map shows the mean AP STEM exam score by state for the state's public Town high schools
-  + Colors compare each state average to national Town average
-  + Blue = below, Green = above
-    - Nevada
-    - Tennessee
-    
-RURAL
+<!-- TOWN -->
+<!-- * Map shows the mean AP STEM exam score by state for the state's public Town high schools -->
+<!--   + Colors compare each state average to national Town average -->
+<!--   + Blue = below, Green = above -->
+<!--     - Nevada -->
+<!--     - Tennessee -->
 
-:::
+<!-- RURAL -->
+
+<!-- ::: -->
 
 ## ***STEM Success:*** Data
 
@@ -568,11 +568,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 :::{.notes}
 
@@ -599,11 +599,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 -   [$\alpha_{j}$= State by exam by year fixed effects]{.much-smaller-font}
 :::
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 :::{.notes}
 * I control for Locale (Rural Disaggregated)
@@ -631,11 +631,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 :::{.notes}
 
@@ -686,11 +686,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 :::{.notes}
 
@@ -759,11 +759,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 
 [^14]: Wolfe, R.L., Steiner, E. D., & Schweig, J. (2023). *Getting students to (and through) advanced math.* RAND Corporation.
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## *STEM Access:* Research Question
 
@@ -771,11 +771,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 
 <br> <br> [***What is the geographic landscape of advanced STEM course availability in U.S. public schools?***]{.research-question}
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## *STEM Access:* Data
 
@@ -787,11 +787,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 -   AP® Course Audit Data for all U.S. Public Schools (2015-'19)
 :::
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## *STEM Access:* Exploratory Analysis \[Aspatial\]
 
@@ -801,11 +801,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 ![](images/BarplotOfTotalSchoolsOfferingEachAPSTEMCourse.png){.fragment fig-alt="Bar graph showing the total counts of public U.S. high schools offering each AP® STEM Course"} <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## *STEM Access:* Exploratory Analysis \[Aspatial\]
 
@@ -827,11 +827,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 <!-- ## *STEM Access:* Exploratory Analysis \[Aspatial\] -->
 
@@ -875,11 +875,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## *STEM Access:* Results \[Aspatial\]
 
@@ -917,11 +917,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## *STEM Access:* Results \[Aspatial\]
 
@@ -950,11 +950,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 <!-- ## *STEM Access:* Exploratory Analysis \[Spatial\] -->
 
@@ -1002,11 +1002,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 <!-- ## *STEM Access:* Exploratory Analysis \[Spatial\] -->
 
@@ -1087,11 +1087,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 <!-- ## *STEM Access:* Results \[Aspatial\] -->
 
@@ -1184,11 +1184,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ##  {#current-work-1-implications data-menu-title="AP® Success: Takeaway" background="#010130"}
 
@@ -1245,11 +1245,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 
 <!-- [^18]: Pea, R. (1993). Practices of distributed intelligence and designed for education. In G. Salomon (Ed.), *Distributed cognitions: Psychological and educational considerations* (pp. 47-87). Cambridge, UK: Cambridge University Press. -->
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## ***Teacher Learning:*** Research Questions
 
@@ -1257,21 +1257,21 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 
 <br> <br> [***What expertise resources characterize advanced STEM teachers' professional content-based learning ecologies?*** <br><br>***How and to what extent do their ecologies vary based on community locale and context?***]{.research-question-smaller}
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## ***Teacher Learning:*** Data
 
 <hr>
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ::: incremental
 ::: smaller-line-height
@@ -1372,11 +1372,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## ***Teacher Learning:*** Results
 
@@ -1398,11 +1398,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ------------------------------------------------------------------------
 
@@ -1527,11 +1527,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 
 <!-- ::: -->
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2 3 4]{style="opacity:0.25"} 5
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2 3 4]{style="opacity:0.25"} 5 -->
+<!-- ::: -->
+<!-- ::: -->
 
 <!-- ## **Research Agenda** -->
 
@@ -1645,11 +1645,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 
 [^18]: Lung-Amam, W. S., & Dawkins, C. (2019). The power of participatory story mapping: Advancing equitable development in disadvantaged neighbourhoods. *Community Development Journal, 55*(3), 473-495.
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2 3 4]{style="opacity:0.25"} 5
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2 3 4]{style="opacity:0.25"} 5 -->
+<!-- ::: -->
+<!-- ::: -->
 
 ------------------------------------------------------------------------
 
@@ -1663,11 +1663,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 2.  To support [**high-quality STEM experiences for all learners**]{.purple}, particularly in regions of inopportunity
 3.  To move toward the realization of [**spatial justice**]{.orange} --- *spatial equity in the distribution of resources and opportunities* --- [**for all learners**]{.orange}
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2 3 4]{style="opacity:0.25"} 5
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2 3 4]{style="opacity:0.25"} 5 -->
+<!-- ::: -->
+<!-- ::: -->
 
 ------------------------------------------------------------------------
 
