@@ -735,6 +735,14 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 
+:::{.notes}
+1. See rural disadvantage across the STEM domain and every single AP exam
+2. Unlikely that disadvantage starts with AP
+3. Advanced STEM Success - student indicator- is weak
+    i) Need to further investigates rural community ecosystems (and non-rural)
+    ii) Exp in the subjects with the smallest coefficients 
+:::
+
 ##  {#current-work-1 data-menu-title="Spatial Inequities in AP STEM Availability" background="#010130"}
 
 ::: page-center
@@ -744,11 +752,7 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 
 :::{.notes}
-1. See rural disadvantage across the STEM domain and every single AP exam
-2. Unlikely that disadvantage starts with AP
-3. Advanced STEM Success - student indicator- is weak
-    i) Need to further investigates rural community ecosystems (and non-rural)
-    ii) Exp in the subjects with the smallest coefficients 
+Now I'm going to talk a bit about two current studies - the first is another student/indicator study. It focuses on another condition from the OTL framework - availability.
 :::
 
 ------------------------------------------------------------------------
