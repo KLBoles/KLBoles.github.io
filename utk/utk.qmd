@@ -379,6 +379,11 @@ floyd_co_ky
 :::
 :::
 
+:::{.notes}
+This study is focused on a student indicator - STEM Success, which I conceptualize as an indicator of access from the OTL framework. If a student enjoys success in a subject, they have had aligned opportunities to learn.
+:::
+
+
 ## ***STEM Success:*** Literature
 
 <hr>
