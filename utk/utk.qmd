@@ -158,7 +158,7 @@ floyd_co_ky
         - Urban/rural divide
         - Uneven impacts of pandemic and misinformation
     + Space is EVERYWHERE! (and has always been)
-        - Space matters: in classroom arrangements, in teacher's access to resources, in the school your child attends, in regional food, sports, languages
+        - Space matters: in classroom arrangements, in teacher's access to resources, in the school your child attends, in regional food, sports, languages, how we organize ourselves into communities, how we are organized by governments and land boundaries...
     + Why now?
         - Better data (phones, satellites, etc...)
         - Better data = new techniques
@@ -581,6 +581,7 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 * Each of these four NCES locales also has three subtypes. 
 * I am specifically interested in rurality
     + rural categorization is functionally "everything that doesn't fit elsewhere"
+    + so I wanted to look deeper = disaggregating
     
 * The suburban, town, city values are the same as the previous graph
 :::
