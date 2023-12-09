@@ -744,7 +744,9 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 
 ::: center
 ::: r-stack
-![](images/OddsRatiosCalcABCompSciASlide1.png){.fragment fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering AP CalcAB" height="300px"}
+![](images/OddsRatiosCalcABCompSciASlide0A.png){.fragment fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering AP CalcAB" height="300px"}
+
+![](images/OddsRatiosCalcABCompSciASlide1A.png){.fragment fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering AP CalcAB or AP Computer Science A" height="300px"}
 
 ![](images/OddsRatiosCalcABCompSciASlide2.png){.fragment fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering AP CalcAB or AP Computer Science A" height="300px"}
 :::
