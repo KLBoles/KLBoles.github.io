@@ -300,6 +300,13 @@ hr {
   line-height: 0.85em;
 }
 
+//fourth subtitle on thank you slide
+.section-subtitle-four {
+  font-size: 1.5em;
+  color:$city-yellow;
+  font-family:$presentation-heading-font;
+}
+
 //partially fade out text-align: 
 .semi-transparent {
   opacity: 0.5;
@@ -315,6 +322,12 @@ hr {
   left: 0;
   width: 100%;
   text-align: center;
+}
+
+//heading font
+.heading-font {
+  font-family: $presentation-heading-font;
+  font-size: 3.5em;
 }
 
 //custom footer

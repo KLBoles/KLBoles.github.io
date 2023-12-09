@@ -1418,7 +1418,10 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 ##  {#thank-you data-menu-title="Thank You" background="#010130"}
 
 ::: page-center
-::: custom-subtitle
-**THANK YOU**<br>[**This work has been generously supported by:**<br> Stanford Graduate Fellowship in Science and Engineering, Stanford Diversifying Academica Recruiting Excellence (DARE) Fellowship, Stanford Diversity Dissertation Research Opportunity, Stanford Graduate School of Education Dissertation Support Grant, and the Stanford Center for Spatial and Textual Analysis Digital Humanities Fellowship ]{.section-subtitle}
-:::
+
+<br>
+
+[**THANK YOU**]{.yellow .heading-font}
+
+<br>**This work has been generously supported by:**<br> [The Stanford Graduate Fellowship in Science and Engineering<br>The Stanford Diversifying Academica Recruiting Excellence (DARE) Fellowship<br> The Stanford Diversity Dissertation Research Opportunity<br>The Stanford Graduate School of Education Dissertation Support Grant, and <br>The Stanford Center for Spatial and Textual Analysis Digital Humanities Fellowship]{.much-smaller-font .smaller-line-height}
 :::
