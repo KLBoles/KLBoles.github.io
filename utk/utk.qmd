@@ -763,9 +763,9 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 
 ::: {.fragment .even-smaller-font}
 -   [Relative to suburban schools, the odds of offering **AP® Computer Science A**:]{.fragment .smaller-line-height}
--   [5% lower in [**city**]{.yellow} schools]{.fragment .smaller-line-height}
--   [29% lower in [**town**]{.green} schools]{.fragment .smaller-line-height}
--   [36% lower in [**rural**]{.ruralpink} schools]{.fragment .smaller-line-height}
+    -   [5% lower in [**city**]{.yellow} schools]{.fragment .smaller-line-height}
+    -   [29% lower in [**town**]{.green} schools]{.fragment .smaller-line-height}
+    -   [36% lower in [**rural**]{.ruralpink} schools]{.fragment .smaller-line-height}
 :::
 :::
 ::::
@@ -815,9 +815,9 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 
-## *STEM Access:* Exploratory Analysis \[Spatial\]
+<!-- ## *STEM Access:* Exploratory Analysis \[Spatial\] -->
 
-<hr>
+<!-- <hr> -->
 
 <!-- ::: center -->
 <!-- [**Raw Data**]{.fragment .purple} -->
@@ -829,11 +829,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <!-- ::: -->
 <!-- ::: -->
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## *STEM Access:* Exploratory Analysis \[Spatial\]
 
@@ -1056,18 +1056,22 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <hr>
 
 ::: {.fragment .smaller-font}
--   Teachers learn from four spheres --- interpersonal, institutional, community, and policy[^22]
--   Within these spheres, teachers learn with learning partners and distributed resources[^18]
--   These partners and tools comprise teachers' [**learning ecologies**]{.green}:
+<!-- -   Teachers learn from four spheres --- interpersonal, institutional, community, and policy[^22] -->
+<!-- -   Within these spheres, teachers learn with learning partners and distributed resources[^18] -->
+<br>
+
+-   Learning partners and distributed resources comprise teachers' [**learning ecologies**]{.green}:
+
+<br>
 
 ::: custom-blockquote
 > *the accessed set of contexts, comprised of configurations of activities, material resources and relationships, found in co-located physical or virtual spaces that provide opportunities for learning* (Barron, 2004, p.6)[^19]
 :::
 :::
 
-[^22]: Zavelevsky, E., & Lishchinsky, O. S. (2020). An ecological perspective of teacher retention: An emergent model. *Teaching and Teacher Education, 88*, 1-11.
+<!-- [^22]: Zavelevsky, E., & Lishchinsky, O. S. (2020). An ecological perspective of teacher retention: An emergent model. *Teaching and Teacher Education, 88*, 1-11. -->
 
-[^18]: Pea, R. (1993). Practices of distributed intelligence and designed for education. In G. Salomon (Ed.), *Distributed cognitions: Psychological and educational considerations* (pp. 47-87). Cambridge, UK: Cambridge University Press.
+<!-- [^18]: Pea, R. (1993). Practices of distributed intelligence and designed for education. In G. Salomon (Ed.), *Distributed cognitions: Psychological and educational considerations* (pp. 47-87). Cambridge, UK: Cambridge University Press. -->
 
 [^19]: Barron, B. (2004). Learning ecologies for technological fluency: Gender and experience differences. *Journal of Educational Computing Research, 31* (1), 1-36.
 
@@ -1379,7 +1383,7 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 -   [Participatory asset mapping[^24], Spatial social network analysis [^25], GIS story maps [^26]]{.fragment .smaller-font .smaller-line-height}
 :::
 
-[^24]: Elwood, S. (2011). Participatory approaches in GIS and society research: Foundations, practices, and future directions. In *The SAGE Handbook of GIS and Society* (pp. 381-399). SAGE.{.fragment .smaller-font .smaller-line-height}
+[^24]: Elwood, S. (2011). Participatory approaches in GIS and society research: Foundations, practices, and future directions. In *The SAGE Handbook of GIS and Society* (pp. 381-399). SAGE.
 
 [^25]: Andris, C., & Sarkar, D. (2022). Social networks in space. In S. J. Rey & R. Franklin (Eds.), *Handbook of Spatial Analysis in the Social Sciences* (pp. 400-415). Elgar.
 
@@ -1415,6 +1419,6 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 
 ::: page-center
 ::: custom-subtitle
-**THANK YOU**
+**THANK YOU**<br>[**This work has been generously supported by:**<br> Stanford Graduate Fellowship in Science and Engineering, Stanford Diversifying Academica Recruiting Excellence (DARE) Fellowship, Stanford Diversity Dissertation Research Opportunity, Stanford Graduate School of Education Dissertation Support Grant, and the Stanford Center for Spatial and Textual Analysis Digital Humanities Fellowship ]{.section-subtitle}
 :::
 :::
