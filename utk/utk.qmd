@@ -399,19 +399,28 @@ floyd_co_ky
 <hr>
 
 ::: {layout="[4,6]"}
+::::{.smaller-line-height}
 ::: incremental
-<br>
 
--   [**City**]{.yellow}: principal U.S. city
--   [**Suburb**]{.blue}: densely populated urban area with population $\geq$ 50,000
--   [**Town**]{.green}: 2,500 $\leq$ population $<$ 50,000
--   [**Rural**]{.ruralpink}: outside other locale classifications
+-   [[**City**]{.yellow}: principal U.S. city]{.smaller-font}
+    - [Knoxville]{.much-smaller-font}
+-   [[**Suburb**]{.blue}: densely populated urban area with population $\geq$ 50,000]{.smaller-font}
+    - [Maryville]{.much-smaller-font}
+-   [[**Town**]{.green}: 2,500 $\leq$ population $<$ 50,000]{.smaller-font}
+    - [Kingston]{.much-smaller-font}
+-   [[**Rural**]{.ruralpink}: outside other locale classifications]{.smaller-font}
+    - [Maynardville]{.much-smaller-font}
 :::
+::::
 
 ::: center
 [Mean AP® Exam Scores by Domain]{.fragment .smaller-font}<br>
 
 ::: r-stack
+![](images/Figure_AvgYearlyExamPerformanceByExamByLocale_Report_AllOnly_Suburb.png){.fragment fig-alt="Mean AP® Exam Scores by Domain by Year" top="5px"}
+
+![](images/Figure_AvgYearlyExamPerformanceByExamByLocale_Report_AllOnly_SuburbCity.png){.fragment fig-alt="Mean AP® Exam Scores by Domain by Year" top="5px"}
+
 ![](images/Figure_AvgYearlyExamPerformanceByExamByLocale_Report_AllOnly.png){.fragment fig-alt="Mean AP® Exam Scores by Domain by Year" top="5px"}
 
 ![](images/Figure_AvgYearlyExamPerformanceByExamByLocale_Report.png){.fragment fig-alt="Mean AP® Exam Scores by Domain by Year" top="5px"}
@@ -1082,37 +1091,37 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 :::
 :::
 
-## ***Teacher Learning:*** Analytic Approach
+<!-- ## ***Teacher Learning:*** Analytic Approach -->
 
-<hr>
+<!-- <hr> -->
 
-[**Mixed Methods Geospatial Approach**[^20]]{.fragment .purple}
+<!-- [**Mixed Methods Geospatial Approach**[^20]]{.fragment .purple} -->
 
-::: incremental
-::: smaller-line-height
--   Professional Learning Survey
-    -   [Spatial distance/ proximity analysis]{.smaller-font}[^21]
-    -   [Accessibility surface/ isochrones]{.smaller-font}[^21]
-    -   [Spatial composite index]{.smaller-font}[^23]
--   [Teacher Interviews]{.semi-transparent .smaller-font}
-    -   [Thematic analysis]{.semi-transparent .smaller-font}
+<!-- ::: incremental -->
+<!-- ::: smaller-line-height -->
+<!-- -   Professional Learning Survey -->
+<!--     -   [Spatial distance/ proximity analysis]{.smaller-font}[^21] -->
+<!--     -   [Accessibility surface/ isochrones]{.smaller-font}[^21] -->
+<!--     -   [Spatial composite index]{.smaller-font}[^23] -->
+<!-- -   [Teacher Interviews]{.semi-transparent .smaller-font} -->
+<!--     -   [Thematic analysis]{.semi-transparent .smaller-font} -->
 
-:::
-:::
+<!-- ::: -->
+<!-- ::: -->
 
-[^20]: Yoon, E., & Lubienski, C. (2018). Thinking critically in space: Toward a mixed-methods geospatial approach to education policy analysis. *Educational Researcher, 47*(1), 53-61.
+<!-- [^20]: Yoon, E., & Lubienski, C. (2018). Thinking critically in space: Toward a mixed-methods geospatial approach to education policy analysis. *Educational Researcher, 47*(1), 53-61. -->
 
-[^21]: Walker, K. (2023). *Analyzing US census data: Methods, maps, and models in R.* CRC Press.
+<!-- [^21]: Walker, K. (2023). *Analyzing US census data: Methods, maps, and models in R.* CRC Press. -->
 
-<!-- [^22]: Walker, K. (2023). *Analyzing US census data: Methods, maps, and models in R.* CRC Press. -->
+<!-- <!-- [^22]: Walker, K. (2023). *Analyzing US census data: Methods, maps, and models in R.* CRC Press. --> -->
 
-[^23]: Esri. (2023). *Creating composite indices using ArcGIS: Best practices*. Technical Paper.
+<!-- [^23]: Esri. (2023). *Creating composite indices using ArcGIS: Best practices*. Technical Paper. -->
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"}
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## ***Teacher Learning:*** Results
 
@@ -1169,25 +1178,25 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 
 ------------------------------------------------------------------------
 
-##  {#current-work-2-implications data-menu-title="AP® Success: Takeaway" background="#010130"}
+<!-- ##  {#current-work-2-implications data-menu-title="AP® Success: Takeaway" background="#010130"} -->
 
-::: page-center
-::: custom-subtitle-three
-**CURRENT WORK:** Implications<br>
+<!-- ::: page-center -->
+<!-- ::: custom-subtitle-three -->
+<!-- **CURRENT WORK:** Implications<br> -->
 
-::: {.fragment .section-subtitle .smaller-line-height}
-[These initial findings speak to the need for stakeholders to engage with rural/town teacher learners differently:]{.smaller-font .smaller-line-height}
+<!-- ::: {.fragment .section-subtitle .smaller-line-height} -->
+<!-- [These initial findings speak to the need for stakeholders to engage with rural/town teacher learners differently:]{.smaller-font .smaller-line-height} -->
 
-::: {.smaller-font}
+<!-- ::: {.smaller-font} -->
 
--   [Professional development opportunities should be offered regionally in rural/town areas or nearby areas]{.smaller-font}
--   [Efforts needed to expand community resources into areas of sparsity ]{.smaller-font}
+<!-- -   [Professional development opportunities should be offered regionally in rural/town areas or nearby areas]{.smaller-font} -->
+<!-- -   [Efforts needed to expand community resources into areas of sparsity ]{.smaller-font} -->
 
-:::
+<!-- ::: -->
 
-:::
-:::
-:::
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
 
 ##  {#future-work data-menu-title="Future Work" background="#010130"}
 
@@ -1203,46 +1212,53 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 
 <hr>
 
-::: {layout="[5,5,5]"}
-::: center
-[**Learning Ecosystems**]{.fragment .smaller-font .purple}
+<br>
 
-::: {.fragment .much-smaller-font}
--   What resources characterize regional STEM learning ecosystems?
-    -   How does resource availability and quality vary across communities?
-    -   To what extent does the regional presence of resources, institutions, and industry predict local STEM learning outcomes?
--   How does human mobility and community resource exposure shape local STEM learning outcomes?
-    -   How does human mobility and resource exposure vary across geographies?
--   How do student learners engage with their local STEM learning ecosystems?
-    -   Teacher learners?
-:::
-:::
+* [**Spatial Data Science**]{.purple}
+    +   Learning Ecosystems
+    +   Spatial Equity
+* [**Data Science as Tool**]{.purple}
 
-::: center
-[**Spatial Equity**]{.fragment .smaller-font .purple}
+<!-- ::: {layout="[5,5,5]"} -->
+<!-- ::: center -->
+<!-- [**Learning Ecosystems**]{.fragment .smaller-font .purple} -->
 
-::: {.fragment .much-smaller-font}
--   Which high-leverage resources are most inequitably distributed across space?
-    -   How might we amplify the reach of these resources to additional geographic areas?
--   Which regions have strong STEM learning ecosystems? weaker ecosystems?
-    -   How might we leverage configurations of and learnings from strong ecosystems to strengthen weak ecosystems?
--   Who are the key knowledge brokers within regional spatial social networks for STEM learning?
-    -   How does network-crossing by knowledge brokers into neighboring regional networks impact STEM ecosystem health?
-:::
-:::
+<!-- ::: {.fragment .much-smaller-font} -->
+<!-- -   What resources characterize regional STEM learning ecosystems? -->
+<!--     -   How does resource availability and quality vary across communities? -->
+<!--     -   To what extent does the regional presence of resources, institutions, and industry predict local STEM learning outcomes? -->
+<!-- -   How does human mobility and community resource exposure shape local STEM learning outcomes? -->
+<!--     -   How does human mobility and resource exposure vary across geographies? -->
+<!-- -   How do student learners engage with their local STEM learning ecosystems? -->
+<!--     -   Teacher learners? -->
+<!-- ::: -->
+<!-- ::: -->
 
-::: center
-[**Data Science as Tool**]{.fragment .smaller-font .purple}
+<!-- ::: center -->
+<!-- [**Spatial Equity**]{.fragment .smaller-font .purple} -->
 
-::: {.fragment .much-smaller-font}
--   Which ideas, skills, and practices are most important for students to learn in data science?
-    -   How might we support teachers in facilitating this learning?
--   What data science literacies (including ethics) are critical for students to learn in an age of AI and data science democratization?
--   How might data science ideas, skills, and practices be distributed vertically (across grade levels) and horizontally (across disciplines) in K-12 education?
--   How might we support administrators, teachers, and other stakeholders to leverage data science in improving student outcomes? community outcomes?
-:::
-:::
-:::
+<!-- ::: {.fragment .much-smaller-font} -->
+<!-- -   Which high-leverage resources are most inequitably distributed across space? -->
+<!--     -   How might we amplify the reach of these resources to additional geographic areas? -->
+<!-- -   Which regions have strong STEM learning ecosystems? weaker ecosystems? -->
+<!--     -   How might we leverage configurations of and learnings from strong ecosystems to strengthen weak ecosystems? -->
+<!-- -   Who are the key knowledge brokers within regional spatial social networks for STEM learning? -->
+<!--     -   How does network-crossing by knowledge brokers into neighboring regional networks impact STEM ecosystem health? -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ::: center -->
+<!-- [**Data Science as Tool**]{.fragment .smaller-font .purple} -->
+
+<!-- ::: {.fragment .much-smaller-font} -->
+<!-- -   Which ideas, skills, and practices are most important for students to learn in data science? -->
+<!--     -   How might we support teachers in facilitating this learning? -->
+<!-- -   What data science literacies (including ethics) are critical for students to learn in an age of AI and data science democratization? -->
+<!-- -   How might data science ideas, skills, and practices be distributed vertically (across grade levels) and horizontally (across disciplines) in K-12 education? -->
+<!-- -   How might we support administrators, teachers, and other stakeholders to leverage data science in improving student outcomes? community outcomes? -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
@@ -1252,56 +1268,56 @@ Mean AP® Exam Scores by Domain, Rural Disaggregated<br>![](images/Figure_AvgYea
 
 ------------------------------------------------------------------------
 
-## **Research Agenda**
+<!-- ## **Research Agenda** -->
 
-<hr>
+<!-- <hr> -->
 
-::: {layout="[5,5,5]"}
-::: center
-[**Learning Ecosystems**]{.smaller-font .purple}
+<!-- ::: {layout="[5,5,5]"} -->
+<!-- ::: center -->
+<!-- [**Learning Ecosystems**]{.smaller-font .purple} -->
 
-::: much-smaller-font
--   **What resources characterize regional STEM learning ecosystems?**
-    -   How does resource availability and quality vary across communities?
-    -   To what extent does the regional presence of resources, institutions, and industry predict local STEM learning outcomes?
--   How does human mobility and community resource exposure shape local STEM learning outcomes?
-    -   How does human mobility and resource exposure vary across geographies?
--   **How do student learners engage with their local STEM learning ecosystems?**
-    -   **Teacher learners?**
-:::
-:::
+<!-- ::: much-smaller-font -->
+<!-- -   **What resources characterize regional STEM learning ecosystems?** -->
+<!--     -   How does resource availability and quality vary across communities? -->
+<!--     -   To what extent does the regional presence of resources, institutions, and industry predict local STEM learning outcomes? -->
+<!-- -   How does human mobility and community resource exposure shape local STEM learning outcomes? -->
+<!--     -   How does human mobility and resource exposure vary across geographies? -->
+<!-- -   **How do student learners engage with their local STEM learning ecosystems?** -->
+<!--     -   **Teacher learners?** -->
+<!-- ::: -->
+<!-- ::: -->
 
-::: center
-[**Spatial Equity**]{.smaller-font .purple}
+<!-- ::: center -->
+<!-- [**Spatial Equity**]{.smaller-font .purple} -->
 
-::: much-smaller-font
--   Which high-leverage resources are most inequitably distributed across space?
-    -   How might we amplify the reach of these resources to additional geographic areas?
--   Which regions have strong STEM learning ecosystems? weaker ecosystems?
-    -   How might we leverage configurations of and learnings from strong ecosystems to strengthen weak ecosystems?
--   **Who are the key knowledge brokers within regional spatial social networks for STEM learning?**
-    -   How does network-crossing by knowledge brokers into neighboring regional networks impact STEM ecosystem health?
-:::
-:::
+<!-- ::: much-smaller-font -->
+<!-- -   Which high-leverage resources are most inequitably distributed across space? -->
+<!--     -   How might we amplify the reach of these resources to additional geographic areas? -->
+<!-- -   Which regions have strong STEM learning ecosystems? weaker ecosystems? -->
+<!--     -   How might we leverage configurations of and learnings from strong ecosystems to strengthen weak ecosystems? -->
+<!-- -   **Who are the key knowledge brokers within regional spatial social networks for STEM learning?** -->
+<!--     -   How does network-crossing by knowledge brokers into neighboring regional networks impact STEM ecosystem health? -->
+<!-- ::: -->
+<!-- ::: -->
 
-::: center
-[**Data Science as Tool**]{.smaller-font .purple}
+<!-- ::: center -->
+<!-- [**Data Science as Tool**]{.smaller-font .purple} -->
 
-::: much-smaller-font
--   **Which ideas, skills, and practices are most important for students to learn in data science?**
-    -   **How might we support teachers in facilitating this learning?**
--   What data science literacies (including ethics) are critical for students to learn in an age of AI and data science democratization?
--   How might data science ideas, skills, and practices be distributed vertically (across grade levels) and horizontally (across disciplines) in K-12 education?
--   How might we support administrators, teachers, and other stakeholders to leverage data science in improving student outcomes? community outcomes?
-:::
-:::
-:::
+<!-- ::: much-smaller-font -->
+<!-- -   **Which ideas, skills, and practices are most important for students to learn in data science?** -->
+<!--     -   **How might we support teachers in facilitating this learning?** -->
+<!-- -   What data science literacies (including ethics) are critical for students to learn in an age of AI and data science democratization? -->
+<!-- -   How might data science ideas, skills, and practices be distributed vertically (across grade levels) and horizontally (across disciplines) in K-12 education? -->
+<!-- -   How might we support administrators, teachers, and other stakeholders to leverage data science in improving student outcomes? community outcomes? -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
 
-::: {.absolute top="0" left="100%"}
-::: sectionhead
-[1 2 3 4]{style="opacity:0.25"} 5
-:::
-:::
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2 3 4]{style="opacity:0.25"} 5 -->
+<!-- ::: -->
+<!-- ::: -->
 
 ------------------------------------------------------------------------
 
