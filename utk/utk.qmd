@@ -105,6 +105,26 @@ floyd_co_ky <- ggplot() +
 
 floyd_co_ky
 ```
+
+:::{.notes}
+
+* Space as student
+    - Gravel road, No cable, Fox39
+    - Paid tuition to go to "city"
+    - Friends: Saturday morning cartoons, and the Disney channel
+    - Fox39 got Star Trek (Data) and Jeopardy
+    
+* Space as teacher
+    - Eastern, Kentucky - 100 miles from interstate, poor
+    - started AP® Stats and computer science programs there, one of few in area
+    - Professional learning was crucial, and I had to travel
+    - Found an AP® Stats mentor on Twitter & paid to fly to Tulsa for a week
+    - My students the next year had nearly an 80% pass rate
+    
+* Attuned to how space shapes teaching and learning.
+
+:::
+
 :::
 
 ## Agenda
@@ -131,6 +151,19 @@ floyd_co_ky
     -   Spatial analysis techniques
 :::
 
+:::{.notes}
+* We study many dimensions to understand how inequities play out in teaching and learning
+    + Space is another - allows us to see patterns of inequity
+    + It's a particularly urgent time to study space
+        - Urban/rural divide
+        - Uneven impacts of pandemic and misinformation
+    + Why now? Space is EVERYWHERE! (and has always been)
+        - Better data (phones, satellites, etc...)
+        - Better data = new techniques
+* Pics - talk about how recent
+
+:::
+
 ::: {.fragment .timeline layout="[1,1,1,1,1,1]"}
 ![](images/sf_package.png){fig-alt="HexSticker for the sf package" height="150px"}<br> 2017
 
@@ -153,6 +186,12 @@ floyd_co_ky
 ::: custom-subtitle
 **identify, examine, and address spatial inequities in learning opportunities**
 :::
+:::
+
+:::{.notes}
+
+... for our students, our teachers, and our communities
+
 :::
 
 ------------------------------------------------------------------------
@@ -406,6 +445,21 @@ floyd_co_ky
 
 [^11]: reardon., s.f., Ho, A. D., Shear, B. R., Fahle, E. M., Kalogrides, D., Jang, H., & Chavez, B. (2021). Stanford Education Data Archive (Version 4.1).
 
+:::{.notes}
+
+* Every single AP® exam score from a public high school student in the U.S. from 2016-2019
+    + Negotiated for over 1.5 years
+    + "Please do not circulate or cite"
+        - Under DUA, I can show some early work today, but please refrain from photos or sharing
+        
+* SEDA data
+    + Has academic achievement and demographic data for every K-8 school and district in the US
+    + Specifically, SES
+        - CollegeBoard = binarized fee waiver only
+
+
+:::
+
 ## ***STEM Success:*** Data
 
 <hr>
@@ -445,6 +499,24 @@ floyd_co_ky
 :::
 :::
 
+:::{.notes}
+* SUBURBAN - ALL: mean in 2016 was abt 2.95 pts
+    + AP is scored on 1-5 scale
+    + Largely the same in 2017, shy of 3 in 2018, and just over 3 in 2019
+  
+* CITY - ALL: 2016 mean - 2.68
+    + 2017 dip to 2.66
+    + 2018 increase to 2.7
+    + 2019 to a little over
+    
+* Town rural at bottom
+
+* Humanities - Suburbs and City performance weakens a bit, but in STEM much stronger
+    + No big jump for Rural/Town
+    
+
+:::
+
 ## ***STEM Success:*** Data
 
 <hr>
@@ -461,6 +533,23 @@ Mean Unadjusted AP® STEM Exam Scores by State
 ::: sectionhead
 [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"}
 :::
+:::
+
+:::{.notes}
+
+Since we see the lowest scores in Town/Rural - focusing on those
+
+In this data, smallest grainsize geographically is state.
+
+TOWN
+* Map shows the mean AP STEM exam score by state for the state's public Town high schools
+  + Colors compare each state average to national Town average
+  + Blue = below, Green = above
+    - Nevada
+    - Tennessee
+    
+RURAL
+
 :::
 
 ## ***STEM Success:*** Data
