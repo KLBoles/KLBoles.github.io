@@ -38,7 +38,7 @@ include-after-body: add-custom-footer.html
 #|  - "Greene & Knox Counties, TN"
 #|  - "Floyd County, KY" 
 #| fig-height: 4
-#| fig-format: retina
+
 library(tidyverse)
 library(ussf)
 library(sf)
@@ -117,9 +117,7 @@ floyd_co_ky
 3.  Current Work - *STEM Access*
 4.  Current Work - *Teacher Learning*
 5.  Future Work
-
 :::
-
 
 ## Why Space?
 
@@ -245,43 +243,57 @@ floyd_co_ky
 
 <!-- [^3]: Hecht, M. & Crowley, K. (2020). Unpacking the learning ecosystems framework: Lessons from the adaptive management of biological ecosystems. Journal of the Learning Sciences, 29(2), 264-284. https://doi.org/10.1080/10508406.2019.1693381 -->
 
-<!-- ## **Frameworks:** Ecosystem Health -->
+## **Frameworks:** Ecosystem Health
 
-<!-- ::: {.absolute top="0" left="100%"} -->
-<!-- ::: sectionhead -->
-<!-- 1 [2 3 4 6]{style="opacity:0.25"} -->
-<!-- ::: -->
-<!-- ::: -->
+::: {.absolute top="0" left="100%"}
 
-<!-- <hr> -->
+::: sectionhead
 
-<!-- ::: {.r-stack .center} -->
-<!-- ![](images/child-at-center-of-ecosystem.png){.fragment fig-alt="Picture of child who is centered in the STEM Learning Ecosystem Model" height="200px"}<br> [[**Indicator**]{.purple}<br>Student STEM Learning]{.fragment} -->
+1 [2 3 4 6]{style="opacity:0.25"}
 
-<!-- ![](images/STEM-Learning-Ecosystem.png){.fragment fig-alt="Picture of the STEM Learning Ecosystem Model" height="383px" top="5px"}<br> [STEM Learning Ecosystem Model[^5]]{.fragment} -->
-<!-- ::: -->
+:::
 
-<!-- [^5]: Used with permission of The National Academies Press, from Identifying and Supporting Productive STEM Programs in Out-of-School Settings, National Research Council, 2015; permission conveyed through Copyright Clearance Center, Inc. -->
+:::
 
-<!-- ## **Frameworks:** Ecosystem Health -->
+<hr>
 
-<!-- <hr> -->
+::: {.r-stack .center}
 
-<!-- ::: {.absolute top="0" left="100%"} -->
-<!-- ::: sectionhead -->
-<!-- 1 [2 3 4 5]{style="opacity:0.25"} -->
-<!-- ::: -->
-<!-- ::: -->
+![](images/child-at-center-of-ecosystem.png){.fragment fig-alt="Picture of child who is centered in the STEM Learning Ecosystem Model" height="200px"}<br> [[**Indicator**]{.purple}<br>Student STEM Learning]{.fragment}
 
-<!-- ::: {layout="[4,-1,5]"} -->
-<!-- ::: center -->
-<!-- ![](images/teacher-brain-learning.png){.fragment fig-alt="Picture of a teacher with a brain superimposed showing lots of thinking and ideas" height="360px"}<br> [[**Keystone**]{.purple}<br>STEM Teacher Learning]{.fragment} -->
-<!-- ::: -->
+![](images/STEM-Learning-Ecosystem.png){.fragment fig-alt="Picture of the STEM Learning Ecosystem Model" height="383px" top="5px"}<br> [STEM Learning Ecosystem Model[^31]]{.fragment}
 
-<!-- <br>["Creating a profession of teaching in which teachers have the opportunity for continual learning is the likeliest way to inspire greater achievement for children..."<br><br>(Darling-Hammond, 2008, p. 99)[^6]]{.fragment .smaller-font} -->
-<!-- ::: -->
+:::
 
-<!-- [^6]: Darling-Hammond, L. (2008). Teacher learning that supports student learning. In B. Z. Presseisen (Ed.), Teaching for intelligence (pp. 91 - 100). Corwin. -->
+[^31]: Used with permission of The National Academies Press, from Identifying and Supporting Productive STEM Programs in Out-of-School Settings, National Research Council, 2015; permission conveyed through Copyright Clearance Center, Inc.
+
+## **Frameworks:** Ecosystem Health
+
+<hr>
+
+::: {.absolute top="0" left="100%"}
+
+::: sectionhead
+
+1 [2 3 4 5]{style="opacity:0.25"}
+
+:::
+
+:::
+
+::: {layout="[4,-1,5]"}
+
+::: center
+
+![](images/teacher-brain-learning.png){.fragment fig-alt="Picture of a teacher with a brain superimposed showing lots of thinking and ideas" height="360px"}<br> [[**Keystone**]{.purple}<br>STEM Teacher Learning]{.fragment}
+
+:::
+
+<br>["Creating a profession of teaching in which teachers have the opportunity for continual learning is the likeliest way to inspire greater achievement for children..."<br><br>(Darling-Hammond, 2008, p. 99)[^30]]{.fragment .smaller-font}
+
+:::
+
+[^30]: Darling-Hammond, L. (2008). Teacher learning that supports student learning. In B. Z. Presseisen (Ed.), Teaching for intelligence (pp. 91 - 100). Corwin.
 
 ## **Frameworks:** Opportunities to Learn
 
@@ -295,16 +307,16 @@ floyd_co_ky
 
 ::: incremental
 -   What are the necessary conditions for learning?
-    -   [**Opportunities to Learn (OTL):**]{.green} "Affordances for changing participation and practice" [(Greeno & Gresalfi, 2008, p. 172)]{.smaller-font}[^7]
-    -   Three conditions[^8]:
+    -   [**Opportunities to Learn (OTL):**]{.green} "Affordances for changing participation and practice" [(Greeno & Gresalfi, 2008, p. 172)]{.smaller-font}[^5]
+    -   Three conditions[^6]:
         -   Availability
         -   Accessibility
         -   [Learner dispositions]{.fragment .semi-fade-out}
 :::
 
-[^7]: Greeno, J. G. & Gresalfi, M. S. (2008). Opportunities to learn in practice and identity. In P. A. Moss, D. C. Pullin, J. P. Gee, E. H. Haertel, & L. J. Young (Eds.), Assessment, equity, and opportunity to learn (pp. 170-199). Cambridge University Press.
+[^5]: Greeno, J. G. & Gresalfi, M. S. (2008). Opportunities to learn in practice and identity. In P. A. Moss, D. C. Pullin, J. P. Gee, E. H. Haertel, & L. J. Young (Eds.), Assessment, equity, and opportunity to learn (pp. 170-199). Cambridge University Press.
 
-[^8]: Norman, D. A. (1988). The psychology of everyday things. Basic Books.}
+[^6]: Norman, D. A. (1988). The psychology of everyday things. Basic Books.}
 
 <!-- ##  {#study-intros data-menu-title="Previous Work" background="#010130"} -->
 
@@ -338,20 +350,20 @@ floyd_co_ky
 
 ::: smaller-font
 ::: incremental
--   Multi-year sustained decrease in pass rates among Black, Latinx, and Native American students [^9]
--   Low socioeconomic status (SES) students have a pass rate 17% lower than more affluent peers [^10]
--   On average, men outperform women across all AP® STEM exams [^11]
--   In 2015 rural students had the lowest AP® STEM pass rate of all locales [^12]
+-   Multi-year sustained decrease in pass rates among Black, Latinx, and Native American students [^7]
+-   Low socioeconomic status (SES) students have a pass rate 17% lower than more affluent peers [^8]
+-   On average, men outperform women across all AP® STEM exams [^9]
+-   In 2015 rural students had the lowest AP® STEM pass rate of all locales [^10]
 :::
 :::
 
-[^9]: Judson, E., & Hobson, A. (2015). Growth and achievement trends of advanced placement (AP) exams in American high schools. *American Secondary Education, 43*(2), 59-76.
+[^7]: Judson, E., & Hobson, A. (2015). Growth and achievement trends of advanced placement (AP) exams in American high schools. *American Secondary Education, 43*(2), 59-76.
 
-[^10]: Finn, C. E., Jr., & Scanlan, A. E. (2020). The roles of Advanced Placement in bridging excellence gaps. Fordham Institute.
+[^8]: Finn, C. E., Jr., & Scanlan, A. E. (2020). The roles of Advanced Placement in bridging excellence gaps. Fordham Institute.
 
-[^11]: The College Board. (2014). *National report.*
+[^9]: The College Board. (2014). *National report.*
 
-[^12]: Mann, S., Sponsler, B., Welch, M., & Wyatt, J. (2017). *Advanced Placement across and success: How do rural schools stack up?* Education Commission of the States & CollegeBoard.
+[^10]: Mann, S., Sponsler, B., Welch, M., & Wyatt, J. (2017). *Advanced Placement across and success: How do rural schools stack up?* Education Commission of the States & CollegeBoard.
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
@@ -386,32 +398,31 @@ floyd_co_ky
 -   Population of all AP® exam results for U.S. public high school students from AY 2015-2019
     -   [*N* = 16,993,460]{.smaller-font}
     -   [Success (passing the exam; 3+) demonstrates access to the course content]{.smaller-font}
--   Stanford Education Data Archive (SEDA) [^13]
+-   Stanford Education Data Archive (SEDA) [^11]
     -   [Composite SES measure by school district]{.smaller-font}
         -   [median family income, proportion adults with bachelor's +, proportion adults unemployed, household poverty rate, proportion of households receiving SNAP, proportion of households headed by a single mother]{.much-smaller-font}
 :::
 :::
 
-[^13]: reardon., s.f., Ho, A. D., Shear, B. R., Fahle, E. M., Kalogrides, D., Jang, H., & Chavez, B. (2021). Stanford Education Data Archive (Version 4.1).
+[^11]: reardon., s.f., Ho, A. D., Shear, B. R., Fahle, E. M., Kalogrides, D., Jang, H., & Chavez, B. (2021). Stanford Education Data Archive (Version 4.1).
 
 ## ***STEM Success:*** Data
 
 <hr>
 
 ::: {layout="[4,6]"}
-::::{.smaller-line-height}
+::: smaller-line-height
 ::: incremental
-
--   [[**City**]{.yellow}: principal U.S. city]{.smaller-font}
-    - [Knoxville]{.much-smaller-font}
--   [[**Suburb**]{.blue}: densely populated urban area with population $\geq$ 50,000]{.smaller-font}
-    - [Maryville]{.much-smaller-font}
--   [[**Town**]{.green}: 2,500 $\leq$ population $<$ 50,000]{.smaller-font}
-    - [Kingston]{.much-smaller-font}
--   [[**Rural**]{.ruralpink}: outside other locale classifications]{.smaller-font}
-    - [Maynardville]{.much-smaller-font}
+-   [**City**]{.yellow}: principal U.S. city
+    -   [Knoxville]{.much-smaller-font}
+-   [**Suburb**]{.blue}: densely populated urban area with population $\geq$ 50,000
+    -   [Maryville]{.much-smaller-font}
+-   [**Town**]{.green}: 2,500 $\leq$ population $<$ 50,000
+    -   [Kingston]{.much-smaller-font}
+-   [**Rural**]{.ruralpink}: outside other locale classifications
+    -   [Maynardville]{.much-smaller-font}
 :::
-::::
+:::
 
 ::: center
 [Mean AP® Exam Scores by Domain]{.fragment .smaller-font}<br>
@@ -459,16 +470,13 @@ Mean Unadjusted AP® STEM Exam Scores by State
 ::: center
 Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 
-::::r-stack
+::: r-stack
 ![](images/Figure_AvgYearlyExamPerformanceByLocaleRuralDisagSlide1.png){.fragment fig-alt="Mean AP® Exam Scores by Domain by Year, Rural Disaggregated" top="5px"}
-
 
 ![](images/Figure_AvgYearlyExamPerformanceByLocaleRuralDisagSlide2.png){.fragment fig-alt="Mean AP® Exam Scores by Domain by Year, Rural Disaggregated" top="5px"}
 
-
 ![](images/Figure_AvgYearlyExamPerformanceByLocaleRuralDisag.png){.fragment fig-alt="Mean AP® Exam Scores by Domain by Year, Rural Disaggregated" top="5px"}
-
-::::
+:::
 :::
 
 ::: {.absolute top="0" left="100%"}
@@ -504,19 +512,16 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <hr>
 
 ::: center
-
-:::: r-stack
-
+::: r-stack
 ![](images/MarginalEffectsofLocaleonAPSTEMSuccessRuralDisagSlide1.png){.fragment fig-alt="Marginal Effects of Locale on AP STEM Exam Scores, Rural Disaggregated" top="5px"}
 
 ![](images/MarginalEffectsofLocaleonAPSTEMSuccessRuralDisagSlide2.png){.fragment fig-alt="Marginal Effects of Locale on AP STEM Exam Scores, Rural Disaggregated" top="5px"}
 
 ![](images/MarginalEffectsofLocaleonAPSTEMSuccessRuralDisag.png){.fragment fig-alt="Marginal Effects of Locale on AP STEM Exam Scores, Rural Disaggregated" top="5px"}
-
-::::
+:::
 :::
 
-:::center
+::: center
 [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
@@ -531,13 +536,19 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <!-- <hr> -->
 
 <!-- ::: center -->
+
 <!-- Top 10 Rural/Non-Rural Mean Gaps, Rural Disaggregated<br>![](images/Top10RuralNonRuralGapsBoldNumbers.png){.fragment fig-alt="Top 10 Rural/Non-Rural Gaps by Raw Mean Difference, Rural Disaggregated" top="5px"} -->
+
 <!-- ::: -->
 
 <!-- ::: {.absolute top="0" left="100%"} -->
+
 <!-- ::: sectionhead -->
+
 <!-- [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"} -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 ## ***STEM Success:*** Findings
@@ -545,23 +556,18 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <hr>
 
 ::: {layout="[1,6]"}
-
 ![](images/SankeyPlotLocaleKey.png){.fragment fig-alt="Key for Plot Colors" top="5px"}
 
 ::: center
-
 [Ranked Locale Coefficients Across All AP® STEM Exams]{.smaller-font}<br>
 
-::::: r-stack
-
+::: r-stack
 ![](images/Sankey_STEMExam_CoefficientsRanked_SuburbanAxis.png){.fragment fig-alt="Ranked Locale Coefficients Across all 12 AP® STEM Subjects" top="5px"}
 
 ![](images/Sankey_STEMExam_CoefficientsRanked_Positive.png){.fragment fig-alt="Ranked Locale Coefficients Across all 12 AP® STEM Subjects" top="5px"}
 
 ![](images/Sankey_STEMExam_CoefficientsRanked.png){.fragment fig-alt="Ranked Locale Coefficients Across all 12 AP® STEM Subjects" top="5px"}
-
-:::::
-
+:::
 :::
 :::
 
@@ -591,7 +597,6 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 ::: page-center
 ::: custom-subtitle-two
 **CURRENT WORK:** *PART I* <br>[*Spatial Inequities in Advanced STEM* ***Availability***]{.section-subtitle} <br>[\[Student Learning = Indicator Study\]]{.section-subtitle-two}<br>[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
-
 :::
 :::
 
@@ -602,16 +607,16 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <hr>
 
 ::: incremental
--   In 2015 nearly half of rural U.S. secondary schools had no AP® program.[^15]
--   Low-SES students are nearly twice as likely to attend a school with no AP® program.[^16]
--   Advanced math is less available in small high schools, schools serving historically marginalized groups, and rural high schools.[^17]
+-   In 2015 nearly half of rural U.S. secondary schools had no AP® program.[^12]
+-   Low-SES students are nearly twice as likely to attend a school with no AP® program.[^13]
+-   Advanced math is less available in small high schools, schools serving historically marginalized groups, and rural high schools.[^14]
 :::
 
-[^15]: Gagnon, D. J., & Mattingly, M. J. (2016). Advanced Placement and rural schools: Access, success, and exploring alternatives. *Journal of Advanced Academics, 27* (4), 266-284.
+[^12]: Gagnon, D. J., & Mattingly, M. J. (2016). Advanced Placement and rural schools: Access, success, and exploring alternatives. *Journal of Advanced Academics, 27* (4), 266-284.
 
-[^16]: Theokas, C., & Saaris, R. (2013). *Finding America's missing AP and IB students.* Education Trust.
+[^13]: Theokas, C., & Saaris, R. (2013). *Finding America's missing AP and IB students.* Education Trust.
 
-[^17]: Wolfe, R.L., Steiner, E. D., & Schweig, J. (2023). *Getting students to (and through) advanced math.* RAND Corporation.
+[^14]: Wolfe, R.L., Steiner, E. D., & Schweig, J. (2023). *Getting students to (and through) advanced math.* RAND Corporation.
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
@@ -639,7 +644,6 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <br>
 
 -   AP® Course Audit Data for all U.S. Public Schools (2015-'19)
-
 :::
 
 ::: {.absolute top="0" left="100%"}
@@ -653,10 +657,7 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <hr>
 
 ::: center
-![](images/BarplotOfTotalSchoolsOfferingEachAPSTEMCourse.png){.fragment fig-alt="Bar graph showing the total counts of public U.S. high schools offering each AP® STEM Course"}
-<br>
-[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
-
+![](images/BarplotOfTotalSchoolsOfferingEachAPSTEMCourse.png){.fragment fig-alt="Bar graph showing the total counts of public U.S. high schools offering each AP® STEM Course"} <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
 ::: {.absolute top="0" left="100%"}
@@ -681,11 +682,9 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 
-:::center
-<br>
-[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+::: center
+<br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
-
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
@@ -698,15 +697,21 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <!-- <hr> -->
 
 <!-- ::: center -->
+
 <!-- [**Proportion of U.S. Public Schools Offering AP® STEM Course by Locale**]{.fragment .smaller-font .smaller-line-height} -->
 
 <!-- ![](images/ProportionofSchoolsOfferingEachSTEMAPByLocale.png){.fragment fig-alt="Bar graph of the proportion of U.S. public schools offering each STEM AP® by locale" height="550px"} -->
+
 <!-- ::: -->
 
 <!-- ::: {.absolute top="0" left="100%"} -->
+
 <!-- ::: sectionhead -->
+
 <!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 ## *STEM Access:* Analytic Strategy \[Aspatial\]
@@ -714,8 +719,7 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <hr>
 
 ::: incremental
-
-:::: smaller-line-height
+::: smaller-line-height
 -   One logit for each AP® STEM course [$$\frac{P_i}{1-P_i} = exp(\beta_{0} + \beta_{1}City_{i} + \beta_{2}Rural_{i} + \beta_{3}Town_{i} + \beta_{4}log(SES)_{i} + \\ \beta_{5}\sqrt{Enrollment}\;_{i} + \beta_{6}log(Prop\;Black)_{i} + \beta_{7}log(Prop\;Latinx)_{i} + \beta_{8}log(Prop\;Asian)_{i} + \alpha_{i}+\epsilon_{i})$$]{.much-smaller-font}
     -   [$P_{i}$= Probability of offering course at school *i*]{.much-smaller-font}
     -   [$City_{i},Rural_{i},Town_{i}$= **Locale indicator variables**]{.much-smaller-font}
@@ -723,13 +727,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
     -   [$Enrollment_{i}$= Student school population]{.much-smaller-font}
     -   [$Prop\;Black_{i},Prop\;Latinx_{i},Prop\;Asian_{i}$= Proportion of enrollment Black, Latinx, Asian]{.much-smaller-font}
     -   [$\alpha_{i}$= state fixed-effects]{.much-smaller-font}
-
-::::
+:::
 :::
 
-:::center
-<br>
-[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+::: center
+<br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
 ::: {.absolute top="0" left="100%"}
@@ -752,7 +754,7 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 
-:::: smaller-line-height
+::: smaller-line-height
 ::: {layout="[5,5]"}
 ::: {.fragment .even-smaller-font}
 -   [Relative to suburban schools, the odds of offering **AP® Calculus AB**:]{.fragment .smaller-line-height}
@@ -768,9 +770,9 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
     -   [36% lower in [**rural**]{.ruralpink} schools]{.fragment .smaller-line-height}
 :::
 :::
-::::
+:::
 
-:::center
+::: center
 [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
@@ -780,13 +782,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 
-
 ## *STEM Access:* Results \[Aspatial\]
 
 <hr>
 
 ::: {layout="[6,5]"}
-
 ::: center
 ::: r-stack
 ![](images/OddsRatiosAllSTEMCourses.png){.fragment fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering AP STEM Course"}
@@ -805,7 +805,7 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 
-:::center
+::: center
 [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
@@ -820,19 +820,27 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <!-- <hr> -->
 
 <!-- ::: center -->
+
 <!-- [**Raw Data**]{.fragment .purple} -->
 
 <!-- ::: {layout="[5,5]"} -->
+
 <!-- ![](images/CalculusABMappingRaw.png){.fragment fig-alt="Spatial plot of all high schools offering/not offering AP Calculus AB across the U.S."}[AP® Calculus AB]{.fragment} -->
 
 <!-- ![](images/ComputerScienceAMappingRaw.png){.fragment fig-alt="Spatial plot of all high schools offering/not offering AP Computer Science A across the U.S."}[AP® Computer Science A]{.fragment} -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 <!-- ::: {.absolute top="0" left="100%"} -->
+
 <!-- ::: sectionhead -->
+
 <!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 ## *STEM Access:* Exploratory Analysis \[Spatial\]
@@ -849,9 +857,8 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 
-:::center
-<br>
-[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+::: center
+<br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
 ::: {.absolute top="0" left="100%"}
@@ -871,19 +878,29 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <!-- <br> -->
 
 <!-- ::: {layout="[5,5]"} -->
+
 <!-- ::: center -->
+
 <!-- [**AP® Calculus AB**]{.green .fragment}<br>[$$I = .220 , p < .001$$]{.fragment .smaller-line-height} -->
+
 <!-- ::: -->
 
 <!-- ::: center -->
+
 <!-- [**AP® Computer Science A**]{.green .fragment}<br>[$$I = .262 , p < .001$$]{.fragment .smaller-line-height} -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 <!-- ::: {.absolute top="0" left="100%"} -->
+
 <!-- ::: sectionhead -->
+
 <!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 ## *STEM Access:* GWR --- Results \[Spatial\]
@@ -925,9 +942,8 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 
-:::center
-<br>
-[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+::: center
+<br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
 ::: {.absolute top="0" left="100%"}
@@ -941,29 +957,47 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <!-- <hr> -->
 
 <!-- ::: center -->
+
 <!-- ![](images/OddsRatiosCalcABCompSciASlide2.png){fig-alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP CalcAB or AP Computer Science A" height="300px"} -->
+
 <!-- ::: -->
 
 <!-- ::: {layout="[5,5]"} -->
+
 <!-- ::: even-smaller-font -->
+
 <!-- -   [Relative to suburban schools, the odds of offering **AP® Calculus AB**:]{.smaller-line-height} -->
+
 <!--     -   [16% lower in]{.smaller-line-height} [**city**]{.yellow} schools -->
+
 <!--     -   [29% *higher* in]{.smaller-line-height} [**town**]{.green} schools -->
+
 <!--     -   [18% *higher* in]{.smaller-line-height} [**rural**]{.ruralpink} schools -->
+
 <!-- ::: -->
 
 <!-- ::: even-smaller-font -->
+
 <!-- -   [Relative to suburban schools, the odds of offering **AP® Computer Science A**:]{.smaller-line-height} -->
+
 <!-- -   [5% lower in]{.smaller-line-height} [**city**]{.yellow} schools -->
+
 <!-- -   [29% lower in]{.smaller-line-height} [**town**]{.green} schools -->
+
 <!-- -   [36% lower in]{.smaller-line-height} [**rural**]{.ruralpink} schools -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 <!-- ::: {.absolute top="0" left="100%"} -->
+
 <!-- ::: sectionhead -->
+
 <!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 ## *STEM Access:* GWR --- Results \[Spatial\]
@@ -1005,9 +1039,8 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 :::
 
-:::center
-<br>
-[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+::: center
+<br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
 
 ::: {.absolute top="0" left="100%"}
@@ -1023,20 +1056,14 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 **CURRENT WORK:** Implications<br>
 
 ::: {.fragment .section-subtitle .smaller-line-height}
-
--   [Important to attend to local context to address geographic variability in STEM learning opportunity]{.smaller-font}
-    <!-- - [Policy, Research, and Teacher Education]{.smaller-font} -->
--   [Further investigation needed concerning the mechanisms that create and maintain geographic disparities in STEM learning opportunities]{.smaller-font}
-    <!-- - [May offer insight on ways to disrupt]{.smaller-font} -->
-
+-   [Important to attend to local context to address geographic variability in STEM learning opportunity]{.smaller-font} <!-- - [Policy, Research, and Teacher Education]{.smaller-font} -->
+-   [Further investigation needed concerning the mechanisms that create and maintain geographic disparities in STEM learning opportunities]{.smaller-font} <!-- - [May offer insight on ways to disrupt]{.smaller-font} -->
 :::
 :::
 
-:::center
-<br>
-[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+::: center
+<br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
-
 :::
 
 ------------------------------------------------------------------------
@@ -1057,7 +1084,9 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 
 ::: {.fragment .smaller-font}
 <!-- -   Teachers learn from four spheres --- interpersonal, institutional, community, and policy[^22] -->
+
 <!-- -   Within these spheres, teachers learn with learning partners and distributed resources[^18] -->
+
 <br>
 
 -   Learning partners and distributed resources comprise teachers' [**learning ecologies**]{.green}:
@@ -1065,15 +1094,15 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <br>
 
 ::: custom-blockquote
-> *the accessed set of contexts, comprised of configurations of activities, material resources and relationships, found in co-located physical or virtual spaces that provide opportunities for learning* (Barron, 2004, p.6)[^19]
+> *the accessed set of contexts, comprised of configurations of activities, material resources and relationships, found in co-located physical or virtual spaces that provide opportunities for learning* (Barron, 2004, p.6)[^15]
 :::
 :::
+
+[^15]: Barron, B. (2004). Learning ecologies for technological fluency: Gender and experience differences. *Journal of Educational Computing Research, 31* (1), 1-36.
 
 <!-- [^22]: Zavelevsky, E., & Lishchinsky, O. S. (2020). An ecological perspective of teacher retention: An emergent model. *Teaching and Teacher Education, 88*, 1-11. -->
 
 <!-- [^18]: Pea, R. (1993). Practices of distributed intelligence and designed for education. In G. Salomon (Ed.), *Distributed cognitions: Psychological and educational considerations* (pp. 47-87). Cambridge, UK: Cambridge University Press. -->
-
-[^19]: Barron, B. (2004). Learning ecologies for technological fluency: Gender and experience differences. *Journal of Educational Computing Research, 31* (1), 1-36.
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
@@ -1142,29 +1171,43 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <!-- [**Mixed Methods Geospatial Approach**[^20]]{.fragment .purple} -->
 
 <!-- ::: incremental -->
+
 <!-- ::: smaller-line-height -->
+
 <!-- -   Professional Learning Survey -->
+
 <!--     -   [Spatial distance/ proximity analysis]{.smaller-font}[^21] -->
+
 <!--     -   [Accessibility surface/ isochrones]{.smaller-font}[^21] -->
+
 <!--     -   [Spatial composite index]{.smaller-font}[^23] -->
+
 <!-- -   [Teacher Interviews]{.semi-transparent .smaller-font} -->
+
 <!--     -   [Thematic analysis]{.semi-transparent .smaller-font} -->
 
 <!-- ::: -->
+
 <!-- ::: -->
 
 <!-- [^20]: Yoon, E., & Lubienski, C. (2018). Thinking critically in space: Toward a mixed-methods geospatial approach to education policy analysis. *Educational Researcher, 47*(1), 53-61. -->
 
 <!-- [^21]: Walker, K. (2023). *Analyzing US census data: Methods, maps, and models in R.* CRC Press. -->
 
-<!-- <!-- [^22]: Walker, K. (2023). *Analyzing US census data: Methods, maps, and models in R.* CRC Press. --> -->
+<!-- <!-- [^22]: Walker, K. (2023). *Analyzing US census data: Methods, maps, and models in R.* CRC Press. -->
+
+--\>
 
 <!-- [^23]: Esri. (2023). *Creating composite indices using ArcGIS: Best practices*. Technical Paper. -->
 
 <!-- ::: {.absolute top="0" left="100%"} -->
+
 <!-- ::: sectionhead -->
+
 <!-- [1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"} -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 ## ***Teacher Learning:*** Results
@@ -1225,21 +1268,27 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <!-- ##  {#current-work-2-implications data-menu-title="AP® Success: Takeaway" background="#010130"} -->
 
 <!-- ::: page-center -->
+
 <!-- ::: custom-subtitle-three -->
+
 <!-- **CURRENT WORK:** Implications<br> -->
 
 <!-- ::: {.fragment .section-subtitle .smaller-line-height} -->
+
 <!-- [These initial findings speak to the need for stakeholders to engage with rural/town teacher learners differently:]{.smaller-font .smaller-line-height} -->
 
 <!-- ::: {.smaller-font} -->
 
 <!-- -   [Professional development opportunities should be offered regionally in rural/town areas or nearby areas]{.smaller-font} -->
+
 <!-- -   [Efforts needed to expand community resources into areas of sparsity ]{.smaller-font} -->
 
 <!-- ::: -->
 
 <!-- ::: -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 ##  {#future-work data-menu-title="Future Work" background="#010130"}
@@ -1258,50 +1307,83 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 
 <br>
 
-* [**Spatial Data Science**]{.purple}
-    +   Learning Ecosystems
-    +   Spatial Equity
-* [**Data Science as Tool**]{.purple}
+:::: incremental
+
+-   [**Spatial Data Science**]{.purple}
+    -   Learning Ecosystems
+    -   Spatial Equity
+-   [**Data Science as Tool**]{.purple}
+
+::::
 
 <!-- ::: {layout="[5,5,5]"} -->
+
 <!-- ::: center -->
+
 <!-- [**Learning Ecosystems**]{.fragment .smaller-font .purple} -->
 
 <!-- ::: {.fragment .much-smaller-font} -->
+
 <!-- -   What resources characterize regional STEM learning ecosystems? -->
+
 <!--     -   How does resource availability and quality vary across communities? -->
+
 <!--     -   To what extent does the regional presence of resources, institutions, and industry predict local STEM learning outcomes? -->
+
 <!-- -   How does human mobility and community resource exposure shape local STEM learning outcomes? -->
+
 <!--     -   How does human mobility and resource exposure vary across geographies? -->
+
 <!-- -   How do student learners engage with their local STEM learning ecosystems? -->
+
 <!--     -   Teacher learners? -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 <!-- ::: center -->
+
 <!-- [**Spatial Equity**]{.fragment .smaller-font .purple} -->
 
 <!-- ::: {.fragment .much-smaller-font} -->
+
 <!-- -   Which high-leverage resources are most inequitably distributed across space? -->
+
 <!--     -   How might we amplify the reach of these resources to additional geographic areas? -->
+
 <!-- -   Which regions have strong STEM learning ecosystems? weaker ecosystems? -->
+
 <!--     -   How might we leverage configurations of and learnings from strong ecosystems to strengthen weak ecosystems? -->
+
 <!-- -   Who are the key knowledge brokers within regional spatial social networks for STEM learning? -->
+
 <!--     -   How does network-crossing by knowledge brokers into neighboring regional networks impact STEM ecosystem health? -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 <!-- ::: center -->
+
 <!-- [**Data Science as Tool**]{.fragment .smaller-font .purple} -->
 
 <!-- ::: {.fragment .much-smaller-font} -->
+
 <!-- -   Which ideas, skills, and practices are most important for students to learn in data science? -->
+
 <!--     -   How might we support teachers in facilitating this learning? -->
+
 <!-- -   What data science literacies (including ethics) are critical for students to learn in an age of AI and data science democratization? -->
+
 <!-- -   How might data science ideas, skills, and practices be distributed vertically (across grade levels) and horizontally (across disciplines) in K-12 education? -->
+
 <!-- -   How might we support administrators, teachers, and other stakeholders to leverage data science in improving student outcomes? community outcomes? -->
+
 <!-- ::: -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 ::: {.absolute top="0" left="100%"}
@@ -1315,50 +1397,83 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <!-- <hr> -->
 
 <!-- ::: {layout="[5,5,5]"} -->
+
 <!-- ::: center -->
+
 <!-- [**Learning Ecosystems**]{.smaller-font .purple} -->
 
 <!-- ::: much-smaller-font -->
+
 <!-- -   **What resources characterize regional STEM learning ecosystems?** -->
+
 <!--     -   How does resource availability and quality vary across communities? -->
+
 <!--     -   To what extent does the regional presence of resources, institutions, and industry predict local STEM learning outcomes? -->
+
 <!-- -   How does human mobility and community resource exposure shape local STEM learning outcomes? -->
+
 <!--     -   How does human mobility and resource exposure vary across geographies? -->
+
 <!-- -   **How do student learners engage with their local STEM learning ecosystems?** -->
+
 <!--     -   **Teacher learners?** -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 <!-- ::: center -->
+
 <!-- [**Spatial Equity**]{.smaller-font .purple} -->
 
 <!-- ::: much-smaller-font -->
+
 <!-- -   Which high-leverage resources are most inequitably distributed across space? -->
+
 <!--     -   How might we amplify the reach of these resources to additional geographic areas? -->
+
 <!-- -   Which regions have strong STEM learning ecosystems? weaker ecosystems? -->
+
 <!--     -   How might we leverage configurations of and learnings from strong ecosystems to strengthen weak ecosystems? -->
+
 <!-- -   **Who are the key knowledge brokers within regional spatial social networks for STEM learning?** -->
+
 <!--     -   How does network-crossing by knowledge brokers into neighboring regional networks impact STEM ecosystem health? -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 <!-- ::: center -->
+
 <!-- [**Data Science as Tool**]{.smaller-font .purple} -->
 
 <!-- ::: much-smaller-font -->
+
 <!-- -   **Which ideas, skills, and practices are most important for students to learn in data science?** -->
+
 <!--     -   **How might we support teachers in facilitating this learning?** -->
+
 <!-- -   What data science literacies (including ethics) are critical for students to learn in an age of AI and data science democratization? -->
+
 <!-- -   How might data science ideas, skills, and practices be distributed vertically (across grade levels) and horizontally (across disciplines) in K-12 education? -->
+
 <!-- -   How might we support administrators, teachers, and other stakeholders to leverage data science in improving student outcomes? community outcomes? -->
+
 <!-- ::: -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 <!-- ::: {.absolute top="0" left="100%"} -->
+
 <!-- ::: sectionhead -->
+
 <!-- [1 2 3 4]{style="opacity:0.25"} 5 -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 ------------------------------------------------------------------------
@@ -1380,14 +1495,14 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 [**Methods:**]{.fragment .purple .smaller-font}<br>
 
 ::: {.fragment .smaller-font .smaller-line-height}
--   [Participatory asset mapping[^24], Spatial social network analysis [^25], GIS story maps [^26]]{.fragment .smaller-font .smaller-line-height}
+-   [Participatory asset mapping[^16], Spatial social network analysis [^17], GIS story maps [^18]]{.fragment .smaller-font .smaller-line-height}
 :::
 
-[^24]: Elwood, S. (2011). Participatory approaches in GIS and society research: Foundations, practices, and future directions. In *The SAGE Handbook of GIS and Society* (pp. 381-399). SAGE.
+[^16]: Elwood, S. (2011). Participatory approaches in GIS and society research: Foundations, practices, and future directions. In *The SAGE Handbook of GIS and Society* (pp. 381-399). SAGE.
 
-[^25]: Andris, C., & Sarkar, D. (2022). Social networks in space. In S. J. Rey & R. Franklin (Eds.), *Handbook of Spatial Analysis in the Social Sciences* (pp. 400-415). Elgar.
+[^17]: Andris, C., & Sarkar, D. (2022). Social networks in space. In S. J. Rey & R. Franklin (Eds.), *Handbook of Spatial Analysis in the Social Sciences* (pp. 400-415). Elgar.
 
-[^26]: Lung-Amam, W. S., & Dawkins, C. (2019). The power of participatory story mapping: Advancing equitable development in disadvantaged neighbourhoods. *Community Development Journal, 55*(3), 473-495.
+[^18]: Lung-Amam, W. S., & Dawkins, C. (2019). The power of participatory story mapping: Advancing equitable development in disadvantaged neighbourhoods. *Community Development Journal, 55*(3), 473-495.
 
 ::: {.absolute top="0" left="100%"}
 ::: sectionhead
@@ -1418,7 +1533,6 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 ##  {#thank-you data-menu-title="Thank You" background="#010130"}
 
 ::: page-center
-
 <br>
 
 [**THANK YOU**]{.yellow .heading-font}
