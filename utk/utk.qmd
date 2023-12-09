@@ -112,7 +112,7 @@ floyd_co_ky
     - Gravel road, No cable, Fox39
     - Paid tuition to go to "city"
     - Friends: Saturday morning cartoons, and the Disney channel
-    - Fox39 got Star Trek (Data) and Jeopardy
+    - Fox39 got Star Trek (Data)
     
 * Space as teacher
     - Eastern, Kentucky - 100 miles from interstate, poor
@@ -416,7 +416,7 @@ floyd_co_ky
 
 <hr>
 
-<br> <br> [***How is student success in advanced STEM related to community demographics and geography?***]{.research-question}
+<br> <br> [**How is student success in advanced STEM related to community demographics and geography?**]{.research-question}
 
 <!-- ::: {.absolute top="0" left="100%"} -->
 <!-- ::: sectionhead -->
@@ -767,11 +767,11 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 <!-- ::: -->
 <!-- ::: -->
 
-## *STEM Access:* Research Question
+## **STEM Access:** Research Question
 
 <hr>
 
-<br> <br> [***What is the geographic landscape of advanced STEM course availability in U.S. public schools?***]{.research-question}
+<br> <br> [**What is the geographic landscape of advanced STEM course availability in U.S. public schools?**]{.research-question}
 
 <!-- ::: {.absolute top="0" left="100%"} -->
 <!-- ::: sectionhead -->
@@ -1257,7 +1257,7 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 
 <hr>
 
-<br> <br> [***What expertise resources characterize advanced STEM teachers' professional content-based learning ecologies?*** <br><br>***How and to what extent do their ecologies vary based on community locale and context?***]{.research-question-smaller}
+<br> <br> [**What expertise resources characterize advanced STEM teachers' professional content-based learning ecologies?** <br><br>**How and to what extent do their ecologies vary based on community locale and context?**]{.research-question-smaller}
 
 <!-- ::: {.absolute top="0" left="100%"} -->
 <!-- ::: sectionhead -->
