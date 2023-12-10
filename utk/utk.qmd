@@ -602,7 +602,7 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
     
 * The suburban, town, city values are the same as the previous graph
 
-MATTERS B/C RURALITY IS NOT A HOMOGENOUS EXPERIENCE - degree of rurality matters!
+MATTERS B/C RURALITY IS NOT A HOMOGENOUS EXPERIENCE - degree of rurality matters for access!
 :::
 
 ## ***STEM Success:*** Analytic Approach
@@ -730,9 +730,21 @@ WHY MATTER? Holding all else constant, a student on the cusp of passing/failing 
 * Circles scaled by marginal effect
     + Smallest = AP Calc AB, Physics C: Mechanices, Computer Science A, and Chemistry
 
-
+WHY MATTER: The second smallest rural coefficient is in AP Calc AB - a pre-req for so many things in STEM and Physics C is calculus-based. Targeted rural support needed in key areas.
 
 :::
+
+## ***STEM Success:*** Findings
+
+<hr>
+
+::: incremental
+* **There is a rural disadvantage across the set of AP® exams**
+  + Widens in STEM
+  + Generally more pronounced in the two more distant/remote rural locales
+  + Largest in AP® Calculus AB, AP® Physics C: Mechanics, AP® Computer Science A, and AP® Chemistry
+  
+:::  
 
 ##  {#previous-work-implications data-menu-title="AP® Success: Takeaway" background="#010130"}
 
@@ -768,6 +780,8 @@ WHY MATTER? Holding all else constant, a student on the cusp of passing/failing 
 :::{.notes}
 
 Now I'm going to talk a bit about two current studies - the first is another student/indicator study. It focuses on another condition from the OTL framework - availability. So, while the last study focused on success, this one focuses on availability.
+
+PLEASE NO PHOTOS
 :::
 
 ------------------------------------------------------------------------
@@ -780,6 +794,10 @@ Now I'm going to talk a bit about two current studies - the first is another stu
 -   In 2015 nearly half of rural U.S. secondary schools had no AP® program.[^12]
 -   Low-SES students are nearly twice as likely to attend a school with no AP® program.[^13]
 -   Advanced math is less available in small high schools, schools serving historically marginalized groups, and rural high schools.[^14]
+:::
+
+:::{.notes}
+These also inform my covariates.
 :::
 
 [^12]: Gagnon, D. J., & Mattingly, M. J. (2016). Advanced Placement and rural schools: Access, success, and exploring alternatives. *Journal of Advanced Academics, 27* (4), 266-284.
@@ -820,6 +838,10 @@ What's offered? Where?
 -   AP® Course Audit Data for all U.S. Public Schools (2015-'19)
 :::
 
+:::{.notes}
+Explain course audit process
+:::
+
 <!-- ::: {.absolute top="0" left="100%"} -->
 <!-- ::: sectionhead -->
 <!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
@@ -841,6 +863,10 @@ What's offered? Where?
 
 [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 
+:::
+
+:::{.notes}
+I chose Calc AB because it was most offered. Thinking about the CSForAll initiative, I chose to also focus on Comp Sci A for today - to examine to whom CSA IS, IN FACT, offered.
 :::
 
 <!-- ::: {.absolute top="0" left="100%"} -->
