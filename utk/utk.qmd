@@ -759,7 +759,8 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 :::
 
 :::{.notes}
-Now I'm going to talk a bit about two current studies - the first is another student/indicator study. It focuses on another condition from the OTL framework - availability.
+
+Now I'm going to talk a bit about two current studies - the first is another student/indicator study. It focuses on another condition from the OTL framework - availability. So, while the last study focused on success, this one focuses on availability.
 :::
 
 ------------------------------------------------------------------------
