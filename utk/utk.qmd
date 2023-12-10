@@ -1609,8 +1609,6 @@ Also, it's important to connect this back to first study - of the three traditio
 <!-- ::: -->
 <!-- ::: -->
 
-------------------------------------------------------------------------
-
 <!-- ##  {#current-work-2-implications data-menu-title="AP® Success: Takeaway" background="#010130"} -->
 
 <!-- ::: page-center -->
