@@ -1371,7 +1371,8 @@ Industry? Universities? Limited funding in suburban areas?
 
 ::: incremental
 * Nationally, there are **inequities in rural/town availability** of the nine less offered/newer AP® STEM courses
-  + Regional variation & exceptions
+    + Physics (all), CS (both), Environmental Science, Statistics, Calculus BC
+* There is regional variation across subjects and locales
       - [e.g., Availability of AP® Calculus AB to rural students in TN]{.smaller-font}
   
 :::  
