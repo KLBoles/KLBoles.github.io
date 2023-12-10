@@ -1285,6 +1285,11 @@ We look for this before we run a spatial model...
 :::
 :::
 
+:::{.notes}
+focus of future work - why is this happening in Nashville?
+Industry? Universities? Limited funding in suburban areas?
+:::
+
 ::: center
 <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
@@ -1302,6 +1307,14 @@ We look for this before we run a spatial model...
 
 ::: center
 <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+:::
+
+:::{.notes}
+
+Another indicator that rural STEM learning ecosystems may be less healthy.
+
+Also, it's important to connect this back to first study - of the three traditional courses, two had some of the highest rural disadvantage.
+
 :::
 
 <!-- ::: {.absolute top="0" left="100%"} -->
