@@ -798,20 +798,21 @@ Kelly L. Boles
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="smaller-line-height quarto-layout-cell" style="flex-basis: 40.0%;justify-content: center;">
 <div>
+<p><span class="fragment smaller-font"><strong>NCES Locale Codes</strong></span></p>
 <ul>
-<li class="fragment"><span class="yellow"><strong>City</strong></span>: principal U.S. city
+<li class="fragment"><span class="smaller-font"><span class="yellow"><strong>City</strong></span>: principal U.S. city</span>
 <ul>
 <li class="fragment"><span class="much-smaller-font">Knoxville</span></li>
 </ul></li>
-<li class="fragment"><span class="blue"><strong>Suburb</strong></span>: densely populated urban area with population <span class="math inline">\(\geq\)</span> 50,000
+<li class="fragment"><span class="smaller-font"><span class="blue"><strong>Suburb</strong></span>: densely populated urban area with population <span class="math inline">\(\geq\)</span> 50,000</span>
 <ul>
 <li class="fragment"><span class="much-smaller-font">Maryville</span></li>
 </ul></li>
-<li class="fragment"><span class="green"><strong>Town</strong></span>: 2,500 <span class="math inline">\(\leq\)</span> population <span class="math inline">\(&lt;\)</span> 50,000
+<li class="fragment"><span class="smaller-font"><span class="green"><strong>Town</strong></span>: 2,500 <span class="math inline">\(\leq\)</span> population <span class="math inline">\(&lt;\)</span> 50,000</span>
 <ul>
 <li class="fragment"><span class="much-smaller-font">Kingston</span></li>
 </ul></li>
-<li class="fragment"><span class="ruralpink"><strong>Rural</strong></span>: outside other locale classifications
+<li class="fragment"><span class="smaller-font"><span class="ruralpink"><strong>Rural</strong></span>: outside other locale classifications</span>
 <ul>
 <li class="fragment"><span class="much-smaller-font">Maynardville</span></li>
 </ul></li>
@@ -930,7 +931,10 @@ Kelly L. Boles
 <p><span class="much-smaller-font"><span class="math display">\[\hspace{-1.75cm}Y_{ij} = \beta_0 + \beta_1City_{i} + \beta_2Town_{i} + \beta_3RuralFringe_{i} +  \beta_4RuralDistant_{i} + \beta_5RuralRemote_{i} + \\ \beta_6RaceEth_{i} + \beta_7Female_{i} + \beta_8SESDecile_{i} + \alpha_j + \varepsilon_{ij}\]</span></span></p>
 <ul>
 <li><span class="much-smaller-font"><span class="math inline">\(Y_{ij}\)</span>= Predicted AP® exam score for the <em>i</em> th student in the <em>j</em> th state-exam-year fixed effect</span></li>
-<li><span class="much-smaller-font"><span class="math inline">\(City_{i},Town_{i},RuralFringe_{i},RuralDistant_{i},RuralRemote_{i}\)</span>= NCES Locale indicator variables for school location</span></li>
+<li><span class="much-smaller-font"><span class="math inline">\(City_{i},Town_{i},RuralFringe_{i},RuralDistant_{i},RuralRemote_{i}\)</span>= NCES Locale indicator variables for school location</span>
+<ul>
+<li><span class="much-smaller-font">Suburb: Comparison Group</span></li>
+</ul></li>
 <li><span class="much-smaller-font"><span class="math inline">\(SESDecile_{i}\)</span>= Composite SES variable from SEDA, in deciles</span></li>
 <li><span class="much-smaller-font"><span class="math inline">\(RaceEth_{i},Female_{i}\)</span>= Binary indicator variables for student demographics</span></li>
 <li><span class="much-smaller-font"><span class="math inline">\(\alpha_{j}\)</span>= State by exam by year fixed effects</span></li>
@@ -1401,15 +1405,36 @@ Kelly L. Boles
 <!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
 <!-- ::: -->
 <!-- ::: -->
-<!-- ## *STEM Access:* Exploratory Analysis \[Spatial\] -->
-<!-- <hr> -->
-<!-- ::: center -->
-<!-- [**Raw Data**]{.fragment .purple} -->
-<!-- ::: {layout="[5,5]"} -->
-<!-- ![](images/CalculusABMappingRaw.png){.fragment fig-alt="Spatial plot of all high schools offering/not offering AP Calculus AB across the U.S."}[AP® Calculus AB]{.fragment} -->
-<!-- ![](images/ComputerScienceAMappingRaw.png){.fragment fig-alt="Spatial plot of all high schools offering/not offering AP Computer Science A across the U.S."}[AP® Computer Science A]{.fragment} -->
-<!-- ::: -->
-<!-- ::: -->
+</section>
+<section id="stem-access-what-is-gwr" class="slide level2">
+<h2><em>STEM Access:</em> What is GWR?</h2>
+<hr>
+<div class="center">
+<p><span class="fragment purple"><strong>Geographically Weighted Regression</strong></span></p>
+<div class="fragment">
+<p><img data-src="images/CalculusABMappingRaw.png" alt="Spatial plot of all high schools offering/not offering AP Calculus AB across the U.S."><br> AP® Calculus AB</p>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>For a given spatial unit
+<ul>
+<li>Identify neighbors within a bandwidth</li>
+<li>Create spatial weight matrix (near neighbors weighted more heavily)</li>
+<li>Run local regressions - 1 for each spatial unit</li>
+</ul></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 <!-- ::: {.absolute top="0" left="100%"} -->
 <!-- ::: sectionhead -->
 <!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
@@ -1435,6 +1460,25 @@ Kelly L. Boles
 <div class="center">
 <p><br> <span class="section-subtitle-four"><em>Please Do Not Circulate or Cite</em></span></p>
 </div>
+<aside class="notes">
+<p>The logit models I just showed are <strong>aspatial</strong> - meaning they didn’t incorporate where they schools were in space. W/O spatial data best we can do is categorical variables like locale and the state fixed effects.</p>
+<p>With spatial data and spatial data science, we acknowledge that variables change across space - like across schools (points) and across counties(polygons)</p>
+<p>First Law of Geography * Everything is related but closer things are more related than farther things</p>
+<p>We look for this before we run a spatial model…</p>
+<ul>
+<li>School a offers Calc..does this mean School B is more likely?</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 <!-- ::: {.absolute top="0" left="100%"} -->
 <!-- ::: sectionhead -->
 <!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
@@ -1555,6 +1599,24 @@ Kelly L. Boles
 </div>
 </div>
 </div>
+</div>
+<div class="center">
+<p><br> <span class="section-subtitle-four"><em>Please Do Not Circulate or Cite</em></span></p>
+</div>
+</section>
+<section id="stem-success-initial-findings" class="slide level2">
+<h2><strong><em>STEM Success:</em></strong> Initial Findings</h2>
+<hr>
+<div>
+<ul>
+<li class="fragment">Nationally, there are <strong>inequities in rural/town availability</strong> of the nine less offered/newer AP® STEM courses
+<ul>
+<li class="fragment">Regional variation &amp; exceptions
+<ul>
+<li class="fragment"><span class="smaller-font">e.g., Availability of AP® Calculus AB to rural students in TN</span></li>
+</ul></li>
+</ul></li>
+</ul>
 </div>
 <div class="center">
 <p><br> <span class="section-subtitle-four"><em>Please Do Not Circulate or Cite</em></span></p>
@@ -1808,7 +1870,7 @@ Kelly L. Boles
 <p><img data-src="images/TLearningEcologyACSA3.png" class="fragment" alt="Local Teacher Learning Ecology Map"></p>
 </div>
 <div class="center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><span class="fragment"><strong>AP® Computer Science A</strong></span> <span class="fragment purple smaller-font">City-Located</span></p>
+<p><span class="fragment"><strong>AP® Computer Science A</strong></span> <span class="fragment purple smaller-font">City-Located | Doug</span></p>
 <div class="fragment smaller-font smaller-line-height">
 <ul>
 <li><span class="fragment"><strong>17.5</strong> miles from <span class="school-purple"><strong>school</strong></span> to <span class="analog-red"><strong>analog</strong></span> resources</span>
@@ -1843,7 +1905,7 @@ Kelly L. Boles
 <p><img data-src="images/TLearningEcologyPB5.png" class="fragment" alt="Local Teacher Learning Ecology Map"></p>
 </div>
 <div class="center quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><span class="fragment"><strong>PLTW® Biomedical Science</strong></span> <span class="fragment purple smaller-font">Town-Located</span></p>
+<p><span class="fragment"><strong>PLTW® Biomedical Science</strong></span> <span class="fragment purple smaller-font">Town-Located | Melissa</span></p>
 <div class="fragment smaller-font smaller-line-height">
 <ul>
 <li><span class="fragment"><strong>1.6</strong> miles from <span class="school-purple"><strong>school</strong></span> to <span class="community-green"><strong>community</strong></span> resources</span>

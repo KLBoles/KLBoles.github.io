@@ -489,13 +489,16 @@ Who passes the exams? Where?
 ::: {layout="[4,6]"}
 ::: smaller-line-height
 ::: incremental
--   [**City**]{.yellow}: principal U.S. city
+
+[**NCES Locale Codes**]{.fragment .smaller-font}
+
+-   [[**City**]{.yellow}: principal U.S. city]{.smaller-font}
     -   [Knoxville]{.much-smaller-font}
--   [**Suburb**]{.blue}: densely populated urban area with population $\geq$ 50,000
+-   [[**Suburb**]{.blue}: densely populated urban area with population $\geq$ 50,000]{.smaller-font}
     -   [Maryville]{.much-smaller-font}
--   [**Town**]{.green}: 2,500 $\leq$ population $<$ 50,000
+-   [[**Town**]{.green}: 2,500 $\leq$ population $<$ 50,000]{.smaller-font}
     -   [Kingston]{.much-smaller-font}
--   [**Rural**]{.ruralpink}: outside other locale classifications
+-   [[**Rural**]{.ruralpink}: outside other locale classifications]{.smaller-font}
     -   [Maynardville]{.much-smaller-font}
 :::
 :::
@@ -616,6 +619,7 @@ MATTERS B/C RURALITY IS NOT A HOMOGENOUS EXPERIENCE - degree of rurality matters
 
 -   [$Y_{ij}$= Predicted AP® exam score for the *i* th student in the *j* th state-exam-year fixed effect]{.much-smaller-font}
 -   [$City_{i},Town_{i},RuralFringe_{i},RuralDistant_{i},RuralRemote_{i}$= NCES Locale indicator variables for school location]{.much-smaller-font}
+    + [Suburb: Comparison Group]{.much-smaller-font}
 -   [$SESDecile_{i}$= Composite SES variable from SEDA, in deciles]{.much-smaller-font}
 -   [$RaceEth_{i},Female_{i}$= Binary indicator variables for student demographics]{.much-smaller-font}
 -   [$\alpha_{j}$= State by exam by year fixed effects]{.much-smaller-font}
@@ -1036,23 +1040,27 @@ Get out the pointer and EXPLAIN
 <!-- ::: -->
 <!-- ::: -->
 
-<!-- ## *STEM Access:* Exploratory Analysis \[Spatial\] -->
+## *STEM Access:* What is GWR?
 
-<!-- <hr> -->
+<hr>
 
-<!-- ::: center -->
+::: center
 
-<!-- [**Raw Data**]{.fragment .purple} -->
+[**Geographically Weighted Regression**]{.fragment .purple}
 
-<!-- ::: {layout="[5,5]"} -->
+::: {.fragment}
+![](images/CalculusABMappingRaw.png){fig-alt="Spatial plot of all high schools offering/not offering AP Calculus AB across the U.S."}<br>
+AP® Calculus AB
 
-<!-- ![](images/CalculusABMappingRaw.png){.fragment fig-alt="Spatial plot of all high schools offering/not offering AP Calculus AB across the U.S."}[AP® Calculus AB]{.fragment} -->
+:::
+:::
 
-<!-- ![](images/ComputerScienceAMappingRaw.png){.fragment fig-alt="Spatial plot of all high schools offering/not offering AP Computer Science A across the U.S."}[AP® Computer Science A]{.fragment} -->
-
-<!-- ::: -->
-
-<!-- ::: -->
+:::{.notes}
+* For a given spatial unit
+  + Identify neighbors within a bandwidth
+  + Create spatial weight matrix (near neighbors weighted more heavily)
+  + Run local regressions - 1 for each spatial unit
+:::
 
 <!-- ::: {.absolute top="0" left="100%"} -->
 
@@ -1081,6 +1089,22 @@ Get out the pointer and EXPLAIN
 ::: center
 <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
+
+:::{.notes}
+The logit models I just showed are **aspatial** - meaning they didn't incorporate where they schools were in space.
+W/O spatial data best we can do is categorical variables like locale and the state fixed effects.
+
+With spatial data and spatial data science, we acknowledge that variables change across space - like across schools (points) and across counties(polygons)
+
+First Law of Geography
+* Everything is related but closer things are more related than farther things
+
+We look for this before we run a spatial model...
+
+* School a offers Calc..does this mean School B is more likely?
+
+:::
+
 
 <!-- ::: {.absolute top="0" left="100%"} -->
 <!-- ::: sectionhead -->
@@ -1123,6 +1147,7 @@ Get out the pointer and EXPLAIN
 <!-- ::: -->
 
 <!-- ::: -->
+
 
 ## *STEM Access:* GWR --- Results
 
@@ -1259,6 +1284,21 @@ Get out the pointer and EXPLAIN
 :::
 :::
 :::
+
+::: center
+<br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+:::
+
+## ***STEM Success:*** Initial Findings
+
+<hr>
+
+::: incremental
+* Nationally, there are **inequities in rural/town availability** of the nine less offered/newer AP® STEM courses
+  + Regional variation & exceptions
+      - [e.g., Availability of AP® Calculus AB to rural students in TN]{.smaller-font}
+  
+:::  
 
 ::: center
 <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
@@ -1439,7 +1479,7 @@ Get out the pointer and EXPLAIN
 ![](images/TLearningEcologyACSA3.png){.fragment fig-alt="Local Teacher Learning Ecology Map"}
 
 ::: center
-[**AP® Computer Science A**]{.fragment} [City-Located]{.fragment .purple .smaller-font}
+[**AP® Computer Science A**]{.fragment} [City-Located | Doug]{.fragment .purple .smaller-font}
 
 ::: {.fragment .smaller-font .smaller-line-height}
 -   [**17.5** miles from [**school**]{.school-purple} to [**analog**]{.analog-red} resources]{.fragment}
@@ -1466,7 +1506,7 @@ Get out the pointer and EXPLAIN
 ![](images/TLearningEcologyPB5.png){.fragment fig-alt="Local Teacher Learning Ecology Map"}
 
 ::: center
-[**PLTW® Biomedical Science**]{.fragment} [Town-Located]{.fragment .purple .smaller-font}
+[**PLTW® Biomedical Science**]{.fragment} [Town-Located | Melissa]{.fragment .purple .smaller-font}
 
 ::: {.fragment .smaller-font .smaller-line-height}
 -   [**1.6** miles from [**school**]{.school-purple} to [**community**]{.community-green} resources]{.fragment}
