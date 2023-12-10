@@ -355,6 +355,12 @@ floyd_co_ky
         -   [Learner dispositions]{.fragment .semi-fade-out}
 :::
 
+:::{.notes}
+SLOW DOWN
+
+- Thinking about learning ecosystem health, we then think about the structural conditions necessary for learning. Greeno & Gresalfi provide three conditions...
+:::
+
 [^5]: Greeno, J. G. & Gresalfi, M. S. (2008). Opportunities to learn in practice and identity. In P. A. Moss, D. C. Pullin, J. P. Gee, E. H. Haertel, & L. J. Young (Eds.), Assessment, equity, and opportunity to learn (pp. 170-199). Cambridge University Press.
 
 [^6]: Norman, D. A. (1988). The psychology of everyday things. Basic Books.}
