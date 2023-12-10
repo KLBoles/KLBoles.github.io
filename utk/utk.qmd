@@ -815,7 +815,16 @@ Now I'm going to talk a bit about two current studies - the first is another stu
 <hr>
 
 ::: center
-![](images/BarplotOfTotalSchoolsOfferingEachAPSTEMCourse.png){.fragment fig-alt="Bar graph showing the total counts of public U.S. high schools offering each AP® STEM Course"} <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+
+:::{.r-stack}
+![](images/BarplotOfTotalSchoolsOfferingEachAPSTEMCourse.png){.fragment fig-alt="Bar graph showing the total counts of public U.S. high schools offering each AP® STEM Course"} 
+
+![](images/BarplotOfTotalSchoolsOfferingEachAPSTEMCourse2.png){.fragment fig-alt="Bar graph highlighting Calc AB and Computer Science A"} 
+
+:::
+
+[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+
 :::
 
 <!-- ::: {.absolute top="0" left="100%"} -->
