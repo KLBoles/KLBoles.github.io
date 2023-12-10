@@ -229,7 +229,7 @@ floyd_co_ky
 <br>
 
 ::: {.absolute top="100"}
-[**Ecosystem Health**]{.purple}[^3]
+[**Learning Ecosystem Health**]{.purple}[^3]
 :::
 
 [^3]: Hecht, M. & Crowley, K. (2020). Unpacking the learning ecosystems framework: Lessons from the adaptive management of biological ecosystems. Journal of the Learning Sciences, 29(2), 264-284.
@@ -253,7 +253,7 @@ floyd_co_ky
 <br>
 
 ::: {.absolute top="100"}
-[**Ecosystem Health**]{.purple}[^4]
+[**Learning Ecosystem Health**]{.purple}[^4]
 :::
 
 [^4]: Hecht, M. & Crowley, K. (2020). Unpacking the learning ecosystems framework: Lessons from the adaptive management of biological ecosystems. Journal of the Learning Sciences, 29(2), 264-284.
@@ -421,13 +421,16 @@ This study is focused on a student indicator - STEM Success, which I conceptuali
 
 <hr>
 
-<br> <br> [**How is student success in advanced STEM related to community demographics and geography?**]{.research-question}
+<br><br> [**How is student success in advanced STEM related to community demographics and geography?**]{.research-question}
 
 <!-- ::: {.absolute top="0" left="100%"} -->
 <!-- ::: sectionhead -->
 <!-- [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"} -->
 <!-- ::: -->
 <!-- ::: -->
+
+<br>
+
 
 ## ***STEM Success:*** Data
 
@@ -807,7 +810,7 @@ Now I'm going to talk a bit about two current studies - the first is another stu
 <!-- ::: -->
 <!-- ::: -->
 
-## *STEM Access:* Exploratory Analysis \[Aspatial\]
+## *STEM Access:* Exploratory Analysis
 
 <hr>
 
@@ -821,7 +824,7 @@ Now I'm going to talk a bit about two current studies - the first is another stu
 <!-- ::: -->
 <!-- ::: -->
 
-## *STEM Access:* Exploratory Analysis \[Aspatial\]
+## *STEM Access:* Exploratory Analysis
 
 <hr>
 
@@ -869,7 +872,7 @@ Now I'm going to talk a bit about two current studies - the first is another stu
 
 <!-- ::: -->
 
-## *STEM Access:* Analytic Strategy \[Aspatial\]
+## *STEM Access:* Analytic Strategy
 
 <hr>
 
@@ -895,7 +898,7 @@ Now I'm going to talk a bit about two current studies - the first is another stu
 <!-- ::: -->
 <!-- ::: -->
 
-## *STEM Access:* Results \[Aspatial\]
+## *STEM Access:* Results
 
 <hr>
 
@@ -937,7 +940,7 @@ Now I'm going to talk a bit about two current studies - the first is another stu
 <!-- ::: -->
 <!-- ::: -->
 
-## *STEM Access:* Results \[Aspatial\]
+## *STEM Access:* Results
 
 <hr>
 
@@ -998,7 +1001,7 @@ Now I'm going to talk a bit about two current studies - the first is another stu
 
 <!-- ::: -->
 
-## *STEM Access:* Exploratory Analysis \[Spatial\]
+## *STEM Access:* Exploratory Analysis
 
 <hr>
 
@@ -1058,7 +1061,7 @@ Now I'm going to talk a bit about two current studies - the first is another stu
 
 <!-- ::: -->
 
-## *STEM Access:* GWR --- Results \[Spatial\]
+## *STEM Access:* GWR --- Results
 
 <hr>
 
@@ -1155,7 +1158,7 @@ Now I'm going to talk a bit about two current studies - the first is another stu
 
 <!-- ::: -->
 
-## *STEM Access:* GWR --- Results \[Spatial\]
+## *STEM Access:* GWR --- Results
 
 <hr>
 
