@@ -423,6 +423,10 @@ This study is focused on a student indicator - STEM Success, which I conceptuali
 
 <br><br> [**How is student success in advanced STEM related to community demographics and geography?**]{.research-question}
 
+:::{.notes}
+Who passes the exams? Where?
+:::
+
 <!-- ::: {.absolute top="0" left="100%"} -->
 <!-- ::: sectionhead -->
 <!-- [1]{style="opacity:0.25"} 2 [3 4 5]{style="opacity:0.25"} -->
@@ -787,6 +791,10 @@ Now I'm going to talk a bit about two current studies - the first is another stu
 <hr>
 
 <br> <br> [**What is the geographic landscape of advanced STEM course availability in U.S. public schools?**]{.research-question}
+
+:::{.notes}
+What's offered? Where?
+:::
 
 <!-- ::: {.absolute top="0" left="100%"} -->
 <!-- ::: sectionhead -->
