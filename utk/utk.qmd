@@ -867,6 +867,7 @@ Explain course audit process
 
 :::{.notes}
 I chose Calc AB because it was most offered. Thinking about the CSForAll initiative, I chose to also focus on Comp Sci A for today - to examine to whom CSA IS, IN FACT, offered.
+
 :::
 
 <!-- ::: {.absolute top="0" left="100%"} -->
@@ -939,6 +940,12 @@ I chose Calc AB because it was most offered. Thinking about the CSForAll initiat
 :::
 :::
 
+:::{.notes}
+GO SLOW
+
+Get out the pointer and EXPLAIN
+:::
+
 ::: center
 <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
 :::
@@ -1004,13 +1011,18 @@ I chose Calc AB because it was most offered. Thinking about the CSForAll initiat
 :::
 :::
 
-::: {.fragment .even-smaller-font}
--   [**Core-adjacent AP® Coursework**]{.fragment}
-    -   [[**Rural**]{.ruralpink} and [**town**]{.green} schools have higher odds of offering *AP® Calculus AB* than [**suburban**]{.blue} and [**city**]{.yellow} schools]{.fragment}
-    -   [[**Rural**]{.ruralpink} and [**town**]{.green} schools have higher odds of offering *AP® Chemistry* and *AP® Biology* than [**city**]{.yellow} schools]{.fragment}
--   [**Newer/Less offered AP® Coursework**]{.fragment}
-    -   [In the 9 other AP® STEM courses, the odds of offering a given course are lowest for [**rural**]{.ruralpink} and [**town**]{.green} schools]{.fragment}
-        -   [Physics (all), CS (both), Calc BC, Stats, Environmental Science]{.fragment}
+:::{.fragment .even-smaller-font}
+-   **Core-adjacent AP® Coursework**
+    -   [**Rural**]{.ruralpink} and [**town**]{.green} schools have higher odds of offering *AP® Calculus AB* than [**suburban**]{.blue} and [**city**]{.yellow} schools
+    -   [**Rural**]{.ruralpink} and [**town**]{.green} schools have higher odds of offering *AP® Chemistry* and *AP® Biology* than [**city**]{.yellow} schools
+
+-   **Newer/Less offered AP® Coursework**
+    -   In the 9 other AP® STEM courses, the odds of offering a given course are lowest for [**rural**]{.ruralpink} and [**town**]{.green} schools
+        -   Physics (all), CS (both), Calc BC, Stats, Environmental Science
+
+:::
+
+:::
 :::
 :::
 
