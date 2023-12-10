@@ -212,7 +212,7 @@ floyd_co_ky
 
 [^1]: Soja, E. W. (2010). Seeking spatial justice. Minneapolis, MN: University of Minnesota Press.
 
-> "the intersections of space, power, and knowledge in order to expose geographies that perpetuate or disrupt inequities in both processes and outcomes" <br><br>(Annamma et al., 2010, p. 4) [^2]
+> "the intersections of space, power, and knowledge in order to expose geographies that perpetuate or disrupt inequities in both processes and outcomes" [^2]
 
 [^2]: Annamma, S. A., Morrison, D., & Jackson, D. D. (2017). Searching for educational equity through critical spatial analysis. In D. Morrison, S. A. Annamma, & D. D. Jackson (Eds.), Critical race spatial analysis: Mapping to understand and address educational inequity (pp. 3-7). Stylus.
 
@@ -348,7 +348,7 @@ floyd_co_ky
 
 ::: incremental
 -   What are the necessary conditions for learning?
-    -   [**Opportunities to Learn (OTL):**]{.green} "Affordances for changing participation and practice" [(Greeno & Gresalfi, 2008, p. 172)]{.smaller-font}[^5]
+    -   [**Opportunities to Learn (OTL):**]{.green} "Affordances for changing participation and practice" [^5]
     -   Three conditions[^6]:
         -   Availability
         -   Accessibility
@@ -386,7 +386,7 @@ SLOW DOWN
 :::
 
 :::{.notes}
-This study is focused on a student indicator - STEM Success, which I conceptualize as an indicator of access from the OTL framework. If a student enjoys success in a subject, they have had aligned opportunities to learn.
+This study is focused on a student indicator - STEM Success, which I conceptualize as an indicator of access from the OTL framework. If a student enjoys success in a subject, they have had access/ opportunities to learn.
 :::
 
 
@@ -525,16 +525,13 @@ Who passes the exams? Where?
 * SUBURBAN - ALL: mean in 2016 was abt 2.95 pts
     + AP is scored on 1-5 scale
     + Largely the same in 2017, shy of 3 in 2018, and just over 3 in 2019
-  
-* CITY - ALL: 2016 mean - 2.68
-    + 2017 dip to 2.66
-    + 2018 increase to 2.7
-    + 2019 to a little over
     
 * Town rural at bottom
 
 * Humanities - Suburbs and City performance weakens a bit, but in STEM much stronger
     + No big jump for Rural/Town
+    
+* Obviously matters - a .45 locale mean difference can be the difference in passing the exam
     
 
 :::
@@ -604,6 +601,8 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
     + so I wanted to look deeper = disaggregating
     
 * The suburban, town, city values are the same as the previous graph
+
+MATTERS B/C RURALITY IS NOT A HOMOGENOUS EXPERIENCE - degree of rurality matters!
 :::
 
 ## ***STEM Success:*** Analytic Approach
@@ -665,6 +664,8 @@ Mean AP® **STEM** Exam Scores by Domain, Rural Disaggregated<br>
 * Marginal effects - holding everything else constant, a student on average gets this much boost or decrease in their AP STEM exam score
 * Scores range 1-5
 * Comparison group: Suburb
+
+WHY MATTER? Holding all else constant, a student on the cusp of passing/failing an AP STEM exam - their locale could determine outcome... city - pass, rural - fail.
 
 
 :::
@@ -939,17 +940,17 @@ What's offered? Where?
 ::: smaller-line-height
 ::: {layout="[5,5]"}
 ::: {.fragment .even-smaller-font}
--   [Relative to suburban schools, the odds of offering **AP® Calculus AB**:]{.fragment .smaller-line-height}
-    -   [16% lower in [**city**]{.yellow} schools]{.fragment .smaller-line-height}
-    -   [29% *higher* in [**town**]{.green} schools]{.fragment .smaller-line-height}
-    -   [18% *higher* in [**rural**]{.ruralpink} schools]{.fragment .smaller-line-height}
+-   Relative to suburban schools, the odds of offering **AP® Calculus AB**:
+    -   16% lower in [**city**]{.yellow} schools
+    -   29% *higher* in [**town**]{.green} schools
+    -   18% *higher* in [**rural**]{.ruralpink} schools
 :::
 
 ::: {.fragment .even-smaller-font}
--   [Relative to suburban schools, the odds of offering **AP® Computer Science A**:]{.fragment .smaller-line-height}
-    -   [5% lower in [**city**]{.yellow} schools]{.fragment .smaller-line-height}
-    -   [29% lower in [**town**]{.green} schools]{.fragment .smaller-line-height}
-    -   [36% lower in [**rural**]{.ruralpink} schools]{.fragment .smaller-line-height}
+-   Relative to suburban schools, the odds of offering **AP® Computer Science A**:
+    -   5% lower in [**city**]{.yellow} schools
+    -   29% lower in [**town**]{.green} schools
+    -   36% lower in [**rural**]{.ruralpink} schools
 :::
 :::
 :::
@@ -981,7 +982,7 @@ What's offered? Where?
 -   [**Core-adjacent AP® Coursework**]{.fragment}
     -   [[**Rural**]{.ruralpink} and [**town**]{.green} schools have higher odds of offering *AP® Calculus AB* than [**suburban**]{.blue} and [**city**]{.yellow} schools]{.fragment}
     -   [[**Rural**]{.ruralpink} and [**town**]{.green} schools have higher odds of offering *AP® Chemistry* and *AP® Biology* than [**city**]{.yellow} schools]{.fragment}
--   [**Newer/Less traditional AP® Coursework**]{.fragment}
+-   [**Newer/Less offered AP® Coursework**]{.fragment}
     -   [In the 9 other AP® STEM courses, the odds of offering a given course are lowest for [**rural**]{.ruralpink} and [**town**]{.green} schools]{.fragment}
         -   [Physics (all), CS (both), Calc BC, Stats, Environmental Science]{.fragment}
 :::
