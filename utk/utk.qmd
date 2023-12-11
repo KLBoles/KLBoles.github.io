@@ -471,8 +471,6 @@ Who passes the exams? Where?
 
 * Every single AP® exam score from a public high school student in the U.S. from 2016-2019
     + Negotiated for over 1.5 years
-    + "Please do not circulate or cite"
-        - Under DUA, I can show some early work today, but please refrain from photos or sharing
         
 * SEDA data
     + Has academic achievement and demographic data for every K-8 school and district in the US
@@ -976,14 +974,14 @@ Get out the pointer and EXPLAIN
 
 ::: smaller-line-height
 ::: {layout="[5,5]"}
-::: {.fragment .even-smaller-font}
+::: {.even-smaller-font}
 -   Relative to suburban schools, the odds of offering **AP® Calculus AB**:
     -   16% lower in [**city**]{.yellow} schools
     -   29% *higher* in [**town**]{.green} schools
     -   18% *higher* in [**rural**]{.ruralpink} schools
 :::
 
-::: {.fragment .even-smaller-font}
+::: {.even-smaller-font}
 -   Relative to suburban schools, the odds of offering **AP® Computer Science A**:
     -   5% lower in [**city**]{.yellow} schools
     -   29% lower in [**town**]{.green} schools
