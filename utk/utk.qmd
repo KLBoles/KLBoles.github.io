@@ -1038,28 +1038,6 @@ Get out the pointer and EXPLAIN
 <!-- ::: -->
 <!-- ::: -->
 
-## *STEM Access:* What is GWR?
-
-<hr>
-
-::: center
-
-[**Geographically Weighted Regression**]{.fragment .purple}
-
-::: {.fragment}
-![](images/CalculusABMappingRaw.png){fig-alt="Spatial plot of all high schools offering/not offering AP Calculus AB across the U.S."}<br>
-AP® Calculus AB
-
-:::
-:::
-
-:::{.notes}
-* For a given spatial unit
-  + Identify neighbors within a bandwidth
-  + Create spatial weight matrix (near neighbors weighted more heavily)
-  + Run local regressions - 1 for each spatial unit
-:::
-
 <!-- ::: {.absolute top="0" left="100%"} -->
 
 <!-- ::: sectionhead -->
@@ -1103,6 +1081,27 @@ We look for this before we run a spatial model...
 
 :::
 
+## *STEM Access:* What is GWR?
+
+<hr>
+
+::: center
+
+[**Geographically Weighted Regression**]{.fragment .purple}
+
+::: {.fragment}
+![](images/CalculusABMappingRaw.png){fig-alt="Spatial plot of all high schools offering/not offering AP Calculus AB across the U.S."}<br>
+AP® Calculus AB
+
+:::
+:::
+
+:::{.notes}
+* For a given spatial unit
+  + Identify neighbors within a bandwidth
+  + Create spatial weight matrix (near neighbors weighted more heavily)
+  + Run local regressions - 1 for each spatial unit
+:::
 
 <!-- ::: {.absolute top="0" left="100%"} -->
 <!-- ::: sectionhead -->
