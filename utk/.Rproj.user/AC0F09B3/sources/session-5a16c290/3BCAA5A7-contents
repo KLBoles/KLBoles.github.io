@@ -1,0 +1,956 @@
+---
+title: "The Spatiality of Secondary Learning Opportunities"
+author: Kelly L. Boles
+date: 2023-01-16
+search: false
+format: 
+  revealjs:
+    theme: [simple, styles.scss]
+    center-title-slide: false
+    mainfont: Rubik
+    slide-number: true
+    cap-location: bottom
+    tbl-cap-location: bottom
+    chalkboard:
+      boardmarker-width: 5
+    preview-links: auto
+    footer: <https://klboles.github.io/cesta/cesta>
+execute: 
+  echo: false
+title-slide-attributes: 
+  data-background-image: "images/title_background.png"
+  data-footer:
+include-after-body: add-custom-footer.html  
+---
+
+## About Me {.unnumbered .unlisted}
+
+<hr>
+
+::: {.fragment layout="[3,2]"}
+-   Originally from Greene County, TN
+-   Taught secondary math, AP® Statistics, and computer science in Eastern KY for 6 years
+
+```{r, warning=FALSE, message=FALSE}
+#| fig-cap:
+#|  - "Greene & Knox Counties, TN"
+#|  - "Floyd County, KY" 
+#| fig-height: 4
+
+library(tidyverse)
+library(ussf)
+library(sf)
+us_counties18sf_tn <- subset(boundaries(geography="county"),STATEFP %in% c("47"))
+us_counties18_easttn <- subset(us_counties18sf_tn,COUNTYFP %in% c("091","163","019","171",
+                                                          "179","073","067",
+                                                          "013","057","063","029",
+                                                          "089","025","173",
+                                                          "155","151","001","129",
+                                                          "145","105","123","009"))
+
+
+us_counties18_greeneco <- subset(us_counties18sf_tn,COUNTYFP %in% c("059"))
+us_counties18_knoxco <- subset(us_counties18sf_tn,COUNTYFP %in% c("093"))
+us_states18sf <- subset(boundaries(geography="state"), STATEFP %in% c("47"))
+
+
+greene_co_tn <- ggplot() +
+  geom_sf(data=us_counties18_easttn, fill="#ffffff", color="#262626", lwd=.5, show.legend=NA)+
+  geom_sf(data=us_counties18_greeneco, fill="#7B8400", color="#262626", lwd=.5, show.legend=NA)+
+  geom_sf(data=us_states18sf, fill=NA, color="#262626", lwd=1, show.legend = NA)+
+  theme(text = element_text(family="Roboto Condensed"),
+        axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks = element_blank(),
+        legend.key = element_blank(),
+        legend.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.background = element_blank())
+
+greene_co_tn
+
+us_counties18sf_ky <- subset(boundaries(geography="county"),STATEFP %in% c("21"))
+us_counties18_easternky <- subset(us_counties18sf_ky,COUNTYFP %in% c("195","119","133","153","115","159","127","175","205","063","043","019",
+"089","135","161","201","023","191","081","077","015","117","037","069",
+"011","165","237","025","129","197","065","173","181","017","097","049","151",
+"067","239","113","079","167","021","137","187","041","223","103","211","073",
+"005","231","147","235","013","095","193","131","051","189","109","203","199",
+"125","121"))
+us_counties18_floydco <- subset(us_counties18sf_ky,COUNTYFP %in% c("071"))
+us_states18sf <- subset(boundaries(geography="state"), STATEFP %in% c("21"))
+
+floyd_co_ky <- ggplot() +
+  geom_sf(data=us_counties18_easternky, fill="#ffffff", color="#262626", lwd=.5, show.legend=NA)+
+  geom_sf(data=us_counties18_floydco, fill="#0D8C98", color="#262626", lwd=.5, show.legend=NA)+
+  geom_sf(data=us_states18sf, fill=NA, color="#262626", lwd=1, show.legend = NA)+
+  theme(text = element_text(family="Roboto Condensed"),
+        legend.key.size = unit(1.5,"line"),
+        axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks = element_blank(),
+        plot.margin = margin(r=20,t=10,l=20,b=1),
+        legend.position="bottom",
+        legend.key = element_blank(),
+        legend.background = element_blank(),
+        legend.text = element_text(colour="#131521", size=8),
+        legend.box.spacing = margin(1),
+        legend.margin = margin(t=20),
+        legend.box.margin=margin(t=-10),
+        legend.title = element_text(colour="#131521", size=10),
+        panel.grid.major = element_blank(),
+        panel.background = element_blank())
+
+floyd_co_ky
+```
+
+:::{.notes}
+
+* Space as student
+    - Gravel road, No cable, Fox39
+    - Paid tuition to go to "city"
+    - Friends: Saturday morning cartoons, and the Disney channel
+    - Fox39 got Star Trek (Data)
+    
+* Space as teacher
+    - Eastern, Kentucky - 100 miles from interstate, poor
+    - started AP® Stats and computer science programs there, one of few in area
+    - Professional learning was crucial, and I had to travel
+    - Found an AP® Stats mentor on Twitter & paid to fly to Tulsa for a week
+    - My students the next year had nearly an 80% pass rate
+    
+* Attuned to how space shapes teaching and learning.
+
+:::
+
+:::
+
+## CESTA Work - Two Studies
+
+<hr>
+
+1.  AP® & PLTW® Course Access<br>
+2.  AP® & PLTW® Teacher Learning
+
+
+<!-- ## Why Space? -->
+
+<!-- <hr> -->
+
+<!-- ::: incremental -->
+<!-- -   We explore dimensions of: -->
+<!--     -   Class, gender, race/ethnicity, dis/ability, age, sexual orientation, parental education, language, etc... -->
+<!-- -   Why space? Why now? -->
+<!--     -   Data availability -->
+<!--     -   Spatial analysis techniques -->
+<!-- ::: -->
+
+<!-- :::{.notes} -->
+<!-- * We study many dimensions to understand how inequities play out in teaching and learning -->
+<!--     + Space is another - allows us to see patterns of inequity -->
+<!--     + It's a particularly urgent time to study space -->
+<!--         - Urban/rural divide -->
+<!--         - Uneven impacts of pandemic and misinformation -->
+<!--     + Space is EVERYWHERE! (and has always been) -->
+<!--         - Space matters: in classroom arrangements, in teacher's access to resources, in the school your child attends, in regional food, sports, languages, how we organize ourselves into communities, how we are organized by governments and land boundaries... -->
+<!--     + Why now? -->
+<!--         - Better data (phones, satellites, etc...) -->
+<!--         - Better data = new techniques -->
+<!-- * Pics - talk about how recent -->
+
+<!-- ::: -->
+
+<!-- ::: {.fragment .timeline layout="[1,1,1,1,1,1]"} -->
+<!-- ![](images/sf_package.png){fig-alt="HexSticker for the sf package" height="150px"}<br> 2017 -->
+
+<!-- ![](images/an_introduction_to_r_for_spatial_data_analysis_and_mapping.jpg){fig-alt="Book cover of *An Introduction to R for Spatial Data Analysis and Mapping*" height="150px"}<br> 2019 -->
+
+<!-- ![](images/spatio-temporal_statistics_with_r.jpeg){fig-alt="Book cover of *Spatio-Temporal Statistics with R*" height="150px"}<br> 2019 -->
+
+<!-- ![](images/geocomputation_with_r.jpg){fig-alt="Book cover of *Geocomputation with R*" height="150px"}<br> 2020 -->
+
+<!-- ![](images/analyzing_us_census_data.jpg){fig-alt="Book cover of *Analyzing US Census Data*" height="150px"}<br> 2023 -->
+
+<!-- ![](images/spatial_data_science_with_applications_in_r.jpg){fig-alt="Book cover of *Spatial Data Science with Applications in R*" height="150px"}<br> 2023 -->
+<!-- ::: -->
+
+------------------------------------------------------------------------
+
+##  {#introduction data-menu-title="Research Mission" background="#010130"}
+
+::: page-center
+::: custom-subtitle
+**identify, examine, and address spatial inequities in learning opportunities**
+:::
+:::
+
+:::{.notes}
+
+... for our students, our teachers, and our communities
+
+:::
+
+------------------------------------------------------------------------
+
+## **Frameworks:** Spatial Theory
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- 1 [2 3 4 6]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+<hr>
+
+<br>[**Critical spatial theory**]{.green}[^1] calls for the interrogation of:
+
+[^1]: Soja, E. W. (2010). Seeking spatial justice. Minneapolis, MN: University of Minnesota Press.
+
+> "the intersections of space, power, and knowledge in order to expose geographies that perpetuate or disrupt inequities in both processes and outcomes" [^2]
+
+[^2]: Annamma, S. A., Morrison, D., & Jackson, D. D. (2017). Searching for educational equity through critical spatial analysis. In D. Morrison, S. A. Annamma, & D. D. Jackson (Eds.), Critical race spatial analysis: Mapping to understand and address educational inequity (pp. 3-7). Stylus.
+
+## **Frameworks:** Ecosystem Health
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- 1 [2 3 4 6]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+<hr>
+
+<br>
+
+::: {.absolute top="100"}
+[**Learning Ecosystem Health**]{.purple}[^3]
+:::
+
+[^3]: Hecht, M. & Crowley, K. (2020). Unpacking the learning ecosystems framework: Lessons from the adaptive management of biological ecosystems. Journal of the Learning Sciences, 29(2), 264-284.
+
+::: {layout="[-3,2,3,-3]"}
+![](images/butterfly.png){.fragment fig-alt="Colorful butterfly is example of indicator species" height="150px"}<br> [Indicator]{.fragment}
+
+![](images/flower.png){.fragment fig-alt="Colorful flower is example of keystone species" width="266px" height="350px"}<br> [Keystone]{.fragment}
+:::
+
+## **Frameworks:** Ecosystem Health
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- 1 [2 3 4 6]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+<hr>
+
+<br>
+
+::: {.absolute top="100"}
+[**Learning Ecosystem Health**]{.purple}[^4]
+:::
+
+[^4]: Hecht, M. & Crowley, K. (2020). Unpacking the learning ecosystems framework: Lessons from the adaptive management of biological ecosystems. Journal of the Learning Sciences, 29(2), 264-284.
+
+::: {layout="[-3,2,3,-3]"}
+[ ](images/butterfly.png){height="150px"}
+
+![](images/browningflower.png){fig-alt="Browning flower is example of declining health of keystone species/ecosystem" width="266px" height="350px"}<br> Keystone
+:::
+
+##  {#Study-1 data-menu-title="Spatial Inequities in Course Availability" background="#010130"}
+
+::: page-center
+::: custom-subtitle-two
+**STUDY I** <br>[*Spatial Inequities in Secondary Course Availability*]{.section-subtitle} <br>[\[Student Learning\]]{.section-subtitle-two}<br>[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+:::
+:::
+
+:::{.notes}
+
+PLEASE NO PHOTOS
+:::
+
+## *Course Access:* Research Question
+
+<hr>
+
+<br> <br> [**What is the geographic landscape of advanced secondary course availability in U.S. public schools?**]{.research-question}
+
+:::{.notes}
+What's offered? Where?
+:::
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+## *Course Access:* Data
+
+<hr>
+
+::: incremental
+<br>
+
+-   AP® Course Audit Data for all U.S. Public Schools (2015-'19)
+-   PLTW® Participating Schools for 2021-2022
+:::
+
+:::{.notes}
+Explain course audit process
+:::
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+## *Course Access:* Exploratory Analysis
+
+<hr>
+
+::: center
+
+:::{.r-stack}
+![](images/BarplotOfTotalSchoolsOfferingEachAPSTEMCourse.png){.fragment fig-alt="Bar graph showing the total counts of public U.S. high schools offering each AP® STEM Course"} 
+
+![](images/BarplotOfTotalSchoolsOfferingEachAPSTEMCourse2.png){.fragment fig-alt="Bar graph highlighting Calc AB and Computer Science A"} 
+
+:::
+
+[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+
+:::
+
+:::{.notes}
+I chose Calc AB because it was most offered. Thinking about the CSForAll initiative, I chose to also focus on Comp Sci A for today - to examine to whom CSA IS, IN FACT, offered.
+
+:::
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ## *STEM Access:* Exploratory Analysis \[Aspatial\] -->
+
+<!-- <hr> -->
+
+<!-- ::: center -->
+
+<!-- [**Proportion of U.S. Public Schools Offering AP® STEM Course by Locale**]{.fragment .smaller-font .smaller-line-height} -->
+
+<!-- ![](images/ProportionofSchoolsOfferingEachSTEMAPByLocale.png){.fragment fig-alt="Bar graph of the proportion of U.S. public schools offering each STEM AP® by locale" height="550px"} -->
+
+<!-- ::: -->
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+
+<!-- ::: sectionhead -->
+
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+## *Course Access:* Analytic Strategy
+
+<hr>
+
+::: incremental
+::: smaller-line-height
+-   One logit for each AP® course [$$\frac{P_i}{1-P_i} = exp(\beta_{0} + \beta_{1}City_{i} + \beta_{2}Rural_{i} + \beta_{3}Town_{i} + \beta_{4}log(SES)_{i} + \\ \beta_{5}\sqrt{Enrollment}\;_{i} + \beta_{6}log(Prop\;Black)_{i} + \beta_{7}log(Prop\;Latinx)_{i} + \beta_{8}log(Prop\;Asian)_{i} + \alpha_{i}+\epsilon_{i})$$]{.much-smaller-font}
+    -   [$P_{i}$= Probability of offering course at school *i*]{.much-smaller-font}
+    -   [$City_{i},Rural_{i},Town_{i}$= **NCES locale indicator variables**]{.much-smaller-font}
+    -   [$SES_{i}$= Composite SES variable ranging from 0 - 999]{.much-smaller-font}
+    -   [$Enrollment_{i}$= Student school population]{.much-smaller-font}
+    -   [$Prop\;Black_{i},Prop\;Latinx_{i},Prop\;Asian_{i}$= Proportion of enrollment Black, Latinx, Asian]{.much-smaller-font}
+    -   [$\alpha_{i}$= state fixed-effects]{.much-smaller-font}
+:::
+:::
+
+:::{.notes}
+GO SLOW
+
+Get out the pointer and EXPLAIN
+:::
+
+::: center
+<br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+:::
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+## *Course Access:* Results
+
+<hr>
+
+::: center
+::: r-stack
+![](images/OddsRatiosCalcABCompSciASlide0A.png){.fragment fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering AP CalcAB" height="300px"}
+
+![](images/OddsRatiosCalcABCompSciASlide1A.png){.fragment fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering AP CalcAB or AP Computer Science A" height="300px"}
+
+![](images/OddsRatiosCalcABCompSciASlide2.png){.fragment fig-alt="Odds ratios of locale (city, town, rural) on probability of school i offering AP CalcAB or AP Computer Science A" height="300px"}
+:::
+:::
+
+::: smaller-line-height
+::: {layout="[5,5]"}
+::: {.even-smaller-font}
+-   Relative to suburban schools, the odds of offering **AP® Calculus AB**:
+    -   16% lower in [**city**]{.yellow} schools
+    -   29% *higher* in [**town**]{.green} schools
+    -   18% *higher* in [**rural**]{.ruralpink} schools
+:::
+
+::: {.even-smaller-font}
+-   Relative to suburban schools, the odds of offering **AP® Computer Science A**:
+    -   5% lower in [**city**]{.yellow} schools
+    -   29% lower in [**town**]{.green} schools
+    -   36% lower in [**rural**]{.ruralpink} schools
+:::
+:::
+:::
+
+::: center
+[*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+:::
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+## *Course Access:* Exploratory Analysis
+
+<hr>
+
+::: center
+[**Residuals from Logit Models**]{.fragment .purple}
+
+::: {layout="[5,5]"}
+![](images/ResidualPlotCalculusABLogit.png){.fragment fig-alt="Residual plot AP® Calculus AB Logit Model"}[**AP® Calculus AB**]{.green .fragment}<br>[$$I = .220 , p < .001$$]{.fragment .smaller-line-height}
+
+![](images/ResidualPlotComputerScienceALogit.png){.fragment fig-alt="Residual plot AP® Computer Science A Logit Model"}[**AP® Computer Science A**]{.green .fragment}<br>[$$I = .262 , p < .001$$]{.fragment}
+:::
+:::
+
+::: center
+<br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+:::
+
+:::{.notes}
+The logit models I just showed are **aspatial** - meaning they didn't incorporate where they schools were in space.
+W/O spatial data best we can do is categorical variables like locale and the state fixed effects.
+
+With spatial data and spatial data science, we acknowledge that variables change across space - like across schools (points) and across counties(polygons)
+
+First Law of Geography
+* Everything is related but closer things are more related than farther things
+
+We look for this before we run a spatial model...
+
+* School a offers Calc..does this mean School B is more likely?
+
+:::
+
+<!-- ## *STEM Access:* Exploratory Analysis \[Spatial\] -->
+
+<!-- <hr> -->
+
+<!-- [**Spatial Autocorrelation**]{.purple} : Is the (in)availability of a specific AP® STEM course correlated with its nearby course (in)availability? -->
+
+<!-- [$$Moran's\;I = \frac{N}{\sum_i \sum_j w_{ij}} \frac{\sum_i \sum_j w_{ij}(X_i - \bar{X})(X_j - \bar{X})}{\sum_i (X_i - \bar{X})^2}$$]{.fragment} -->
+
+<!-- <br> -->
+
+<!-- ::: {layout="[5,5]"} -->
+
+<!-- ::: center -->
+
+<!-- [**AP® Calculus AB**]{.green .fragment}<br>[$$I = .220 , p < .001$$]{.fragment .smaller-line-height} -->
+
+<!-- ::: -->
+
+<!-- ::: center -->
+
+<!-- [**AP® Computer Science A**]{.green .fragment}<br>[$$I = .262 , p < .001$$]{.fragment .smaller-line-height} -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+
+<!-- ::: sectionhead -->
+
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+
+<!-- ## *Course Access:* GWR --- Calculus AB -->
+
+<!-- <hr> -->
+
+<!-- ::: center -->
+<!-- [**Locale Coefficients --- Odds Ratios**]{.fragment .green} -->
+<!-- ::: -->
+
+<!-- ::: {.fragment .much-smaller-font .smaller-line-height} -->
+<!-- -   [**Orange**]{.orange} =\[*locale*\] schools have lower odds than suburban schools of offering course -->
+<!-- -   [**Purple**]{.purple} = \[*locale*\] schools have higher odds than suburban schools of offering course -->
+<!-- ::: -->
+
+<!-- ::: {layout="[5,5]"} -->
+<!-- ::: center -->
+<!-- ::: fragment -->
+<!-- [**Town**]{.smaller-font} -->
+
+<!-- ![](images/GWR_TownCoef_APCalcAB_Map.png){ fig-alt="Local Coefficients on Town from GWR" height="370px"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ::: center -->
+<!-- ::: fragment -->
+<!-- [**Rural**]{.smaller-font} -->
+
+<!-- ![](images/GWR_RuralCoef_APCalcAB_Map.png){fig-alt="Local Coefficients on Rural from GWR" height="370px"} -->
+
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
+
+
+<!-- ::: center -->
+<!-- <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four} -->
+<!-- ::: -->
+
+<!-- ## *Course Access:* GWR --- CompSci A -->
+
+<!-- <hr> -->
+
+<!-- ::: center -->
+<!-- [**Locale Coefficients --- Odds Ratios**]{.fragment .green} -->
+<!-- ::: -->
+
+<!-- ::: {.fragment .much-smaller-font .smaller-line-height} -->
+<!-- -   [**Orange**]{.orange} =\[*locale*\] schools have lower odds than suburban schools of offering course -->
+<!-- -   [**Purple**]{.purple} = \[*locale*\] schools have higher odds than suburban schools of offering course -->
+<!-- ::: -->
+
+<!-- ::: {layout="[5,5]"} -->
+<!-- ::: center -->
+<!-- ::: fragment -->
+<!-- [**Town**]{.smaller-font} -->
+
+<!-- ![](images/GWR_TownCoef_APCompSciA_Map.png){fig-alt="Local Coefficients on Town from GWR" height="370px"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ::: center -->
+<!-- ::: fragment -->
+<!-- [**Rural**]{.smaller-font} -->
+
+<!-- ![](images/GWR_RuralCoef_APCompSciA_Map.png){fig-alt="Local Coefficients on Rural from GWR" height="370px"} -->
+
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ::: center -->
+<!-- <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four} -->
+<!-- ::: -->
+
+
+## *Course Access:* GWR --- Rural
+
+<hr>
+
+::: center
+[**Locale Coefficients --- Odds Ratios**]{.fragment .green}
+:::
+
+::: {.fragment .much-smaller-font .smaller-line-height}
+-   [**Orange**]{.orange} =\[*locale*\] schools have lower odds than suburban schools of offering course
+-   [**Purple**]{.purple} = \[*locale*\] schools have higher odds than suburban schools of offering course
+:::
+
+::: {layout="[5,5]"}
+::: center
+::: fragment
+[**AP® Calculus AB**]{.smaller-font}
+
+![](images/GWR_RuralCoef_APCalcAB_Map.png){fig-alt="Local Coefficients on Rural from GWR" height="370px"}
+
+:::
+:::
+
+::: center
+::: fragment
+[**AP® Computer Science A**]{.smaller-font}
+
+
+![](images/GWR_RuralCoef_APCompSciA_Map.png){fig-alt="Local Coefficients on Rural from GWR" height="370px"}
+
+:::
+:::
+:::
+
+::: center
+<br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+:::
+
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ## *STEM Access:* Results \[Aspatial\] -->
+
+<!-- <hr> -->
+
+<!-- ::: center -->
+
+<!-- ![](images/OddsRatiosCalcABCompSciASlide2.png){fig-alt="Marginal effects of locale (city, town, rural) on probability of school i offering AP CalcAB or AP Computer Science A" height="300px"} -->
+
+<!-- ::: -->
+
+<!-- ::: {layout="[5,5]"} -->
+
+<!-- ::: even-smaller-font -->
+
+<!-- -   [Relative to suburban schools, the odds of offering **AP® Calculus AB**:]{.smaller-line-height} -->
+
+<!--     -   [16% lower in]{.smaller-line-height} [**city**]{.yellow} schools -->
+
+<!--     -   [29% *higher* in]{.smaller-line-height} [**town**]{.green} schools -->
+
+<!--     -   [18% *higher* in]{.smaller-line-height} [**rural**]{.ruralpink} schools -->
+
+<!-- ::: -->
+
+<!-- ::: even-smaller-font -->
+
+<!-- -   [Relative to suburban schools, the odds of offering **AP® Computer Science A**:]{.smaller-line-height} -->
+
+<!-- -   [5% lower in]{.smaller-line-height} [**city**]{.yellow} schools -->
+
+<!-- -   [29% lower in]{.smaller-line-height} [**town**]{.green} schools -->
+
+<!-- -   [36% lower in]{.smaller-line-height} [**rural**]{.ruralpink} schools -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+
+<!-- ::: sectionhead -->
+
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+<!-- ## *STEM Access:* GWR --- TN Rural -->
+
+<!-- <hr> -->
+
+<!-- ::: center -->
+<!-- [**Locale Coefficients --- Odds Ratios**]{.fragment .green} -->
+<!-- ::: -->
+
+<!-- ::: {.fragment .much-smaller-font .smaller-line-height} -->
+<!-- -   [**Orange**]{.orange} =\[*locale*\] schools have lower odds than suburban schools of offering course -->
+<!-- -   [**Purple**]{.purple} = \[*locale*\] schools have higher odds than suburban schools of offering course -->
+<!-- ::: -->
+
+<!-- ::: {layout="[5,5]"} -->
+<!-- ::: center -->
+<!-- [**AP® Calculus AB**]{.fragment .smaller-font} -->
+
+<!-- ::: r-stack -->
+<!-- <!-- ![](images/GWR_CityCoef_APCalcAB_TNMap.png){.fragment fig-alt="Local TN Coefficients on City from GWR"} --> -->
+
+<!-- <!-- ![](images/GWR_TownCoef_APCalcAB_TNMap.png){.fragment fig-alt="Local TN Coefficients on Town from GWR"} --> -->
+
+<!-- ![](images/GWR_RuralCoef_APCalcAB_TNMap.png){.fragment fig-alt="Local TN Coefficients on Rural from GWR"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ::: center -->
+<!-- [**AP® Computer Science A**]{.fragment .smaller-font} -->
+
+<!-- ::: r-stack -->
+<!-- <!-- ![](images/GWR_CityCoef_APCompSciA_TNMap.png){.fragment fig-alt="Local TN Coefficients on City from GWR"} --> -->
+
+<!-- <!-- ![](images/GWR_TownCoef_APCompSciA_TNMap.png){.fragment fig-alt="Local TN Coefficients on Town from GWR"} --> -->
+
+<!-- ![](images/GWR_RuralCoef_APCompSciA_TNMap.png){.fragment fig-alt="Local TN Coefficients on Rural from GWR"} -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- :::{.notes} -->
+<!-- focus of future work - why is this happening in Nashville? -->
+<!-- Industry? Universities? Limited funding in suburban areas? -->
+<!-- ::: -->
+
+<!-- ::: center -->
+<!-- <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four} -->
+<!-- ::: -->
+
+## ***Course Success:*** Future Analyses
+
+<hr>
+
+::: incremental
+* Zero-Inflated Negative Binomial (ZINB) Models for # of AP® and PLTW® courses offered
+* Complete GWR Models
+  + Logit / Course
+  + ZINB / Course Counts
+* MLM
+* ? Spatial Regression (Lag or Error)
+* ? Geodemographic Classification (*Cluster Analysis*)
+  
+:::  
+
+::: center
+<br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
+:::
+
+:::{.notes}
+
+Another indicator that rural STEM learning ecosystems may be less healthy.
+
+Also, it's important to connect this back to first study - of the three traditional courses, two had some of the highest rural disadvantage.
+
+:::
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2]{style="opacity:0.25"} 3 [4 5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+##  {#study-3 data-menu-title="Study Three" background="#010130"}
+
+::: page-center
+::: custom-subtitle-two
+**STUDY II** <br>[Local Secondary Teacher Learning Ecologies]{.section-subtitle} <br>[\[Teacher Learning = Keystone Study\]]{.section-subtitle-three}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## ***Teacher Learning:*** Context
+
+<hr>
+
+::: {.fragment .smaller-font}
+-   Teachers learn from four spheres --- interpersonal, institutional, community, and policy[^22]
+
+-   Learning partners and distributed resources[^37] comprise teachers' [**learning ecologies**]{.green}:
+
+::: custom-blockquote
+> *the accessed set of contexts, comprised of configurations of activities, material resources and relationships, found in co-located physical or virtual spaces that provide opportunities for learning* (Barron, 2004, p.6)[^15]
+:::
+:::
+
+[^15]: Barron, B. (2004). Learning ecologies for technological fluency: Gender and experience differences. *Journal of Educational Computing Research, 31* (1), 1-36.
+
+[^22]: Zavelevsky, E., & Lishchinsky, O. S. (2020). An ecological perspective of teacher retention: An emergent model. *Teaching and Teacher Education, 88*, 1-11.
+
+[^37]: Pea, R. (1993). Practices of distributed intelligence and designed for education. In G. Salomon (Ed.), *Distributed cognitions: Psychological and educational considerations* (pp. 47-87). Cambridge, UK: Cambridge University Press.
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+## ***Teacher Learning:*** Research Questions
+
+<hr>
+
+<br> <br> [**What expertise resources characterize advanced secondary teachers' professional content-based learning ecologies?** <br><br>**How and to what extent do their ecologies vary based on community locale and context?**]{.research-question-smaller}
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+## ***Teacher Learning:*** Data
+
+<hr>
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+<!-- ::: sectionhead -->
+<!-- [1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+::: incremental
+::: smaller-line-height
+-   Professional Learning Resources Survey Instrument
+    -   [*N* = 68 AP® & PLTW® teachers]{.smaller-font}
+    -   [Embedded JavaScript mapping tool to geolocate resources]{.smaller-font}
+:::
+:::
+
+::: {.fragment .much-smaller-font}
+|            | AP® Bio | AP® Calc AB/BC | AP® Chem | AP® CompSciA | AP® CompSciPr | AP® EnvSci | AP® Physics C | AP® Physics 1&2 | AP® Stat |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| **City**   | 3       | 2              | 1        | 2            | 0             | 3          | 3             | 2               | 2        |
+| **Suburb** | 0       | 2              | 3        | 0            | 1             | 1          | 0             | 1               | 1        |
+| **Town**   | 2       | 1              | 6        | 1            | 2             | 0          | 3             | 1               | 3        |
+| **Rural**  | 0       | 2              | 1        | 0            | 2             | 0          | 1             | 0               | 1        |
+:::
+
+::: {.fragment .much-smaller-font}
+|            | PLTW® Engineering | PLTW® Biomedical Science | PLTW® Computer Science |
+|-------------------|------------------|------------------|------------------|
+| **City**   | 2                 | 0                        | 2                      |
+| **Suburb** | 2                 | 2                        | 0                      |
+| **Town**   | 2                 | 1                        | 0                      |
+| **Rural**  | 0                 | 2                        | 0                      |
+:::
+
+::: incremental
+::: smaller-line-height
+-   [Teacher Interviews]{.semi-transparent .smaller-font}
+:::
+:::
+
+<!-- ## ***Teacher Learning:*** Analytic Approach -->
+
+<!-- <hr> -->
+
+<!-- [**Mixed Methods Geospatial Approach**[^20]]{.fragment .purple} -->
+
+<!-- ::: incremental -->
+
+<!-- ::: smaller-line-height -->
+
+<!-- -   Professional Learning Survey -->
+
+<!--     -   [Spatial distance/ proximity analysis]{.smaller-font}[^21] -->
+
+<!--     -   [Accessibility surface/ isochrones]{.smaller-font}[^21] -->
+
+<!--     -   [Spatial composite index]{.smaller-font}[^23] -->
+
+<!-- -   [Teacher Interviews]{.semi-transparent .smaller-font} -->
+
+<!--     -   [Thematic analysis]{.semi-transparent .smaller-font} -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+<!-- [^20]: Yoon, E., & Lubienski, C. (2018). Thinking critically in space: Toward a mixed-methods geospatial approach to education policy analysis. *Educational Researcher, 47*(1), 53-61. -->
+
+<!-- [^21]: Walker, K. (2023). *Analyzing US census data: Methods, maps, and models in R.* CRC Press. -->
+
+<!-- [^22]: Walker, K. (2023). *Analyzing US census data: Methods, maps, and models in R.* CRC Press. -->
+
+<!-- [^23]: Esri. (2023). *Creating composite indices using ArcGIS: Best practices*. Technical Paper. -->
+
+<!-- ::: {.absolute top="0" left="100%"} -->
+
+<!-- ::: sectionhead -->
+
+<!-- [1 2 3]{style="opacity:0.25"} 4 [5]{style="opacity:0.25"} -->
+
+<!-- ::: -->
+
+<!-- ::: -->
+
+## ***Teacher Learning:*** Results
+
+<hr>
+
+::: {layout="[5,5]"}
+![](images/TLearningEcologyACSA3.png){.fragment fig-alt="Local Teacher Learning Ecology Map"}
+
+::: center
+[**AP® Computer Science A**]{.fragment} [City-Located | Doug]{.fragment .purple .smaller-font}
+
+::: {.fragment .smaller-font .smaller-line-height}
+-   [**17.5** miles from [**school**]{.school-purple} to [**analog**]{.analog-red} resources]{.fragment}
+    -   [38 minutes by car]{.fragment .smaller-font}
+-   [**18.9** miles from [**school**]{.school-purple} to [**community**]{.community-green} resources]{.fragment}
+    -   [31 minutes by car]{.fragment .smaller-font}
+-   [**21.1** miles from [**school**]{.school-purple} to [**conference/training**]{.ct-blue} resources]{.fragment}
+    -   [33 minutes by car]{.fragment .smaller-font}
+:::
+:::
+:::
+
+## ***Teacher Learning:*** Results
+
+<hr>
+
+::: {layout="[5,5]"}
+![](images/TLearningEcologyPB5.png){.fragment fig-alt="Local Teacher Learning Ecology Map"}
+
+::: center
+[**PLTW® Biomedical Science**]{.fragment} [Town-Located | Melissa]{.fragment .purple .smaller-font}
+
+::: {.fragment .smaller-font .smaller-line-height}
+-   [**1.6** miles from [**school**]{.school-purple} to [**community**]{.community-green} resources]{.fragment}
+    -   [5 minutes by car]{.fragment .smaller-font}
+-   [**0** miles from [**school**]{.school-purple} to [**conference/training**]{.ct-blue} at same school]{.fragment}
+-   [**194** miles from [**school**]{.school-purple} to [**conference/training**]{.ct-blue} at state department]{.fragment}
+    -   [3 hours and 5 minutes by car]{.fragment .smaller-font}
+:::
+:::
+:::
+
+## ***Teacher Learning:*** Future Analyses
+
+<hr>
+
+::: incremental
+* Finish Spatial distance/ travel-time analysis
+* Accessibility surfaces/isochrones
+* Spatial composite index
+* Interviews
+  + Thematic analysis
+  
+:::  
+
+:::{.notes}
+
+???
+
+:::
+
+
+------------------------------------------------------------------------
+
+##  {#thank-you data-menu-title="Thank You" background="#010130"}
+<br><br><br><br>
+
+::: page-center
+
+[**THANK YOU**]{.yellow .heading-font}
+
+:::

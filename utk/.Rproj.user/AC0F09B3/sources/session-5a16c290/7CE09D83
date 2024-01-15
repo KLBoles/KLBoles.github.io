@@ -1,12 +1,12 @@
 {
-    "id": "B55F193E",
-    "path": "~/Library/CloudStorage/GoogleDrive-kboles@stanford.edu/My Drive/Quarto Presentations/KLBoles.github.io/utk/utk.qmd",
-    "project_path": "utk.qmd",
+    "id": "7CE09D83",
+    "path": "~/Library/CloudStorage/GoogleDrive-kboles@stanford.edu/My Drive/Quarto Presentations/KLBoles.github.io/utk/cesta.qmd",
+    "project_path": "cesta.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "3033205562",
     "contents": "",
-    "dirty": false,
-    "created": 1702113844938.0,
+    "dirty": true,
+    "created": 1705287160018.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "0",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "310,40",
-        "scrollLine": "308",
-        "rmdVisualModeLocation": "2:189"
+        "cursorPosition": "310,12",
+        "scrollLine": "0",
+        "rmdVisualModeLocation": "2:0"
     },
     "folds": "",
     "lastKnownWriteTime": 1705281262,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1705281262375,
+    "last_content_update": 1705281262,
     "read_only": false,
     "read_only_alternatives": []
 }
