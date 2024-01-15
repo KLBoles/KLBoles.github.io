@@ -23,107 +23,6 @@ title-slide-attributes:
 include-after-body: add-custom-footer.html  
 ---
 
-## About Me {.unnumbered .unlisted}
-
-<hr>
-
-::: {.fragment layout="[3,2]"}
--   Originally from Greene County, TN
--   Taught secondary math, AP® Statistics, and computer science in Eastern KY for 6 years
-
-```{r, warning=FALSE, message=FALSE}
-#| fig-cap:
-#|  - "Greene & Knox Counties, TN"
-#|  - "Floyd County, KY" 
-#| fig-height: 4
-
-library(tidyverse)
-library(ussf)
-library(sf)
-us_counties18sf_tn <- subset(boundaries(geography="county"),STATEFP %in% c("47"))
-us_counties18_easttn <- subset(us_counties18sf_tn,COUNTYFP %in% c("091","163","019","171",
-                                                          "179","073","067",
-                                                          "013","057","063","029",
-                                                          "089","025","173",
-                                                          "155","151","001","129",
-                                                          "145","105","123","009"))
-
-
-us_counties18_greeneco <- subset(us_counties18sf_tn,COUNTYFP %in% c("059"))
-us_counties18_knoxco <- subset(us_counties18sf_tn,COUNTYFP %in% c("093"))
-us_states18sf <- subset(boundaries(geography="state"), STATEFP %in% c("47"))
-
-
-greene_co_tn <- ggplot() +
-  geom_sf(data=us_counties18_easttn, fill="#ffffff", color="#262626", lwd=.5, show.legend=NA)+
-  geom_sf(data=us_counties18_greeneco, fill="#7B8400", color="#262626", lwd=.5, show.legend=NA)+
-  geom_sf(data=us_states18sf, fill=NA, color="#262626", lwd=1, show.legend = NA)+
-  theme(text = element_text(family="Roboto Condensed"),
-        axis.text.x = element_blank(),
-        axis.text.y = element_blank(),
-        axis.ticks = element_blank(),
-        legend.key = element_blank(),
-        legend.background = element_blank(),
-        panel.grid.major = element_blank(),
-        panel.background = element_blank())
-
-greene_co_tn
-
-us_counties18sf_ky <- subset(boundaries(geography="county"),STATEFP %in% c("21"))
-us_counties18_easternky <- subset(us_counties18sf_ky,COUNTYFP %in% c("195","119","133","153","115","159","127","175","205","063","043","019",
-"089","135","161","201","023","191","081","077","015","117","037","069",
-"011","165","237","025","129","197","065","173","181","017","097","049","151",
-"067","239","113","079","167","021","137","187","041","223","103","211","073",
-"005","231","147","235","013","095","193","131","051","189","109","203","199",
-"125","121"))
-us_counties18_floydco <- subset(us_counties18sf_ky,COUNTYFP %in% c("071"))
-us_states18sf <- subset(boundaries(geography="state"), STATEFP %in% c("21"))
-
-floyd_co_ky <- ggplot() +
-  geom_sf(data=us_counties18_easternky, fill="#ffffff", color="#262626", lwd=.5, show.legend=NA)+
-  geom_sf(data=us_counties18_floydco, fill="#0D8C98", color="#262626", lwd=.5, show.legend=NA)+
-  geom_sf(data=us_states18sf, fill=NA, color="#262626", lwd=1, show.legend = NA)+
-  theme(text = element_text(family="Roboto Condensed"),
-        legend.key.size = unit(1.5,"line"),
-        axis.text.x = element_blank(),
-        axis.text.y = element_blank(),
-        axis.ticks = element_blank(),
-        plot.margin = margin(r=20,t=10,l=20,b=1),
-        legend.position="bottom",
-        legend.key = element_blank(),
-        legend.background = element_blank(),
-        legend.text = element_text(colour="#131521", size=8),
-        legend.box.spacing = margin(1),
-        legend.margin = margin(t=20),
-        legend.box.margin=margin(t=-10),
-        legend.title = element_text(colour="#131521", size=10),
-        panel.grid.major = element_blank(),
-        panel.background = element_blank())
-
-floyd_co_ky
-```
-
-:::{.notes}
-
-* Space as student
-    - Gravel road, No cable, Fox39
-    - Paid tuition to go to "city"
-    - Friends: Saturday morning cartoons, and the Disney channel
-    - Fox39 got Star Trek (Data)
-    
-* Space as teacher
-    - Eastern, Kentucky - 100 miles from interstate, poor
-    - started AP® Stats and computer science programs there, one of few in area
-    - Professional learning was crucial, and I had to travel
-    - Found an AP® Stats mentor on Twitter & paid to fly to Tulsa for a week
-    - My students the next year had nearly an 80% pass rate
-    
-* Attuned to how space shapes teaching and learning.
-
-:::
-
-:::
-
 ## CESTA Work - Two Studies
 
 <hr>
@@ -431,38 +330,38 @@ Get out the pointer and EXPLAIN
 <!-- ::: -->
 <!-- ::: -->
 
-## *Course Access:* Exploratory Analysis
+<!-- ## *Course Access:* Exploratory Analysis -->
 
-<hr>
+<!-- <hr> -->
 
-::: center
-[**Residuals from Logit Models**]{.fragment .purple}
+<!-- ::: center -->
+<!-- [**Residuals from Logit Models**]{.fragment .purple} -->
 
-::: {layout="[5,5]"}
-![](images/ResidualPlotCalculusABLogit.png){.fragment fig-alt="Residual plot AP® Calculus AB Logit Model"}[**AP® Calculus AB**]{.green .fragment}<br>[$$I = .220 , p < .001$$]{.fragment .smaller-line-height}
+<!-- ::: {layout="[5,5]"} -->
+<!-- ![](images/ResidualPlotCalculusABLogit.png){.fragment fig-alt="Residual plot AP® Calculus AB Logit Model"}[**AP® Calculus AB**]{.green .fragment}<br>[$$I = .220 , p < .001$$]{.fragment .smaller-line-height} -->
 
-![](images/ResidualPlotComputerScienceALogit.png){.fragment fig-alt="Residual plot AP® Computer Science A Logit Model"}[**AP® Computer Science A**]{.green .fragment}<br>[$$I = .262 , p < .001$$]{.fragment}
-:::
-:::
+<!-- ![](images/ResidualPlotComputerScienceALogit.png){.fragment fig-alt="Residual plot AP® Computer Science A Logit Model"}[**AP® Computer Science A**]{.green .fragment}<br>[$$I = .262 , p < .001$$]{.fragment} -->
+<!-- ::: -->
+<!-- ::: -->
 
-::: center
-<br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four}
-:::
+<!-- ::: center -->
+<!-- <br> [*Please Do Not Circulate or Cite*]{.section-subtitle-four} -->
+<!-- ::: -->
 
-:::{.notes}
-The logit models I just showed are **aspatial** - meaning they didn't incorporate where they schools were in space.
-W/O spatial data best we can do is categorical variables like locale and the state fixed effects.
+<!-- :::{.notes} -->
+<!-- The logit models I just showed are **aspatial** - meaning they didn't incorporate where they schools were in space. -->
+<!-- W/O spatial data best we can do is categorical variables like locale and the state fixed effects. -->
 
-With spatial data and spatial data science, we acknowledge that variables change across space - like across schools (points) and across counties(polygons)
+<!-- With spatial data and spatial data science, we acknowledge that variables change across space - like across schools (points) and across counties(polygons) -->
 
-First Law of Geography
-* Everything is related but closer things are more related than farther things
+<!-- First Law of Geography -->
+<!-- * Everything is related but closer things are more related than farther things -->
 
-We look for this before we run a spatial model...
+<!-- We look for this before we run a spatial model... -->
 
-* School a offers Calc..does this mean School B is more likely?
+<!-- * School a offers Calc..does this mean School B is more likely? -->
 
-:::
+<!-- ::: -->
 
 <!-- ## *STEM Access:* Exploratory Analysis \[Spatial\] -->
 
@@ -904,25 +803,25 @@ Also, it's important to connect this back to first study - of the three traditio
 :::
 :::
 
-## ***Teacher Learning:*** Results
+<!-- ## ***Teacher Learning:*** Results -->
 
-<hr>
+<!-- <hr> -->
 
-::: {layout="[5,5]"}
-![](images/TLearningEcologyPB5.png){.fragment fig-alt="Local Teacher Learning Ecology Map"}
+<!-- ::: {layout="[5,5]"} -->
+<!-- ![](images/TLearningEcologyPB5.png){.fragment fig-alt="Local Teacher Learning Ecology Map"} -->
 
-::: center
-[**PLTW® Biomedical Science**]{.fragment} [Town-Located | Melissa]{.fragment .purple .smaller-font}
+<!-- ::: center -->
+<!-- [**PLTW® Biomedical Science**]{.fragment} [Town-Located | Melissa]{.fragment .purple .smaller-font} -->
 
-::: {.fragment .smaller-font .smaller-line-height}
--   [**1.6** miles from [**school**]{.school-purple} to [**community**]{.community-green} resources]{.fragment}
-    -   [5 minutes by car]{.fragment .smaller-font}
--   [**0** miles from [**school**]{.school-purple} to [**conference/training**]{.ct-blue} at same school]{.fragment}
--   [**194** miles from [**school**]{.school-purple} to [**conference/training**]{.ct-blue} at state department]{.fragment}
-    -   [3 hours and 5 minutes by car]{.fragment .smaller-font}
-:::
-:::
-:::
+<!-- ::: {.fragment .smaller-font .smaller-line-height} -->
+<!-- -   [**1.6** miles from [**school**]{.school-purple} to [**community**]{.community-green} resources]{.fragment} -->
+<!--     -   [5 minutes by car]{.fragment .smaller-font} -->
+<!-- -   [**0** miles from [**school**]{.school-purple} to [**conference/training**]{.ct-blue} at same school]{.fragment} -->
+<!-- -   [**194** miles from [**school**]{.school-purple} to [**conference/training**]{.ct-blue} at state department]{.fragment} -->
+<!--     -   [3 hours and 5 minutes by car]{.fragment .smaller-font} -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## ***Teacher Learning:*** Future Analyses
 

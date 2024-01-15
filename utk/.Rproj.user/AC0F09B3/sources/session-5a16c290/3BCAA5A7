@@ -3,7 +3,7 @@
     "path": "~/Library/CloudStorage/GoogleDrive-kboles@stanford.edu/My Drive/Quarto Presentations/KLBoles.github.io/cesta/cesta.qmd",
     "project_path": null,
     "type": "quarto_markdown",
-    "hash": "4073666188",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1705287237174.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "962,45",
-        "scrollLine": "948"
+        "cursorPosition": "364,0",
+        "scrollLine": "349"
     },
     "folds": "",
-    "lastKnownWriteTime": 1705309319,
+    "lastKnownWriteTime": 1705309950,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1705309319817,
+    "last_content_update": 1705309950592,
     "read_only": false,
     "read_only_alternatives": []
 }
