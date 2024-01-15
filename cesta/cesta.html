@@ -322,6 +322,9 @@
       margin-right: 0; 
     }
   </style>
+  <script src="cesta_files/libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="cesta_files/libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="cesta_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -1253,7 +1256,7 @@ Kelly L. Boles
 <hr>
 <div>
 <ul>
-<li class="fragment">Finish Spatial distance/ travel-time analysis</li>
+<li class="fragment">Finish spatial distance/ travel-time analysis</li>
 <li class="fragment">Accessibility surfaces/isochrones</li>
 <li class="fragment">Spatial composite index</li>
 <li class="fragment">Interviews
@@ -1275,6 +1278,46 @@ Kelly L. Boles
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</section>
+<section id="timeline" class="slide level2">
+<h2><strong><em>Timeline</em></strong></h2>
+<div class="cell" data-reveal="true">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">gantt
+    dateFormat  MM-DD
+    axisFormat  %b-%e
+    title       Timeline for Project Completion
+
+    section Study 1&lt;br&gt;[St. Access]
+    Logit Modeling            :active, a1, 01-15,01-22
+    ZINB Modeling             :crit, a2, 01-15,01-22
+    GWR Logit Modeling        :active, a3, 01-22,01-29
+    GWR ZINB Modeling         :crit, a4, 01-22,01-29
+    Multi-Level Modeling      :        a5, 01-29,02-05
+    Spatial Regression        :        a6, 01-29,02-05
+    Geodemographic Classification      :        a7, 02-05,02-12
+    Writing                   :        a8, 02-12,03-29
+    Study 1 Complete          : milestone, 01-29
+
+    section Study 2&lt;br&gt;[T. Learning]
+    Data Cleaning             : a1, 01-22, 02-12
+    Conduct Interviews        : a2, 02-12, 02-26
+    Transcribe Interviews     : a3, 02-26, 03-01
+    Mapping of Ecologies      : a4, 03-01, 03-15
+    Travel-Time Analysis      : a5, 03-15, 03-22
+    Access. Surfaces/Isochrones :a6, 03-22, 03-29
+    Spatial Composite Index   : a7, 03-29, 04-12
+    Writing                   : a8, 04-12, 05-31
+    Study 2 Complete          : milestone, 05-31
+    
+
+</pre>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="thank-you" class="slide level2" data-menu-title="Thank You" data-background="#010130">
 <h2></h2>

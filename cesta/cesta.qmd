@@ -929,7 +929,7 @@ Also, it's important to connect this back to first study - of the three traditio
 <hr>
 
 ::: incremental
-* Finish Spatial distance/ travel-time analysis
+* Finish spatial distance/ travel-time analysis
 * Accessibility surfaces/isochrones
 * Spatial composite index
 * Interviews
@@ -943,6 +943,38 @@ Also, it's important to connect this back to first study - of the three traditio
 
 :::
 
+## ***Timeline***
+
+```{mermaid}
+gantt
+    dateFormat  MM-DD
+    axisFormat  %b-%e
+    title       Timeline for Project Completion
+
+    section Study 1<br>[St. Access]
+    Logit Modeling            :active, a1, 01-15,01-22
+    ZINB Modeling             :crit, a2, 01-15,01-22
+    GWR Logit Modeling        :active, a3, 01-22,01-29
+    GWR ZINB Modeling         :crit, a4, 01-22,01-29
+    Multi-Level Modeling      :        a5, 01-29,02-05
+    Spatial Regression        :        a6, 01-29,02-05
+    Geodemographic Classification      :        a7, 02-05,02-12
+    Writing                   :        a8, 02-12,03-29
+    Study 1 Complete          : milestone, 01-29
+
+    section Study 2<br>[T. Learning]
+    Data Cleaning             : a1, 01-22, 02-12
+    Conduct Interviews        : a2, 02-12, 02-26
+    Transcribe Interviews     : a3, 02-26, 03-01
+    Mapping of Ecologies      : a4, 03-01, 03-15
+    Travel-Time Analysis      : a5, 03-15, 03-22
+    Access. Surfaces/Isochrones :a6, 03-22, 03-29
+    Spatial Composite Index   : a7, 03-29, 04-12
+    Writing                   : a8, 04-12, 05-31
+    Study 2 Complete          : milestone, 05-31
+    
+
+```
 
 ------------------------------------------------------------------------
 
