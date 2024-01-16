@@ -854,12 +854,10 @@ gantt
     Logit Modeling            :active, a1, 01-16,01-22
     ZINB Modeling             :crit, a2, 01-16,01-22
     GWR Logit Modeling        :active, a3, 01-22,01-29
-    GWR ZINB Modeling         :crit, a4, 01-22,01-29
     Multi-Level Modeling      :        a5, 01-29,02-05
-    Spatial Regression        :        a6, 01-29,02-05
     Geodemographic Classification      :        a7, 02-05,02-12
     Writing                   :        a8, 02-12,03-29
-    Study 1 Complete          : milestone, 01-29
+    Study 1 Complete          : milestone, 02-02
 
     section Study 2<br>[T. Learning]
     Data Cleaning             : a1, 01-22, 02-12
